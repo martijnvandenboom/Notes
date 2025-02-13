@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CSS on Hugo Bootstrap</title>
+    <link>http://localhost:1313/zh-hant/tags/css/</link>
+    <description>Recent content in CSS on Hugo Bootstrap</description>
+    <generator>Hugo</generator>
+    <language>zh-hant</language>
+    <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Sun, 28 Nov 2021 16:00:56 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-hant/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自定義資源</title>
+      <link>http://localhost:1313/zh-hant/docs/advanced/custom-assets/</link>
+      <pubDate>Sun, 28 Nov 2021 16:00:56 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hant/docs/advanced/custom-assets/</guid>
+      <description><![CDATA[<p>作為一個可定制的主題，其提供了定制資源的能力，無論是定制 CSS 和 JS，還是引入第三方 CSS 和 JS。</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Markdown 語法指南</title>
+      <link>http://localhost:1313/zh-hant/posts/markdown-syntax/</link>
+      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-hant/posts/markdown-syntax/</guid>
+      <description><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>]]></description>
+    <enclosure url="http://localhost:1313/images/markdown.png" length="279937" type="image/.png" />
+    </item>
+    
+  </channel>
+</rss>
+

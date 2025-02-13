@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Partials on HBS (Hugo Theme Bootstrap) v1</title>
+    <link>http://localhost:1313/en/categories/partials/</link>
+    <description>Recent content in Partials on HBS (Hugo Theme Bootstrap) v1</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Wed, 27 Jul 2022 16:05:37 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/categories/partials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Layouts Overriding</title>
+      <link>http://localhost:1313/en/docs/advanced/layouts-overriding/</link>
+      <pubDate>Wed, 27 Jul 2022 16:05:37 +0800</pubDate>
+      <guid>http://localhost:1313/en/docs/advanced/layouts-overriding/</guid>
+      <description><![CDATA[<p>According to the <a href="https://gohugo.io/templates/lookup-order/" target="_blank" rel="noopener noreferrer">Hugo Layouts Lookup Order<i class="fas fa-external-link-square-alt ms-1"></i></a>, it&rsquo;s easy to override Hugo and theme&rsquo;s layouts and partials.
+It&rsquo;s useful for users who want to custom some stuff of particular layouts or partials.</p>]]></description>
+    </item>
+    
+  </channel>
+</rss>
+

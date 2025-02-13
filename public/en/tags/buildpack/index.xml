@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Buildpack on HBS (Hugo Theme Bootstrap) v1</title>
+    <link>http://localhost:1313/en/tags/buildpack/</link>
+    <description>Recent content in Buildpack on HBS (Hugo Theme Bootstrap) v1</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Sun, 21 Jan 2024 15:00:19 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/tags/buildpack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy on DigitalOcean App Platform</title>
+      <link>http://localhost:1313/en/docs/deployment/digitalocean-app-platform/</link>
+      <pubDate>Sun, 21 Jan 2024 15:00:19 +0800</pubDate>
+      <guid>http://localhost:1313/en/docs/deployment/digitalocean-app-platform/</guid>
+      <description><![CDATA[<h2 id="requirements" data-numberify>Requirements<a class="anchor ms-1" href="#requirements"></a></h2>
+<ul>
+<li>DigitalOcean Account</li>
+</ul>
+
+<h2 id="create-dockerfile" data-numberify>Create Dockerfile<a class="anchor ms-1" href="#create-dockerfile"></a></h2>
+<p>Create the <code>Dockerfile</code> on your site root.</p>
+<blockquote>
+<p>Our <a href="https://github.com/razonyang/hugo-theme-bootstrap-skeleton" target="_blank" rel="noopener noreferrer">starter template<i class="fas fa-external-link-square-alt ms-1"></i></a> already includes the <code>Dockerfile</code>.</p></blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dockerfile" data-lang="dockerfile"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="c">###############</span><span class="err">
+</span></span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="err"></span><span class="c"># Build Stage #</span><span class="err">
+</span></span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="err"></span><span class="c">###############</span><span class="err">
+</span></span></span><span class="line"><span class="ln"> 4</span><span class="cl"><span class="err"></span><span class="k">FROM</span><span class="s"> hugomods/hugo:exts as builder</span><span class="err">
+</span></span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="ln"> 6</span><span class="cl"><span class="err"></span><span class="k">COPY</span> . /src<span class="err">
+</span></span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="ln"> 8</span><span class="cl"><span class="err"></span><span class="k">ENV</span> <span class="nv">HUGO_ENV</span><span class="o">=</span>production
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">
+</span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="c"># Base URL</span><span class="err">
+</span></span></span><span class="line"><span class="ln">11</span><span class="cl"><span class="err"></span><span class="k">ARG</span> <span class="nv">HUGO_BASEURL</span><span class="o">=</span><span class="err">
+</span></span></span><span class="line"><span class="ln">12</span><span class="cl"><span class="err"></span><span class="k">ENV</span> <span class="nv">HUGO_BASEURL</span><span class="o">=</span><span class="si">${</span><span class="nv">HUGO_BASEURL</span><span class="si">}</span><span class="err">
+</span></span></span><span class="line"><span class="ln">13</span><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="ln">14</span><span class="cl"><span class="err"></span><span class="c"># Module Proxy</span><span class="err">
+</span></span></span><span class="line"><span class="ln">15</span><span class="cl"><span class="err"></span><span class="k">ARG</span> <span class="nv">HUGO_MODULE_PROXY</span><span class="o">=</span><span class="err">
+</span></span></span><span class="line"><span class="ln">16</span><span class="cl"><span class="err"></span><span class="k">ENV</span> <span class="nv">HUGO_MODULE_PROXY</span><span class="o">=</span><span class="si">${</span><span class="nv">HUGO_MODULE_PROXY</span><span class="si">}</span><span class="err">
+</span></span></span><span class="line"><span class="ln">17</span><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="ln">18</span><span class="cl"><span class="err"></span><span class="c"># NPM mirrors, such as https://registry.npmmirror.com</span><span class="err">
+</span></span></span><span class="line"><span class="ln">19</span><span class="cl"><span class="err"></span><span class="k">ARG</span> <span class="nv">NPM_CONFIG_REGISTRY</span><span class="o">=</span><span class="err">
+</span></span></span><span class="line"><span class="ln">20</span><span class="cl"><span class="err"></span><span class="k">ENV</span> <span class="nv">NPM_CONFIG_REGISTRY</span><span class="o">=</span><span class="si">${</span><span class="nv">NPM_CONFIG_REGISTRY</span><span class="si">}</span><span class="err">
+</span></span></span><span class="line"><span class="ln">21</span><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="ln">22</span><span class="cl"><span class="err"></span><span class="c"># Install dependencies</span><span class="err">
+</span></span></span><span class="line"><span class="ln">23</span><span class="cl"><span class="err"></span><span class="k">RUN</span> npm ci<span class="err">
+</span></span></span><span class="line"><span class="ln">24</span><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="ln">25</span><span class="cl"><span class="err"></span><span class="c"># Build site</span><span class="err">
+</span></span></span><span class="line"><span class="ln">26</span><span class="cl"><span class="err"></span><span class="k">RUN</span> hugo --minify --gc --enableGitInfo<span class="err">
+</span></span></span><span class="line"><span class="ln">27</span><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="ln">28</span><span class="cl"><span class="err"></span><span class="c"># Set the fallback 404 page if defaultContentLanguageInSubdir is enabled, please replace the `en` with your default language code.</span><span class="err">
+</span></span></span><span class="line"><span class="ln">29</span><span class="cl"><span class="err"></span><span class="c"># RUN cp ./public/en/404.html ./public/404.html</span><span class="err">
+</span></span></span><span class="line"><span class="ln">30</span><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="ln">31</span><span class="cl"><span class="err"></span><span class="c">###############</span><span class="err">
+</span></span></span><span class="line"><span class="ln">32</span><span class="cl"><span class="err"></span><span class="c"># Final Stage #</span><span class="err">
+</span></span></span><span class="line"><span class="ln">33</span><span class="cl"><span class="err"></span><span class="c">###############</span><span class="err">
+</span></span></span><span class="line"><span class="ln">34</span><span class="cl"><span class="err"></span><span class="k">FROM</span><span class="s"> hugomods/hugo:nginx</span><span class="err">
+</span></span></span><span class="line"><span class="ln">35</span><span class="cl"><span class="err"></span><span class="k">COPY</span> --from<span class="o">=</span>builder /src/public /site<span class="err">
+</span></span></span></code></pre></div><ul>
+<li>The <code>/site</code> is the output directory of static files, which will be used later.</li>
+</ul>
+
+<h2 id="create-app" data-numberify>Create App<a class="anchor ms-1" href="#create-app"></a></h2>
+<p>Navigate to <em>DigitalOcean Dashboard</em> -&gt; <em>Left Panel</em> -&gt; <em>Apps</em> -&gt; <em>Create App</em>, and then fill up the form as follows.</p>]]></description>
+    </item>
+    
+  </channel>
+</rss>
+

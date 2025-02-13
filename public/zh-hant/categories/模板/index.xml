@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>模板 on Hugo Bootstrap</title>
+    <link>http://localhost:1313/zh-hant/categories/%E6%A8%A1%E6%9D%BF/</link>
+    <description>Recent content in 模板 on Hugo Bootstrap</description>
+    <generator>Hugo</generator>
+    <language>zh-hant</language>
+    <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Wed, 27 Jul 2022 16:05:37 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-hant/categories/%E6%A8%A1%E6%9D%BF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>布局覆蓋</title>
+      <link>http://localhost:1313/zh-hant/docs/advanced/layouts-overriding/</link>
+      <pubDate>Wed, 27 Jul 2022 16:05:37 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hant/docs/advanced/layouts-overriding/</guid>
+      <description><![CDATA[<p>根據 <a href="https://gohugo.io/templates/lookup-order/" target="_blank" rel="noopener noreferrer">Hugo Layouts Lookup Order<i class="fas fa-external-link-square-alt ms-1"></i></a>，可以很容易地覆蓋 Hugo 和主題的布局和模板。
+這對那些想自定義某些特定布局或參數的用戶來說很有用。</p>]]></description>
+    </item>
+    
+  </channel>
+</rss>
+

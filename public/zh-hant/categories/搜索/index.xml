@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>搜索 on Hugo Bootstrap</title>
+    <link>http://localhost:1313/zh-hant/categories/%E6%90%9C%E7%B4%A2/</link>
+    <description>Recent content in 搜索 on Hugo Bootstrap</description>
+    <generator>Hugo</generator>
+    <language>zh-hant</language>
+    <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Fri, 03 Dec 2021 11:16:51 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-hant/categories/%E6%90%9C%E7%B4%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>搜索頁面</title>
+      <link>http://localhost:1313/zh-hant/docs/layouts/search/</link>
+      <pubDate>Fri, 03 Dec 2021 11:16:51 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hant/docs/layouts/search/</guid>
+      <description><![CDATA[<p>如果您的網站中有許多文章，讀者可能很難檢索到文章，因此，我們添加了搜索功能。</p>]]></description>
+    </item>
+    
+  </channel>
+</rss>
+

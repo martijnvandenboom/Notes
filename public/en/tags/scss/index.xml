@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SCSS on HBS (Hugo Theme Bootstrap) v1</title>
+    <link>http://localhost:1313/en/tags/scss/</link>
+    <description>Recent content in SCSS on HBS (Hugo Theme Bootstrap) v1</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Wed, 27 Jul 2022 08:54:43 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/tags/scss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sticky Widgets</title>
+      <link>http://localhost:1313/en/docs/topics/sticky-widgets/</link>
+      <pubDate>Wed, 27 Jul 2022 08:54:43 +0800</pubDate>
+      <guid>http://localhost:1313/en/docs/topics/sticky-widgets/</guid>
+      <description><![CDATA[<p>When the page is too long, the sidebar will disappear with scrolling and the page will not look as neat and beautiful.
+So this article will introduce how to use sticky widgets to avoid this problem.</p>]]></description>
+    </item>
+    
+  </channel>
+</rss>
+

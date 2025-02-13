@@ -1,0 +1,1319 @@
+<!doctype html>
+<html class="position-relative" itemscope itemtype="https://schema.org/WebPage" lang="en"
+  data-bs-theme="auto" data-palette="purple">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><script src="/assets/init/bundle.min.e9302c5291d0efedc9cca31f152a1b33f16161f903834e5b429533fc2dfb8940.js" integrity="sha256-6TAsUpHQ7&#43;3JzKMfFSobM/FhYfkDg05bQpUz/C37iUA=" crossorigin="anonymous"></script>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sticky Widgets - HBS (Hugo Theme Bootstrap) v1</title>
+    <link rel="icon" href="/favicon_hu_e83888ddb6472856.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="/favicon_hu_276a61518911b273.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/favicon_hu_1fce3f16494f6ae3.png" sizes="150x150" type="image/png">
+    <link rel="apple-touch-icon" href="/favicon_hu_f105fae78c239d0f.png" sizes="180x180" type="image/png">
+    <link rel="icon" href="/favicon_hu_af357fe99fc0195a.png" sizes="192x192" type="image/png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#6f42c1">
+<meta name="keywords" content="Hugo, Bootstrap, Blog Theme" />
+  <meta name="description" content="When the page is too long, the sidebar will disappear with scrolling and the page will not look as neat and beautiful.
+So this article will introduce how to use sticky widgets to avoid this problem." />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Sticky Widgets">
+  <meta name="twitter:description" content="When the page is too long, the sidebar will disappear with scrolling and the page will not look as neat and beautiful. So this article will introduce how to use sticky widgets to avoid this problem.">
+<meta property="og:url" content="http://localhost:1313/en/docs/topics/sticky-widgets/">
+  <meta property="og:site_name" content="HBS (Hugo Theme Bootstrap) v1">
+  <meta property="og:title" content="Sticky Widgets">
+  <meta property="og:description" content="When the page is too long, the sidebar will disappear with scrolling and the page will not look as neat and beautiful. So this article will introduce how to use sticky widgets to avoid this problem.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+    <meta property="article:published_time" content="2022-07-27T08:54:43+08:00">
+    <meta property="article:modified_time" content="2022-07-27T08:54:43+08:00">
+    <meta property="article:tag" content="Sticky">
+    <meta property="article:tag" content="SCSS">
+      <meta property="og:see_also" content="http://localhost:1313/en/docs/deployment/digitalocean-app-platform/">
+      <meta property="og:see_also" content="http://localhost:1313/en/docs/widgets/funding/">
+      <meta property="og:see_also" content="http://localhost:1313/en/docs/shortcodes/toggle/">
+      <meta property="og:see_also" content="http://localhost:1313/en/docs/topics/algolia/">
+      <meta property="og:see_also" content="http://localhost:1313/en/docs/shortcodes/iframe/">
+      <meta property="og:see_also" content="http://localhost:1313/en/docs/shortcodes/game/">
+      <meta property="og:see_also" content="http://localhost:1313/en/docs/layouts/landing/">
+
+  <meta itemprop="name" content="Sticky Widgets">
+  <meta itemprop="description" content="When the page is too long, the sidebar will disappear with scrolling and the page will not look as neat and beautiful. So this article will introduce how to use sticky widgets to avoid this problem.">
+  <meta itemprop="datePublished" content="2022-07-27T08:54:43+08:00">
+  <meta itemprop="dateModified" content="2022-07-27T08:54:43+08:00">
+  <meta itemprop="wordCount" content="201">
+  <meta itemprop="keywords" content="Sticky,SCSS">
+  <meta property="og:image" content="http://localhost:1313/images/logo.png"/>
+  <meta name="twitter:image" content="http://localhost:1313/images/logo.png"/>
+  <meta property="og:image:alt" content="Sticky Widgets" />
+  <meta name="twitter:image:alt" content="Sticky Widgets" />
+  <link rel="manifest" href="/en/manifest.json">
+<link rel="alternate" hreflang="zh-hant" href="/zh-hant/docs/topics/sticky-widgets/" />
+<link rel="alternate" hreflang="zh-hans" href="/zh-hans/docs/topics/sticky-widgets/" />
+
+<link data-precache rel="stylesheet" href="/assets/main/bundle.min.1ac87d1bb100efbc5f2c352a082702cd01f44dc34c888e0eaa5b174ceea7bd80.css" integrity="sha256-Gsh9G7EA77xfLDUqCCcCzQH0TcNMiI4OqlsXTO6nvYA=" crossorigin="anonymous">
+
+    <link data-precache rel="stylesheet" href="/assets/viewer/bundle.min.5778ec8e95e9d1e612441ebcf911ccb843e5cc5d9a1fc99ec90a32adbfebb3b4.css" integrity="sha256-V3jsjpXp0eYSRB68&#43;RHMuEPlzF2aH8meyQoyrb/rs7Q=" crossorigin="anonymous">
+
+
+</head>
+  <body><header class="mb-4 sticky-top">
+  
+<nav class="top-app-bar shadow navbar navbar-expand-xxl">
+  <div class="container">
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDocsNav"
+      aria-expanded="false" aria-label="Toggle docs navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+<a class="navbar-brand d-flex align-items-center flex-grow-1 flex-xxl-grow-0 justify-content-xxl-start justify-content-center ms-2 ms-xxl-0 mx-auto me-xxl-2"
+    href="http://localhost:1313/en/">
+    <picture><img class="logo " alt="Logo" src="http://localhost:1313/images/logo.webp?v=b67a4a22f7136172a375591e392eefd4" loading="lazy" width="500" height="500" />
+</picture>
+Notes
+</a>
+
+    <div class="offcanvas-xxl offcanvas-end flex-grow-1" data-bs-scroll="true" tabindex="-1" id="navbarMenus" aria-labelledby="navbarMenusLabel">
+      <div class="offcanvas-header px-4 pb-0">
+        <div class="offcanvas-title h5" id="navbarMenusLabel">Notes</div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" data-bs-target="#navbarMenus" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body p-4 pt-0 p-xxl-0">
+        <hr class="d-xxl-none">
+        <ul class="navbar-nav flex-row flex-wrap align-items-center me-auto"><li class="nav-item col-6 col-xxl-auto">
+            <a class="nav-link py-2 px-0 px-xxl-2" href="https://hbs.razonyang.com/" target="_blank" rel="noopener noreferrer">
+<span class="menu-icon me-1"><i class="fas fa-home"></i></span>Home
+            </a>
+          </li>
+          <li class="nav-item col-12 col-xxl-auto dropdown px-0">
+            <a href="#"
+              class="nav-link dropdown-toggle"
+              id="navbarDropdownBlog" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+<span class="menu-icon me-1"><i class="fas fa-fw fa-blog"></i></span>Blog
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog" data-bs-popper="none">
+              <li>
+                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
+                  href="http://localhost:1313/en/archives/">
+                    <span class="dropdown-item-icon me-2 p-2 rounded">
+                      <i class="fas fa-fw fa-archive text-primary"></i>
+                    </span>
+                  <div class="dropdown-item-content">
+                    <p class="dropdown-item-title mb-0">Archives</p>
+                  </div></a>
+              </li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
+                  href="http://localhost:1313/en/series/">
+                    <span class="dropdown-item-icon me-2 p-2 rounded">
+                      <i class="fas fa-fw fa-columns text-info"></i>
+                    </span>
+                  <div class="dropdown-item-content">
+                    <p class="dropdown-item-title mb-0">Series</p>
+                  </div></a>
+              </li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
+                  href="http://localhost:1313/en/categories/">
+                    <span class="dropdown-item-icon me-2 p-2 rounded">
+                      <i class="fas fa-fw fa-folder text-warning"></i>
+                    </span>
+                  <div class="dropdown-item-content">
+                    <p class="dropdown-item-title mb-1">Categories</p>
+                      <p class="dropdown-item-description mb-0 text-secondary">List of Categories</p>
+                  </div></a>
+              </li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
+                  href="http://localhost:1313/en/tags/">
+                    <span class="dropdown-item-icon me-2 p-2 rounded">
+                      <i class="fas fa-fw fa-tags text-success"></i>
+                    </span>
+                  <div class="dropdown-item-content">
+                    <p class="dropdown-item-title mb-1">Tags</p>
+                      <p class="dropdown-item-description mb-0 text-secondary">List of Tags</p>
+                  </div></a>
+              </li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
+                  href="http://localhost:1313/en/authors/">
+                    <span class="dropdown-item-icon me-2 p-2 rounded">
+                      <i class="fas fa-fw fa-user text-danger"></i>
+                    </span>
+                  <div class="dropdown-item-content">
+                    <p class="dropdown-item-title mb-0">Authors</p>
+                  </div></a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item col-12 col-xxl-auto dropdown px-0">
+            <a href="#"
+              class="nav-link dropdown-toggle"
+              id="navbarDropdownSupport" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+<span class="menu-icon me-1"><i class="fas fa-fw fa-info-circle"></i></span>Support
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownSupport" data-bs-popper="none">
+                <li><h6 class="dropdown-header">The HBS Support Community</h6></li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
+                  href="https://github.com/razonyang/hugo-theme-bootstrap" target="_blank" rel="noopener noreferrer">
+                    <span class="dropdown-item-icon me-2 p-2 rounded">
+                      <i class="fab fa-fw fa-github text-primary"></i>
+                    </span>
+                  <div class="dropdown-item-content">
+                    <p class="dropdown-item-title mb-0">Repository</p>
+                  </div></a>
+              </li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
+                  href="https://github.com/razonyang/hugo-theme-bootstrap/discussions/new" target="_blank" rel="noopener noreferrer">
+                    <span class="dropdown-item-icon me-2 p-2 rounded">
+                      <i class="fas fa-fw fa-comments text-success"></i>
+                    </span>
+                  <div class="dropdown-item-content">
+                    <p class="dropdown-item-title mb-1">Discussions</p>
+                      <p class="dropdown-item-description mb-0 text-secondary">Ask and discuss questions with others.</p>
+                  </div></a>
+              </li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
+                  href="https://github.com/razonyang/hugo-theme-bootstrap/issues/new?template=bug_report.yml" target="_blank" rel="noopener noreferrer">
+                    <span class="dropdown-item-icon me-2 p-2 rounded">
+                      <i class="fas fa-fw fa-bug text-danger"></i>
+                    </span>
+                  <div class="dropdown-item-content">
+                    <p class="dropdown-item-title mb-1">Bug Report</p>
+                      <p class="dropdown-item-description mb-0 text-secondary">Tell us about a bug or issue.</p>
+                  </div></a>
+              </li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
+                  href="https://github.com/razonyang/hugo-theme-bootstrap/issues/new?template=feature_request.yml" target="_blank" rel="noopener noreferrer">
+                    <span class="dropdown-item-icon me-2 p-2 rounded">
+                      <i class="fas fa-fw fa-lightbulb text-warning"></i>
+                    </span>
+                  <div class="dropdown-item-content">
+                    <p class="dropdown-item-title mb-1">Features Request</p>
+                      <p class="dropdown-item-description mb-0 text-secondary">Suggest new or updated features.</p>
+                  </div></a>
+              </li>
+              <li><hr class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
+                  href="http://localhost:1313/en/docs/get-involved/">
+                    <span class="dropdown-item-icon me-2 p-2 rounded">
+                      <i class="fas fa-handshake fa-fw"></i>
+                    </span>
+                  <div class="dropdown-item-content">
+                    <p class="dropdown-item-title mb-0">Get Involved</p>
+                  </div></a>
+              </li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
+                  href="http://localhost:1313/en/faq/">
+                    <span class="dropdown-item-icon me-2 p-2 rounded">
+                      <i class="fas fa-question-circle fa-fw text-info"></i>
+                    </span>
+                  <div class="dropdown-item-content">
+                    <p class="dropdown-item-title mb-0">FAQs</p>
+                  </div></a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        
+    <hr class="d-xxl-none">
+    <form class="search-bar ms-auto my-auto" action="/en/search/" novalidate>
+      <div class="input-group align-items-center">
+        <span class="btn btn-search disabled position-absolute left-0 border-0 px-1">
+          <i class="fas fa-fw fa-search fa-lg"></i>
+        </span>
+        <input
+          class="my-1 form-control border-white rounded-5 search-input bg-body"
+          name="q"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+          required>
+          <span class="search-shortcut position-absolute end-0 top-0 me-2">
+            <kbd class="text-dark bg-white opacity-75 rounded-3 shadow border border-primary py-1 fw-bold">/</kbd>
+          </span>
+      </div>
+    </form><hr class="d-xxl-none">
+        <ul class="navbar-nav flex-row flex-wrap align-items-center ms-md-auto">
+<li class="nav-item py-2 py-xxl-1 col-12 col-xxl-auto">
+
+
+<nav class="social-links nav justify-content-center flex-row">
+      <a class="nav-link social-link col-6 col-xxl-auto p-1" target="_blank" href="https://github.com/razonyang/hugo-theme-bootstrap" title="GitHub" rel="me">
+        <i class="fa-fw fab fa-github"
+          ></i>
+        <span class="ms-1 d-xxl-none">Github</span>
+      </a>
+      <a class="nav-link social-link col-6 col-xxl-auto p-1" target="_blank" href="https://www.patreon.com/razonyang" title="Patreon" rel="me">
+        <i class="fa-fw fab fa-patreon"
+          ></i>
+        <span class="ms-1 d-xxl-none">Patreon</span>
+      </a>
+      <a class="nav-link social-link col-6 col-xxl-auto p-1" target="_blank" href="https://www.paypal.com/paypalme/razonyang" title="PayPal" rel="me">
+        <i class="fa-fw fab fa-paypal"
+          ></i>
+        <span class="ms-1 d-xxl-none">Paypal</span>
+      </a>
+      <a class="nav-link social-link col-6 col-xxl-auto p-1" target="_blank" href="https://www.vandenboom.icu" title="Website" rel="me">
+        <i class="fa-fw fas fa-link"
+          ></i>
+        <span class="ms-1 d-xxl-none">Website</span>
+      </a>
+      <a class="nav-link social-link col-6 col-xxl-auto p-1" target="_blank" href="https://x.com/ingvdboom" title="X" rel="me">
+        <i class="fa-fw fab fa-x-twitter"
+          ></i>
+        <span class="ms-1 d-xxl-none">X</span>
+      </a>
+  <a class="nav-link social-link col-6 col-xxl-auto p-1" target="_blank" data-rss-feed href="http://localhost:1313/en/index.xml" title="RSS" rel="me">
+    <i class="fas fa-fw fa-rss"></i>
+    <span class="ms-1 d-xxl-none">RSS</span>
+  </a>
+</nav>
+
+</li>
+<li class="nav-item py-2 py-xxl-1 col-12 col-xxl-auto">
+  <div class="vr d-none d-xxl-flex h-100 mx-xxl-2 text-white"></div>
+  <hr class="d-xxl-none my-2">
+</li>
+<li class="nav-item dropdown py-1 py-xxl-1 col-6 col-xxl-auto">
+    <a class="nav-link px-0 px-xxl-1" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fas fa-fw fa-globe"></i>
+        <span class="d-xxl-none">Language</span>
+    </a>
+    <ul class="language-dropdown-menu dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+        <li>
+        <a class="dropdown-item active" href="/en/">
+            English
+        </a>
+        </li>
+        <li>
+        <a class="dropdown-item" href="/fr/">
+            Français
+        </a>
+        </li>
+        <li>
+        <a class="dropdown-item" href="/zh-hant/">
+            繁體中文
+        </a>
+        </li>
+        <li>
+        <a class="dropdown-item" href="/zh-hans/">
+            简体中文
+        </a>
+        </li>
+        <li>
+        <a class="dropdown-item" href="/ar/">
+            العربية
+        </a>
+        </li>
+        <li>
+        <a class="dropdown-item" href="/ja/">
+            日本語
+        </a>
+        </li>
+        <li>
+        <a class="dropdown-item" href="/nl/">
+            
+        </a>
+        </li></ul>
+</li>
+<li class="nav-item py-1 col-12 col-xxl-auto">
+  <div class="vr d-none d-xxl-flex h-100 mx-xxl-2 text-white"></div>
+  <hr class="d-xxl-none my-2">
+</li>
+<li class="nav-item dropdown col-6 col-xxl-auto">
+    <a class="nav-link px-0 py-2 px-xxl-1" href="#" id="fontSizeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fas fa-fw fa-font"></i>
+        <span class="d-xxl-none">Font Size</span>
+    </a>
+    <ul class="font-size-dropdown-menu dropdown-menu dropdown-menu-end" aria-labelledby="fontSizeDropdown">
+        <li>
+            <button class="font-size-item dropdown-item" data-size="xs">
+                Extra Small
+            </button>
+        </li>
+        <li>
+            <button class="font-size-item dropdown-item" data-size="sm">
+                Small
+            </button>
+        </li>
+        <li>
+            <button class="font-size-item dropdown-item active" data-size="md">
+                Medium
+            </button>
+        </li>
+        <li>
+            <button class="font-size-item dropdown-item" data-size="lg">
+                Large
+            </button>
+        </li>
+        <li>
+            <button class="font-size-item dropdown-item" data-size="xl">
+                Extra Large
+            </button>
+        </li>
+    </ul>
+</li>
+<li class="nav-item dropdown col-6 col-xxl-auto">
+    <a class="nav-link px-0 py-2 px-xxl-1" href="#" id="paletteDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fas fa-fw fa-palette"></i>
+        <span class="d-xxl-none">Palette</span>
+    </a>
+    <ul class="palette-dropdown-menu dropdown-menu dropdown-menu-end px-2 row g-2" aria-labelledby="paletteDropdown">
+            <li class="col-4 my-1">
+                <a role="button" id="palette-blue" aria-label="Blue"
+                    class="btn btn-sm w-100 palette text-bg-blue" data-palette="blue">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-blue-gray" aria-label="Blue Gray"
+                    class="btn btn-sm w-100 palette text-bg-blue-gray" data-palette="blue-gray">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-brown" aria-label="Brown"
+                    class="btn btn-sm w-100 palette text-bg-brown" data-palette="brown">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-cyan" aria-label="Cyan"
+                    class="btn btn-sm w-100 palette text-bg-cyan" data-palette="cyan">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-green" aria-label="Green"
+                    class="btn btn-sm w-100 palette text-bg-green" data-palette="green">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-indigo" aria-label="Indigo"
+                    class="btn btn-sm w-100 palette text-bg-indigo" data-palette="indigo">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-orange" aria-label="Orange"
+                    class="btn btn-sm w-100 palette text-bg-orange" data-palette="orange">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-pink" aria-label="Pink"
+                    class="btn btn-sm w-100 palette text-bg-pink" data-palette="pink">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-purple" aria-label="Purple"
+                    class="btn btn-sm w-100 palette text-bg-purple" data-palette="purple">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-red" aria-label="Red"
+                    class="btn btn-sm w-100 palette text-bg-red" data-palette="red">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-teal" aria-label="Teal"
+                    class="btn btn-sm w-100 palette text-bg-teal" data-palette="teal">
+                </a>
+            </li>
+            <li class="col-4 my-1">
+                <a role="button" id="palette-yellow" aria-label="Yellow"
+                    class="btn btn-sm w-100 palette text-bg-yellow" data-palette="yellow">
+                </a>
+            </li>
+    </ul>
+</li>
+<li class="nav-item dropdown col-6 col-xxl-auto">
+    <a class="nav-link px-0 py-2 px-xxl-1" href="#" id="modeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="mode-icon fas fa-fw fa-adjust" id="modeIcon"></i>
+        <span class="d-xxl-none">Mode</span>
+    </a>
+    <ul class="mode-dropdown-menu dropdown-menu dropdown-menu-end" aria-labelledby="modeDropdown">
+        <li class="mode-item" data-color-mode="light" data-icon="sun">
+            <button class="dropdown-item">
+                <i class="mode-icon fas fa-fw fa-sun"></i> Light
+            </button>
+        </li>
+        <li class="mode-item" data-color-mode="dark" data-icon="moon">
+            <button class="dropdown-item">
+                <i class="mode-icon fas fa-fw fa-moon"></i> Dark
+            </button>
+        </li>
+        <li class="mode-item active" data-color-mode="auto" data-icon="adjust">
+            <button class="dropdown-item">
+                <i class="mode-icon fas fa-fw fa-adjust"></i> Auto
+            </button>
+        </li>
+    </ul>
+</li>
+        </ul>
+      </div>
+    </div>
+    <div class="d-flex">
+      <button class="navbar-toggler order-5 border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarMenus"
+        aria-controls="navbarMenus" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-ellipsis-h"></i>
+      </button>
+    </div>
+  </div>
+</nav>
+
+</header>
+
+    <main class="container has-sidebar" data-kind="page"><script data-precache src="/js/main-init.8c7aa25b4ed385a038fb233f0853f27f92dcedd81805a0bb66225171d091f322.js" integrity="sha256-jHqiW07ThaA4&#43;yM/CFPyf5Lc7dgYBaC7ZiJRcdCR8yI=" crossorigin="anonymous"></script>
+
+      <div class="row content"><noscript>
+    <div class="alert alert-danger" role="alert">Your browser does not support JavaScript.</div>
+</noscript>
+<aside class="docs-nav col-xxl-2" tabindex="-1" data-bs-hide="focusout">
+  <div class="offcanvas-xxl offcanvas-start" id="offcanvasDocsNav" aria-labelledby="offcanvasDocsNavLabel">
+    <div class="offcanvas-header border-bottom">
+      <div class="offcanvas-title h5" id="offcanvasDocsNavLabel">Browse docs</div>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#offcanvasDocsNav"></button>
+    </div>
+    <div class="offcanvas-body pt-2 flex-column"><div class="mb-3" style="margin-left: -0.5rem;">
+    <select class="form-select" aria-label="Docs Versions" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+        <option value="" selected>v1</option>
+        <option value="https://hbs.razonyang.com/v0/">v0</option>
+    </select>
+</div>
+<ul class="list-unstyled mb-2 w-100"><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center">
+            <a class="docs-nav-link d-flex align-items-center" href="/en/docs/getting-started/"><span class="docs-nav-title-icon me-1"><i class="fas fa-book fa-fw text-primary"></i></span><span class="docs-nav-title">Getting Started</span></a>
+            <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-17b09a9dc5200475d8a306f18e63a0f9" aria-expanded="false" aria-controls="nav-17b09a9dc5200475d8a306f18e63a0f9">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse " id="nav-17b09a9dc5200475d8a306f18e63a0f9">
+            <div class="btn-toggle-nav fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100">
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/getting-started/introduction/"><span class="docs-nav-title">Introduction</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/getting-started/prerequisites/"><span class="docs-nav-title">Prerequisites</span></a>
+        </li><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center">
+            <a class="docs-nav-link d-flex align-items-center" href="/en/docs/getting-started/installation/"><span class="docs-nav-title">Installation</span></a>
+            <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-69689d7a4bef48f2bfb91e81453e6440" aria-expanded="false" aria-controls="nav-69689d7a4bef48f2bfb91e81453e6440">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse " id="nav-69689d7a4bef48f2bfb91e81453e6440">
+            <div class="btn-toggle-nav fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100">
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/getting-started/installation/starter-template/" target="_blank"><span class="docs-nav-title">Starter Template</span><i class="ms-1 fas fa-external-link-square-alt"></i></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/getting-started/installation/hugo-module/"><span class="docs-nav-title">Hugo Module</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/getting-started/installation/git-submodule/"><span class="docs-nav-title">Git Submodule</span></a>
+        </li></ul>
+            </div>
+          </div>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/getting-started/upgradation/"><span class="docs-nav-title">Upgradation</span></a>
+        </li></ul>
+            </div>
+          </div>
+        </li><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center">
+            <a class="docs-nav-link d-flex align-items-center" href="/en/docs/configuration/"><span class="docs-nav-title-icon me-1"><i class="fas fa-cog fa-fw"></i></span><span class="docs-nav-title">Configuration</span></a>
+            <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-96f42b3851e06e8878e5685bcce84b05" aria-expanded="false" aria-controls="nav-96f42b3851e06e8878e5685bcce84b05">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse " id="nav-96f42b3851e06e8878e5685bcce84b05">
+            <div class="btn-toggle-nav fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100">
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/configuration/structure/"><span class="docs-nav-title">Structure</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/configuration/site/"><span class="docs-nav-title">Site Configuration</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/configuration/site-params/"><span class="docs-nav-title">Site Parameters</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/configuration/page-params/"><span class="docs-nav-title">Page Parameters</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/configuration/multilangual/"><span class="docs-nav-title">Multilingual Mode</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/configuration/menu/"><span class="docs-nav-title">Menu</span></a>
+        </li></ul>
+            </div>
+          </div>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/content/"><span class="docs-nav-title-icon me-1"><i class="fas fa-newspaper fa-fw"></i></span><span class="docs-nav-title">Content</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/look-and-feel/"><span class="docs-nav-title-icon me-1"><i class="fas fa-palette fa-fw text-danger"></i></span><span class="docs-nav-title">Look and Feel</span></a>
+        </li><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center">
+            <a class="docs-nav-link d-flex align-items-center" href="/en/docs/deployment/"><span class="docs-nav-title-icon me-1"><i class="fas fa-fw fa-cloud-upload-alt text-success"></i></span><span class="docs-nav-title">Deployment</span></a>
+            <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-349eb33b558db3265e81aed15f3d2ecf" aria-expanded="false" aria-controls="nav-349eb33b558db3265e81aed15f3d2ecf">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse " id="nav-349eb33b558db3265e81aed15f3d2ecf">
+            <div class="btn-toggle-nav fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100">
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/deployment/overview/"><span class="docs-nav-title">Overview</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/deployment/docker/"><span class="docs-nav-title">Docker</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/deployment/cloudflare-pages/"><span class="docs-nav-title">Cloudflare Pages</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/deployment/digitalocean-app-platform/"><span class="docs-nav-title">DigitalOcean App Platform</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/deployment/github-pages/"><span class="docs-nav-title">GitHub Pages</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/deployment/gitlab-pages/"><span class="docs-nav-title">GitLab Pages</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/deployment/netlify/"><span class="docs-nav-title">Netlify</span></a>
+        </li></ul>
+            </div>
+          </div>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/image-viewer/"><span class="docs-nav-title-icon me-1"><i class="fas fa-images fa-fw"></i></span><span class="docs-nav-title">Image Viewer</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/image-processing/"><span class="docs-nav-title-icon me-1"><i class="fas fa-image fa-fw"></i></span><span class="docs-nav-title">Image Processing</span></a>
+        </li><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center">
+            <a class="docs-nav-link d-flex align-items-center" href="/en/docs/widgets/"><span class="docs-nav-title-icon me-1"><i class="fas fa-cubes fa-fw" style="color: blue;"></i></span><span class="docs-nav-title">Widgets</span></a>
+            <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-030c9061823a7f79b8e8cf57b4ffbe96" aria-expanded="false" aria-controls="nav-030c9061823a7f79b8e8cf57b4ffbe96">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse " id="nav-030c9061823a7f79b8e8cf57b4ffbe96">
+            <div class="btn-toggle-nav fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100">
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/widgets/author/"><span class="docs-nav-title">Author Widget</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/widgets/comments/"><span class="docs-nav-title">Comments Widget</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/widgets/funding/"><span class="docs-nav-title">Funding Widget</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/widgets/repository/"><span class="docs-nav-title">Repository Widget</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/widgets/reward/"><span class="docs-nav-title">Reward Widget</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/widgets/social-links/"><span class="docs-nav-title">Social Links</span></a>
+        </li></ul>
+            </div>
+          </div>
+        </li><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center">
+            <a class="docs-nav-link d-flex align-items-center" href="/en/docs/shortcodes/"><span class="docs-nav-title-icon me-1"><i class="fas fa-code fa-fw"></i></span><span class="docs-nav-title">Shortcode</span></a>
+            <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-2eab438f6271b04ea65416ab255b8e07" aria-expanded="false" aria-controls="nav-2eab438f6271b04ea65416ab255b8e07">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse " id="nav-2eab438f6271b04ea65416ab255b8e07">
+            <div class="btn-toggle-nav fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100">
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/shortcodes/alert/"><span class="docs-nav-title">Alert</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/shortcodes/code-toggle/"><span class="docs-nav-title">Code Toggle</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/shortcodes/gallery/"><span class="docs-nav-title">Gallery Shortcode</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/shortcodes/game/"><span class="docs-nav-title">Game</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/shortcodes/iframe/"><span class="docs-nav-title">IFrame</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/shortcodes/media/"><span class="docs-nav-title">Media Shortcodes</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/shortcodes/online-ide/"><span class="docs-nav-title">Online IDE Shortcodes</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/shortcodes/text/"><span class="docs-nav-title">Text</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/shortcodes/toggle/"><span class="docs-nav-title">Toggle</span></a>
+        </li></ul>
+            </div>
+          </div>
+        </li><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center">
+            <a class="docs-nav-link d-flex align-items-center" href="/en/docs/layouts/"><span class="docs-nav-title-icon me-1"><i class="fas fa-columns fa-fw"></i></span><span class="docs-nav-title">Layouts</span></a>
+            <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-e6325bb957554ab70989da3e67663dc8" aria-expanded="false" aria-controls="nav-e6325bb957554ab70989da3e67663dc8">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse " id="nav-e6325bb957554ab70989da3e67663dc8">
+            <div class="btn-toggle-nav fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100">
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/layouts/archives/"><span class="docs-nav-title">Archive Layout</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/layouts/contact/"><span class="docs-nav-title">Contact Form</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/layouts/docs/"><span class="docs-nav-title">Docs Layout</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/layouts/faq/"><span class="docs-nav-title">FAQ Layout</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/layouts/landing/"><span class="docs-nav-title">Landing Page</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/layouts/search/"><span class="docs-nav-title">Search Layout</span></a>
+        </li></ul>
+            </div>
+          </div>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/pwa/"><span class="docs-nav-title-icon me-1"><i class="fas fa-th-large fa-fw text-warning"></i></span><span class="docs-nav-title">PWA</span></a>
+        </li><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center">
+            <a class="docs-nav-link d-flex align-items-center" href="/en/docs/advanced/"><span class="docs-nav-title-icon me-1"><i class="fas fa-terminal fa-fw"></i></span><span class="docs-nav-title">Advanced</span></a>
+            <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-855747809fc2a2d136fdd237db304949" aria-expanded="false" aria-controls="nav-855747809fc2a2d136fdd237db304949">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse " id="nav-855747809fc2a2d136fdd237db304949">
+            <div class="btn-toggle-nav fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100">
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/advanced/custom-assets/"><span class="docs-nav-title">Custom Assets</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/advanced/events/"><span class="docs-nav-title">Events</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/advanced/hooks/"><span class="docs-nav-title">Hooks</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/advanced/layouts-overriding/"><span class="docs-nav-title">Layouts Overriding</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/advanced/performance/"><span class="docs-nav-title">Performance</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/advanced/purgecss/"><span class="docs-nav-title">PurgeCSS</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/advanced/scss-variables/"><span class="docs-nav-title">SCSS Variables</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/advanced/snackbar/"><span class="docs-nav-title">Snackbar</span></a>
+        </li></ul>
+            </div>
+          </div>
+        </li><li class="mb-2" tabindex="-1">
+          <div class="py-1 d-flex justify-content-between align-items-center text-primary">
+            <a class="docs-nav-link d-flex align-items-center" href="/en/docs/topics/"><span class="docs-nav-title-icon me-1"><i class="fas fa-fw fa-lightbulb text-info"></i></span><span class="docs-nav-title">Topics</span></a>
+            <a class="btn-toggle ms-1" role="button" data-bs-toggle="collapse"
+              data-bs-target="#nav-5d82c2453a7c00172946228b21f0c35e" aria-expanded="true" aria-controls="nav-5d82c2453a7c00172946228b21f0c35e">
+              <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
+            </a>
+          </div>
+          <div class="docs-nav-subnavs border-start mt-2 collapse  show" id="nav-5d82c2453a7c00172946228b21f0c35e">
+            <div class="btn-toggle-nav fw-normal ms-2 small">
+              <ul class="list-unstyled mb-2 w-100">
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/topics/algolia/"><span class="docs-nav-title">Algolia</span></a>
+        </li>
+        <li class="mb-2 py-1 text-primary border-2 border-start border-primary ps-2 docs-nav-active-item" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/topics/sticky-widgets/"><span class="docs-nav-title">Sticky Widgets</span></a>
+        </li></ul>
+            </div>
+          </div>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/migration/"><span class="docs-nav-title-icon me-1"><i class="fas fa-sync fa-fw text-success"></i></span><span class="docs-nav-title">Migration</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/troubleshooting/"><span class="docs-nav-title-icon me-1"><i class="fas fa-bug fa-fw text-danger"></i></span><span class="docs-nav-title">Troubleshooting</span></a>
+        </li>
+        <li class="mb-2 py-1" tabindex="-1">
+          <a class="docs-nav-link d-flex align-items-center" href="/en/docs/get-involved/"><span class="docs-nav-title-icon me-1"><i class="fas fa-handshake fa-fw"></i></span><span class="docs-nav-title">Get Involved</span></a>
+        </li></ul></div>
+  </div>
+</aside><div class="col ms-auto content-docs">
+  <div class="container-fluid"><nav class="row card component" aria-label="breadcrumb">
+  <div class="card-body pb-0">
+    <ol class="hbs-breadcrumb breadcrumb flex-nowrap"><li class="breadcrumb-item text-surface"><a href="/en/">Home</a></li><li class="breadcrumb-item text-surface"><a href="/en/docs/">Docs</a></li><li class="breadcrumb-item text-surface"><a href="/en/docs/topics/">Topics</a></li><li class="breadcrumb-item active">Sticky Widgets</li></ol>
+  </div>
+</nav><div class="post-panel-wrapper position-relative d-flex justify-content-center">
+  <div class="d-flex flex-row justify-content-center rounded-5 border post-panel position-fixed px-3 py-1 surface shadow-1">
+    
+    
+  <div class="post-translations nav-item dropup action">
+    <a class="nav-link p-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Translations dropdown menu"
+      title="Translations">
+      <i class="fas fa-fw fa-language"></i>
+    </a>
+    <div class="dropdown-menu"><a class="dropdown-item post-translation" href="/zh-hant/docs/topics/sticky-widgets/">繁體中文</a><a class="dropdown-item post-translation" href="/zh-hans/docs/topics/sticky-widgets/">简体中文</a></div>
+  </div>
+
+
+    
+    
+  <div class="action btn-group dropup">
+    <button
+      type="button"
+      class="btn btn-link p-0"
+      data-bs-toggle="dropdown"
+      aria-expanded="false"
+      title="Buy me a coffee">
+      <i class="fas fa-fw fa-coffee"></i>
+    </button>
+    <ul class="dropdown-menu">
+        <li>
+          <a
+            href="https://razonyang.com/images/reward/alipay.webp"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="button"
+            class="dropdown-item d-flex align-items-center"
+            data-bs-theme-value="light">
+              <i class="fab fa-fw fa-alipay me-1"></i>Alipay</a>
+        </li>
+        <li>
+          <a
+            href="https://www.buymeacoffee.com/razonyang"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="button"
+            class="dropdown-item d-flex align-items-center"
+            data-bs-theme-value="light">
+              <i class="fas fa-fw fa-heart me-1"></i>Buy Me a Coffee</a>
+        </li>
+        <li>
+          <a
+            href="https://ko-fi.com/razonyang"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="button"
+            class="dropdown-item d-flex align-items-center"
+            data-bs-theme-value="light">
+              <i class="fas fa-fw fa-heart me-1"></i>Ko-fi</a>
+        </li>
+        <li>
+          <a
+            href="https://opencollective.com/hbs"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="button"
+            class="dropdown-item d-flex align-items-center"
+            data-bs-theme-value="light">
+              <i class="fas fa-fw fa-heart me-1"></i>Open Collective</a>
+        </li>
+        <li>
+          <a
+            href="https://www.patreon.com/razonyang"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="button"
+            class="dropdown-item d-flex align-items-center"
+            data-bs-theme-value="light">
+              <i class="fab fa-fw fa-patreon me-1"></i>Patreon</a>
+        </li>
+        <li>
+          <a
+            href="https://paypal.me/razonyang"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="button"
+            class="dropdown-item d-flex align-items-center"
+            data-bs-theme-value="light">
+              <i class="fab fa-fw fa-paypal me-1"></i>Paypal</a>
+        </li>
+        <li>
+          <a
+            href="https://razonyang.com/images/reward/wechat.webp"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="button"
+            class="dropdown-item d-flex align-items-center"
+            data-bs-theme-value="light">
+              <i class="fab fa-fw fa-weixin me-1"></i>Wechat</a>
+        </li>
+    </ul>
+  </div>
+    
+<a class="action action-toc d-block d-xxl-none" href="#post-toc-container" role="button" title="Contents">
+  <i class="fas fa-fw fa-list-alt"></i>
+</a>
+    <a class="action action-copyright" href="#post-copyright" role="button" aria-label="Copyright" title="Copyright">
+  <i class="fas fa-fw fa-copyright"></i>
+</a>
+    <a class="action action-post-comments" href="#post-comments" role="button" aria-label="Comments" title="Comments">
+  <i class="fas fa-fw fa-comments"></i>
+</a>
+    
+<a id="sidebarToggler" class="action action-sidebar-toggler d-none d-xxl-block" role="button" title="Toggle sidebar">
+  <i class="fas fa-fw fa-expand-alt" data-fa-transform="rotate-45"></i>
+</a>
+
+    
+  </div>
+</div><article class="row card component mb-4 post">
+<div class="card-header ">
+    <h1 class="card-title post-title my-2">Sticky Widgets</h1>
+</div>
+<div class="card-body"><div class="post-meta mb-3">
+  <span class="post-date me-1 mb-1" title="created on 2022-07-27 02:54:43 &#43;0200 CEST.">July 27, 2022</span><span class="post-reading-time me-1 mb-1">1 min read</span><a href="/en/categories/widgets/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-category">
+      <i class="fas fa-fw fa-folder me-1"></i>Widgets</a><a href="/en/series/docs/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-series">
+      <i class="fas fa-fw fa-columns me-1"></i>Docs</a><a href="/en/tags/scss/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-tag">SCSS</a><a href="/en/tags/sticky/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-tag">Sticky</a>
+</div>
+<div class="alert alert-success" role="alert">
+  🎉 Our
+  <a href="https://github.com/hbstack/theme-cards" class="alert-link text-decoration-underline" target="_blank">
+    new modular theme
+  </a>
+  is available now, which ships with much more features and higher flexibility, please consider giving it a try for your new static sites. :)
+</div><div class="alert alert-info" role="alert">
+    This theme provides several kinds of layouts, such as <code>posts</code> and <code>docs</code>.
+    Our documentation uses the <code>docs</code> layout. If you're looking for an example that using <code>posts</code> layout,
+    please take a look at the page <a class="text-decoration-underline" href="/v1/en/posts/markdown-syntax" target="_blank"><strong>Markdown Syntax</strong></a>.
+</div>
+<div class="mt-2 mb-3 d-block d-xxl-none">
+    <h2 class="text-surface mb-3">Contents</h2>
+    <div id="post-toc-container">
+        </div>
+    <hr class="text-secondary">
+</div><div class="post-content mb-3" data-bs-spy="scroll" data-bs-target="#TableOfContents" tabindex="0">
+        <div id="post-content-body"><p>When the page is too long, the sidebar will disappear with scrolling and the page will not look as neat and beautiful.
+So this article will introduce how to use sticky widgets to avoid this problem.</p>
+<div class="ratio ratio-16x9 bilibili mb-4">
+  <iframe
+    src="https://player.bilibili.com/player.html?bvid=BV1jW4y1y7kL"
+    scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"
+    loading="lazy">
+  </iframe>
+</div>
+
+
+<h2 id="create-a-new-sticky-widget" data-numberify>Create a New Sticky Widget<a class="anchor ms-1" href="#create-a-new-sticky-widget"></a></h2>
+<p>First of all, create a partial under the <code>layouts/parials</code> folder, let&rsquo;s take <code>layouts/partials/custom/sticky-info.html</code> as example.</p>
+<div class="highlight" title="layouts/partials/custom/sticky-info.html"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="ln">1</span><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;row card component position-sticky&#34;</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;top: 84px;&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl">    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;text-center py-3 px-1&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">        MY STICKY WIDGET
+</span></span><span class="line"><span class="ln">4</span><span class="cl">    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl"><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span></code></pre></div><blockquote>
+<p>The filename <code>custom/sticky-info</code> can be changed at will, but we recommend using some more specific names to avoid overriding the theme&rsquo;s partials later.
+Such as <code>custom</code>, <code>mywidgets</code>.</p></blockquote>
+<p>Then use the <code>layouts/partials/hooks/sidebar-end.html</code> hook to include the sticky partial.</p>
+<div class="highlight" title="layouts/partials/hooks/sidebar-end.html"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="ln">1</span><span class="cl">{{- partial &#34;custom/sticky-info&#34; . }}
+</span></span></code></pre></div><blockquote>
+<p>The sticky widget should be the last widget of the sidebar, otherwise, strange problems can occur.</p></blockquote>
+
+<h2 id="make-an-existing-widget-sticky" data-numberify>Make an Existing Widget Sticky<a class="anchor ms-1" href="#make-an-existing-widget-sticky"></a></h2>
+<p>Each widget will have a unique class name, so that we can apply CSS on a desired widget, here we take the profile widget as an example.</p>
+<div class="highlight" title="assets/main/scss/_custom.scss"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="ln">1</span><span class="cl"><span class="nc">.sidebar</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl">    <span class="nc">.profile</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">        <span class="na">position</span><span class="o">:</span> <span class="ni">sticky</span> <span class="k">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl">        <span class="na">top</span><span class="o">:</span> <span class="mi">84</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl">        <span class="na">order</span><span class="o">:</span> <span class="mi">5</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln">6</span><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="ln">7</span><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>We need to specify the <code>order</code> property to make the profile widget become the last widget of sidebar.</p></div>
+</div>
+</div><div class="card-footer">
+  <div class="post-navs d-flex justify-content-evenly"><div class="post-nav post-prev">
+      <i class="fas fa-fw fa-chevron-down post-prev-icon me-1" data-fa-transform="rotate-90"></i>
+      <a href="/en/docs/topics/algolia/">Algolia</a>
+    </div></div>
+</div></article><div class="post-copyright mb-3 row card component" id="post-copyright">
+    <div class="card-header">
+        <h2 class="card-title fs-4 my-2 text-surface">Copyright</h2>
+    </div>
+    <div class="card-body"><a class="d-flex align-items-center flex-column" target="_blank" rel="license noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en">
+  <span><i class="fab fa-fw fa-2x fa-creative-commons"></i><i class="fab fa-fw fa-2x fa-creative-commons-by"></i><i class="fab fa-fw fa-2x fa-creative-commons-nc"></i><i class="fab fa-fw fa-2x fa-creative-commons-nd"></i></span>
+  CC BY-NC-ND 4.0 
+</a>
+
+
+    </div>
+</div><section class="related-posts row card component">
+      <div class="card-header">
+        <h2 class="card-title fs-4 my-2 text-surface">
+          Related Posts
+        </h2>
+      </div>
+      <div class="card-body slide px-1">
+        <div class="slide-inner row gx-0"><div class="col-12 col-md-6 col-lg-4 me-2">
+            <div class="post-card card card-body p-0 border-0 surface">
+  
+  <div
+    class="post-card-default-img card-img-top d-flex align-items-center justify-content-center bg-body-secondary mb-1">
+    NO IMAGE
+  </div>
+
+  <a class="post-title" href="/en/docs/configuration/multilangual/">
+    Multilingual Mode
+  </a>
+  <div class="post-meta mb-0">
+    July 27, 2022
+
+  </div>
+</div>
+
+          </div><div class="col-12 col-md-6 col-lg-4 me-2">
+            <div class="post-card card card-body p-0 border-0 surface">
+  
+  <div
+    class="post-card-default-img card-img-top d-flex align-items-center justify-content-center bg-body-secondary mb-1">
+    NO IMAGE
+  </div>
+
+  <a class="post-title" href="/en/docs/advanced/purgecss/">
+    PurgeCSS
+  </a>
+  <div class="post-meta mb-0">
+    July 25, 2022
+
+  </div>
+</div>
+
+          </div><div class="col-12 col-md-6 col-lg-4 me-2">
+            <div class="post-card card card-body p-0 border-0 surface">
+  
+  <div
+    class="post-card-default-img card-img-top d-flex align-items-center justify-content-center bg-body-secondary mb-1">
+    NO IMAGE
+  </div>
+
+  <a class="post-title" href="/en/docs/advanced/performance/">
+    Performance
+  </a>
+  <div class="post-meta mb-0">
+    July 23, 2022
+
+  </div>
+</div>
+
+          </div><div class="col-12 col-md-6 col-lg-4 me-2">
+            <div class="post-card card card-body p-0 border-0 surface">
+  
+  <div
+    class="post-card-default-img card-img-top d-flex align-items-center justify-content-center bg-body-secondary mb-1">
+    NO IMAGE
+  </div>
+
+  <a class="post-title" href="/en/docs/advanced/events/">
+    Events
+  </a>
+  <div class="post-meta mb-0">
+    July 23, 2022
+
+  </div>
+</div>
+
+          </div><div class="col-12 col-md-6 col-lg-4 me-2">
+            <div class="post-card card card-body p-0 border-0 surface">
+  
+  <div
+    class="post-card-default-img card-img-top d-flex align-items-center justify-content-center bg-body-secondary mb-1">
+    NO IMAGE
+  </div>
+
+  <a class="post-title" href="/en/docs/advanced/scss-variables/">
+    SCSS Variables
+  </a>
+  <div class="post-meta mb-0">
+    July 23, 2022
+
+  </div>
+</div>
+
+          </div></div>
+        <button class="slide-control-left">
+          <i class="fas fa-2x fa-chevron-circle-down" data-fa-transform="rotate-90"></i>
+          <span class="visually-hidden">Left</span>
+        </button>
+        <button class="slide-control-right">
+          <i class="fas fa-2x fa-chevron-circle-down" data-fa-transform="rotate-270"></i>
+          <span class="visually-hidden">Right</span>
+        </button>
+      </div>
+    </section><div class="card component row post-comments" id="post-comments">
+  <div class="card-header">
+    <h2 class="card-title my-2 fs-4 text-surface">Comments</h2>
+  </div>
+  <div class="card-body">
+<div class="giscus"></div>
+
+
+
+</div>
+</div></div>
+</div>
+<aside class="sidebar d-flex docs-sidebar col-xxl-3 position-sticky order-xxl-5">
+  <div class="container">
+    
+<div class="row component card">
+    <div class="card-body">
+        <form action="/en/search/">
+            <div class="input-group">
+                <input name="q" class="form-control rounded" placeholder="Search">
+                <button class="btn btn-sm btn-search position-absolute end-0 border-0 border-start border-secondary p-2" type="submit">
+                    <i class="fas fa-fw fa-search text-primary"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+    <div class="accordion post-toc d-none d-lg-block">
+  <div class="accordion-item row mb-4 card component" id="postTOC">
+    <div class="card-header accordion-header">
+      <h2 class="card-title fs-4 my-2 text-surface d-none d-lg-block">Contents</h2>
+      <a class="accordion-button d-lg-none mb-1 collapsed shadow-none p-0 bg-transparent" role="button" data-bs-toggle="collapse" href="#post-toc" aria-expanded="false" aria-controls="post-toc">
+        Contents
+      </a>
+    </div>
+    <div class="card-body collapse accordion-collapse accordion-body d-lg-block" id="post-toc">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#create-a-new-sticky-widget">Create a New Sticky Widget</a></li>
+    <li><a href="#make-an-existing-widget-sticky">Make an Existing Widget Sticky</a></li>
+  </ul>
+</nav>
+    </div>
+  </div>
+</div>
+    <div class="accordion">
+    <div class="accordion-item docs-repo row card component">
+        <div class="card-header accordion-header" id="repo-header">
+            <h2 class="card-title fs-4 my-2 text-surface d-none d-lg-block">Repository</h2>
+            <a
+                class="accordion-button d-lg-none mb-1 shadow-none p-0 bg-transparent"
+                role="button" data-bs-toggle="collapse" href="#repo" aria-expanded="true" aria-controls="repo">
+                Repository
+            </a>
+        </div>
+        <div class="card-body collapse accordion-collapse accordion-body text-secondary-on-surface d-lg-block show" id="repo" aria-labelledby="repo-header">
+            <ul class="list-unstyled"><li class="mb-1">
+                    <a href="https://github.com/razonyang/hugo-theme-bootstrap/blob/master//exampleSite/content/docs/topics/sticky-widgets/index.md" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-fw fa-file-archive text-success"></i> View page source
+                    </a>
+                </li>
+                <li class="mb-1">
+                    <a href="https://github.com/razonyang/hugo-theme-bootstrap/edit/master//exampleSite/content/docs/topics/sticky-widgets/index.md" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-fw fa-edit text-primary"></i> Edit this page
+                    </a>
+                </li></ul>
+        </div>
+    </div>
+</div>
+
+
+  </div>
+</aside>
+
+      </div>
+    </main><footer class="footer mt-auto py-3 text-center container"><div class="offcanvas offcanvas-bottom h-auto" tabindex="-1" id="offcanvasActionsPanel"
+  aria-labelledby="offcanvasActionsPanelLabel">
+  <div class="offcanvas-header">
+    <div class="offcanvas-title h5" id="offcanvasActionsPanelLabel">
+      <i class="fas fa-fw fa-th-large me-1"></i>
+      Actions
+    </div>
+    <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" data-bs-target="offcanvasActionsPanel" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body mt-2"><div class="social-share mb-4 d-flex overflow-auto">
+      <a class="btn-social-share d-flex flex-column align-items-center me-3" rel="noopener noreferrer" aria-label="X Share Button"
+      target="_blank" href="https://x.com/intent/tweet?title=Sticky%20Widgets&url=http%3a%2f%2flocalhost%3a1313%2fen%2fdocs%2ftopics%2fsticky-widgets%2f">
+        <i class="fab fa-2x fa-fw fa-x-twitter mb-2"></i> X
+      </a>
+      <a class="btn-social-share d-flex flex-column align-items-center me-3" rel="noopener noreferrer" aria-label="Facebook Share Button"
+        target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fen%2fdocs%2ftopics%2fsticky-widgets%2f">
+        <i class="fab fa-2x fa-fw fa-facebook-f mb-2"></i> Facebook
+      </a>
+    </div>
+    <hr class="mb-4"><div class="actions d-flex overflow-auto align-items-center">
+      <a role="button" class="action action-go-back d-flex flex-column align-items-center me-3" href="javascript: window.history.back();">
+        <span class="action-icon mb-2"><i class="fas fa-2x fa-chevron-circle-down" data-fa-transform="rotate-90"></i></span> Go back
+      </a>
+      <a role="button" class="action action-reload-page d-flex flex-column align-items-center me-3">
+        <span class="action-icon mb-2"><i class="fas fa-2x fa-redo-alt"></i></span> Reload
+      </a>
+      <a role="button" class="action action-copy-url d-flex flex-column align-items-center me-3">
+        <span class="action-icon mb-2"><i class="fas fa-2x fa-link"></i></span> Copy URL
+      </a>
+    </div>
+  </div>
+</div><div class="row text-center text-lg-start">
+  <div class="col-12 mt-2 col-lg-3">
+    <p class="mb-2">HBS (Hugo Theme Bootstrap) v1</p>
+    <p class="text-secondary mb-2"><small>An extreme fast, responsive and feature-rich blog theme for Hugo</small></p><div class="copyright mb-2 text-secondary">
+  <small>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
+</small>
+</div>
+<div class="powered-by mb-2 text-secondary">
+  <small>
+    Build with ❤️ from the <a class="text-primary" href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a> and the <a class="text-primary" href="https://github.com/razonyang/hugo-theme-bootstrap" target="_blank" rel="noopener noreferrer">HBS</a> theme.
+  </small>
+</div>
+
+
+<nav class="social-links nav justify-content-center justify-content-between mb-2 mt-3">
+    <a class="nav-link social-link p-0 me-1 mb-2" href="mailto:user@domain.tld" title="Email">
+      <i class="fas fa-fw fa-envelope"></i>
+    </a>
+      <a class="nav-link social-link p-0 me-1 mb-2" target="_blank" href="https://github.com/razonyang/hugo-theme-bootstrap" title="GitHub" rel="me">
+        <i class="fa-fw fab fa-github"
+          ></i>
+      </a>
+      <a class="nav-link social-link p-0 me-1 mb-2" target="_blank" href="https://www.patreon.com/razonyang" title="Patreon" rel="me">
+        <i class="fa-fw fab fa-patreon"
+          ></i>
+      </a>
+      <a class="nav-link social-link p-0 me-1 mb-2" target="_blank" href="https://www.paypal.com/paypalme/razonyang" title="PayPal" rel="me">
+        <i class="fa-fw fab fa-paypal"
+          ></i>
+      </a>
+      <a class="nav-link social-link p-0 me-1 mb-2" target="_blank" href="https://www.vandenboom.icu" title="Website" rel="me">
+        <i class="fa-fw fas fa-link"
+          ></i>
+      </a>
+      <a class="nav-link social-link p-0 me-1 mb-2" target="_blank" href="https://x.com/ingvdboom" title="X" rel="me">
+        <i class="fa-fw fab fa-x-twitter"
+          ></i>
+      </a>
+  <a class="nav-link social-link p-0 me-1 mb-2" target="_blank" data-rss-feed href="http://localhost:1313/en/index.xml" title="RSS" rel="me">
+    <i class="fas fa-fw fa-rss"></i>
+  </a>
+</nav>
+</div>
+  <div class="col-12 col-lg-8 offset-0 offset-lg-1"><ul class="nav justify-content-between footer-memu mb-3 row"><li class="nav-item col-12 col-md-6 col-lg-3 px-0"><ul class="nav flex-column align-items-start">
+      <li class="nav-item w-100"><a class="nav-link fw-bold fs-lg" href="javascript: void(0);">Support</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
+Repository"
+  href="https://github.com/razonyang/hugo-theme-bootstrap" target="_blank" rel="noopener noreferrer">
+<span class="menu-icon me-1"><i class="fab fa-fw fa-github text-primary"></i></span>Repository</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
+Discussions"
+  href="https://github.com/razonyang/hugo-theme-bootstrap/discussions/new" target="_blank" rel="noopener noreferrer">
+<span class="menu-icon me-1"><i class="fas fa-fw fa-comments text-success"></i></span>Discussions</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
+Features Request"
+  href="https://github.com/razonyang/hugo-theme-bootstrap/issues/new?template=feature_request.md" target="_blank" rel="noopener noreferrer">
+<span class="menu-icon me-1"><i class="fas fa-fw fa-lightbulb text-warning"></i></span>Features Request</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
+Bug Report"
+  href="https://github.com/razonyang/hugo-theme-bootstrap/issues/new?template=bug_report.md" target="_blank" rel="noopener noreferrer">
+<span class="menu-icon me-1"><i class="fas fa-fw fa-bug text-danger"></i></span>Bug Report</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="Get Involved"
+  href="/en/docs/get-involved/"><i class="fas fa-handshake fa-fw me-1"></i>Get Involved</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
+Contact Me"
+  href="/en/contact/">
+<span class="menu-icon me-1"><i class="fas fa-fw fa-info-circle"></i></span>Contact Me</a></li></ul></li><li class="nav-item col-12 col-md-6 col-lg-3 px-0"><ul class="nav flex-column align-items-start">
+      <li class="nav-item w-100"><a class="nav-link fw-bold fs-lg" href="javascript: void(0);">Docs</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="Getting Started"
+  href="/en/docs/getting-started/">Getting Started</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
+Configuration"
+  href="/en/docs/configuration/">
+<span class="menu-icon me-1"><i class="fas fa-cog fa-fw"></i></span>Configuration</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
+Look and Feel"
+  href="/en/docs/look-and-feel/">
+<span class="menu-icon me-1"><i class="fas fa-fw fa-palette text-danger"></i></span>Look and Feel</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
+Markdown Syntax Guide"
+  href="/en/posts/markdown-syntax/">
+<span class="menu-icon me-1"><i class="fab fa-markdown fa-fw text-success"></i></span>Markdown Syntax Guide</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
+Content"
+  href="/en/docs/content/">
+<span class="menu-icon me-1"><i class="fas fa-newspaper fa-fw"></i></span>Content</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="Hooks"
+  href="/en/docs/advanced/hooks/">Hooks</a></li></ul></li><li class="nav-item col-12 col-md-6 col-lg-3 px-0"><ul class="nav flex-column align-items-start">
+      <li class="nav-item w-100"><a class="nav-link fw-bold fs-lg" href="javascript: void(0);">Features</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
+Search Layout"
+  href="/en/docs/layouts/search/">
+<span class="menu-icon me-1"><i class="fas fa-fw fa-search text-info"></i></span>Search Layout</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
+Image Processing"
+  href="/en/docs/image-processing/">
+<span class="menu-icon me-1"><i class="fas fa-fw fa-image"></i></span>Image Processing</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
+PWA"
+  href="/en/docs/pwa/">
+<span class="menu-icon me-1"><i class="fas fa-fw fa-th-large"></i></span>PWA</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
+Image Viewer"
+  href="/en/docs/image-viewer/">
+<span class="menu-icon me-1"><i class="fas fa-fw fa-images"></i></span>Image Viewer</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
+Comments Widget"
+  href="/en/docs/widgets/comments/">
+<span class="menu-icon me-1"><i class="fas fa-fw fa-comments text-success"></i></span>Comments Widget</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
+Funding Widget"
+  href="/en/docs/widgets/funding/">
+<span class="menu-icon me-1"><i class="fas fa-fw fa-coffee"></i></span>Funding Widget</a></li></ul></li><li class="nav-item col-12 col-md-6 col-lg-3 px-0"><ul class="nav flex-column align-items-start">
+      <li class="nav-item w-100"><a class="nav-link fw-bold fs-lg" href="javascript: void(0);">Sponsor</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="PayPal"
+  href="https://paypal.me/razonyang" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-paypal me-1"></i>PayPal</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="Ko-fi"
+  href="https://ko-fi.com/razonyang" target="_blank" rel="noopener noreferrer">Ko-fi</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="Open Collective"
+  href="https://opencollective.com/hbs" target="_blank" rel="noopener noreferrer">Open Collective</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="Patreon"
+  href="https://www.patreon.com/razonyang" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-patreon me-1"></i>Patreon</a></li></ul></li></ul></div>
+</div>
+
+<div class="sponsors">
+    <a class="me-3" href="https://www.digitalocean.com/?utm_medium=opensource&utm_source=hugo-theme-bootstrap" target="_blank" rel="noopener noreferrer">
+        <img class="bg-white px-2 border border-primary rounded" src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg" alt="Powered by Digital Ocean" width="114" height="51" loading="lazy" />
+    </a>
+    <a class="me-3" href="https://www.netlify.com" target="_blank" rel="noopener noreferrer">
+        <img class="bg-white rounded" src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" width="114" height="51" loading="lazy" />
+    </a>
+    <a href="https://docsearch.algolia.com/" target="_blank" rel="noopener noreferrer">
+        <img class="bg-white px-2 border border-primary rounded" src="https://docsearch.algolia.com/img/docsearch-logo.svg" alt="Search powered by DocSearch" width="114" height="51" loading="lazy" />
+    </a>
+</div>
+</footer>
+<script data-precache src="/assets/main/bundle.min.577a93cec68776bf4213fc7afd85d2adec01d30501632ac034cc6b0e112327f9.js" integrity="sha256-V3qTzsaHdr9CE/x6/YXSrewB0wUBYyrANMxrDhEjJ/k=" crossorigin="anonymous" async></script><script data-precache src="/assets/icons/bundle.min.f774bce69f84073f19b111828ae38b12babc05e640819f11be99de14acf2e036.js" integrity="sha256-93S85p&#43;EBz8ZsRGCiuOLErq8BeZAgZ8RvpneFKzy4DY=" crossorigin="anonymous" defer></script>
+<script data-precache src="/assets/viewer/bundle.min.04207f9ff17c8bdf9a9d1af1fb1a37e666d0fa003e6c3f3ce61736ac0ae5cc6d.js" integrity="sha256-BCB/n/F8i9&#43;anRrx&#43;xo35mbQ&#43;gA&#43;bD885hc2rArlzG0=" crossorigin="anonymous" defer></script>
+<script src="/js/sw-register.js" defer></script>
+<script src="https://giscus.app/client.js"
+    data-repo="razonyang/hugo-theme-bootstrap"
+    data-repo-id="MDEwOlJlcG9zaXRvcnkzMDQzMzI4NTM="
+    data-category="General"
+    data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyODkzODg2"
+    data-mapping="pathname"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    defer>
+</script>
+
+
+  </body>
+</html>
