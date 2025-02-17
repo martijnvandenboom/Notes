@@ -1,6 +1,6 @@
 (() => {
   // ns-hugo-params:/Users/martijnvandenboom/Library/Caches/hugo_cache/modules/filecache/modules/pkg/mod/github.com/razonyang/hugo-theme-bootstrap@v1.11.1-0.20250216052341-5c2a5530546e/assets/js/local-storage/index.ts
-  var local_storage_default = { baseURL: "https://hbs.razonyang.com/v1/" };
+  var local_storage_default = { baseURL: "https://ingvdboom-notes.netlify.app/v1/" };
 
   // ns-hugo-imp:/Users/martijnvandenboom/Library/Caches/hugo_cache/modules/filecache/modules/pkg/mod/github.com/razonyang/hugo-theme-bootstrap@v1.11.1-0.20250216052341-5c2a5530546e/assets/js/local-storage/index.ts
   var PathLocalStorage = class {

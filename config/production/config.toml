@@ -1,4 +1,4 @@
-baseURL = "https://hbs.razonyang.com/v1/"
+baseURL = "https://ingvdboom-notes.netlify.app/v1/"
 
 [services]
   [services.googleAnalytics]

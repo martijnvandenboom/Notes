@@ -2,7 +2,7 @@
   identifier = "home"
   name = "Home"
   weight = 1
-  url = "https://hbs.razonyang.com/"
+  url = "https://ingvdboom-notes.netlify.app/"
   [main.params]
     icon = '<i class="fas fa-home"></i>'
 [[main]]
@@ -115,24 +115,24 @@
   parent = "sponsor"
   name = "PayPal"
   weight = 1
-  url = "https://paypal.me/razonyang"
+  url = "https://paypal.me/ingmacmvandenboom"
   pre = '<i class="fab fa-fw fa-paypal me-1"></i>'
 [[footer]]
   identifier = "sponsor-ko-fi"
   parent = "sponsor"
   name = "Ko-fi"
   weight = 2
-  url = "https://ko-fi.com/razonyang"
+  url = "https://ko-fi.com/martijnvandenboom"
 [[footer]]
   identifier = "sponsor-opencollective"
   parent = "sponsor"
   name = "Open Collective"
   weight = 3
-  url = "https://opencollective.com/hbs"
+  url = "https://opencollective.com/ing-m-a-c-m-martijn-van-den-boom"
 [[footer]]
   identifier = "sponsor-patreon"
   parent = "sponsor"
   name = "Patreon"
   weight = 4
-  url = "https://www.patreon.com/razonyang"
+  url = "https://www.patreon.com/martijnvandenboom"
   pre = '<i class="fab fa-fw fa-patreon me-1"></i>'

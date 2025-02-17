@@ -2,9 +2,16 @@
   languageName = "English"
   weight = 1
 
+[nl]
+  languageName = "Nederlands"
+  weight = 2
+  [fr.params]
+    description = "Een extreem snel, responsief en feature-rijk blogthema voor Hugo"
+    keywords = "Hugo, Bootstrap, Theme Blog"
+
 [fr]
   languageName = "Français"
-  weight = 2
+  weight = 3
   [fr.params]
     description = "Un thème de blog extrêmement rapide, réactif et riche en fonctionnalités pour Hugo"
     keywords = "Hugo, Bootstrap, Thème Blog"
@@ -20,7 +27,7 @@
 
 [zh-hant]
   languageName = "繁體中文"
-  weight = 3
+  weight = 5
   [zh-hant.params]
     description = "一個快速、響應式和功能豐富的 Hugo 博客主題"
     keywords = "Hugo, Bootstrap, 博客主題"
@@ -30,13 +37,13 @@
 [ar]
   languageName = "العربية"
   LanguageDirection = 'rtl'
-  weight = 5
+  weight = 6
   [ar.params]
     description = "ثيم مدونة مصمم لـ هوجو سريع وغني بالميزات"
 
 [ja]
   languageName = "日本語"
-  weight = 6
+  weight = 7
   [ja.params]
     description = "Hugo向けにカスタマイズされた非常に高速で応答性の高い、機能豊富なブログテーマ"
     keywords = "Hugo, Bootstrap, ブログテーマ"

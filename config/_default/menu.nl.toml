@@ -2,7 +2,7 @@
   identifier = "home"
   name = "Home"
   weight = 1
-  url = "https://hbs.razonyang.com/"
+  url = "https://ingvdboom-notes.netlify.app/"
   [main.params]
     icon = '<i class="fas fa-home"></i>'
 [[main]]
@@ -13,7 +13,7 @@
     icon = '<i class="fas fa-fw fa-blog"></i>'
 [[main]]
   identifier = "animations"
-  name = "Animations"
+  name = "Animaties"
   weight = 2
   [main.params]
     icon = '<i class="fas fa-fw fa-film"></i>'
@@ -33,7 +33,7 @@
   [main.params]
     icon = '<i class="fab fa-fw fa-github text-primary"></i>'
 [[main]]
-  name = "Discussions"
+  name = "Discussies"
   identifier = "discussions"
   parent = "support"
   url = "https://github.com/razonyang/hugo-theme-bootstrap/discussions/new"
@@ -42,13 +42,13 @@
     description = "Ask and discuss questions with others."
     icon = '<i class="fas fa-fw fa-comments text-success"></i>'
 [[main]]
-  name = "Features Request"
+  name = "Feature Verzoek"
   identifier = "feature-request"
   parent = "support"
   url = "https://github.com/razonyang/hugo-theme-bootstrap/issues/new?template=feature_request.yml"
   weight = 3
   [main.params]
-    description = "Suggest new or updated features."
+    description = "Stel nieuwe of bijgewerkte functies voor."
     icon = '<i class="fas fa-fw fa-lightbulb text-warning"></i>'
 [[main]]
   name = "Bug Report"
@@ -121,24 +121,24 @@
   parent = "sponsor"
   name = "PayPal"
   weight = 1
-  url = "https://paypal.me/razonyang"
+  url = "https://paypal.me/ingmacmvandenboom"
   pre = '<i class="fab fa-fw fa-paypal me-1"></i>'
 [[footer]]
   identifier = "sponsor-ko-fi"
   parent = "sponsor"
   name = "Ko-fi"
   weight = 2
-  url = "https://ko-fi.com/razonyang"
+  url = "https://ko-fi.com/martijnvandenboom"
 [[footer]]
   identifier = "sponsor-opencollective"
   parent = "sponsor"
   name = "Open Collective"
   weight = 3
-  url = "https://opencollective.com/hbs"
+  url = "https://opencollective.com/ing-m-a-c-m-martijn-van-den-boom"
 [[footer]]
   identifier = "sponsor-patreon"
   parent = "sponsor"
   name = "Patreon"
   weight = 4
-  url = "https://www.patreon.com/razonyang"
+  url = "https://www.patreon.com/martijnvandenboom"
   pre = '<i class="fab fa-fw fa-patreon me-1"></i>'

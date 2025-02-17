@@ -118,7 +118,7 @@ imageTitleAsCaption = true
 
 [analytics]
 # baidu = "" # Baidu Analytics
-# plausible = "razonyang.com,hbs.razonyang.com" # Multiple domains separated by comma.
+# plausible = "razonyang.com,ingvdboom-notes.netlify.app" # Multiple domains separated by comma.
 # plausibleScript = "" # Specify the self-hosted script or extended script. Default to https://plausible.io/js/script.js.
 
 # Site verification
@@ -132,8 +132,8 @@ sogou = ""
 shenma = ""
 
 [creativeCommons]
-# by = true # Credit must be given to you, the creator.
-# nc = true # Only noncommercial use of your work is permitted.
+by = true # Credit must be given to you, the creator.
+nc = true # Only noncommercial use of your work is permitted.
 # nd = true # No derivatives or adaptations of your work are permitted.
 # sa = true # Adaptations must be shared under the same terms.
 
@@ -216,11 +216,11 @@ minMatchCharLength = 3
 [funding]
 alipay = "https://razonyang.com/images/reward/alipay.webp"
 wechat = "https://razonyang.com/images/reward/wechat.webp"
-buymeacoffee = "razonyang"
-ko_fi = "razonyang"
-patreon = "razonyang"
-open_collective = "hbs"
-paypal = "razonyang"
+buymeacoffee = "ingvdboom"
+ko_fi = "martijnvandenboom"
+patreon = "martijnvandenboom"
+open_collective = "ing-m-a-c-m-martijn-van-den-boom"
+paypal = "ingmacmvandenboom"
 
 #[share]
 #addThis = "" # AddThis pubid.
@@ -237,7 +237,7 @@ paypal = "razonyang"
 [pwa]
 [pwa.manifest]
 # name = "" # Default to site title.
-short_name = "HBS"
+short_name = "MvdB"
 # display = "fullscreen" # Default to standalone.
 # description = "" # Default to site description.
 # theme_color = ""
@@ -291,8 +291,8 @@ subPath = "exampleSite"
 # expandBreakpoint = "xl" # expand the content above the specific breakpoint: lg, xl, xxl.
 [topAppBar.social]
 github = "razonyang/hugo-theme-bootstrap"
-patreon = "razonyang"
-paypal = "razonyang"
+patreon = "martijnvandenboom"
+paypal = "ingmacmvandenboom"
 # twitter = "ingvdboom"
 # twitter_icon = "fa-x"
 x = "ingvdboom"
@@ -308,43 +308,43 @@ reduceFontSize = true
 # content = true
 
 [social]
-email = "user@domain.tld"
+email = "ingmacmvandenboom@gmail.com"
 # facebook = "yourfacebookusername"
-github = "razonyang/hugo-theme-bootstrap"
+github = "martijnvandenboom"
 # gitlab = "yourgitlabusername"
-# linkedin = "yourlinkedinusername"
-# xing = "yourxingusername"
-# stackoverflow = "yourstackoverflowuserid"
-# twitter = "razonyang"
+linkedin = "macmvandenboom"
+xing = "MACMMartijn_vandenBoom"
+stackoverflow = "13417146"
+# twitter = "ingvdboom"
 # twitter_icon = "fa-x"
 x = "ingvdboom"
-website = "https://www.vandenboom.icu"
+website = "https://ingvdboom.netlify.app"
 # weibo = "yourweibousername"
 # zhihu = "yourzhihuusername"
-# instagram = "yourinstagramusername"
+instagram = "ingmacmvandenboom"
 # itchio = "youritchiousername"
 # quora = "yourquorausername"
 # tumblr = "yourtumblrusername"
 # reddit = "yourredditusername"
-# telegram = "yourtelegramusername"
+telegram = "ingvdboom"
 # qq = "yourqqnumber"
 # dockerhub = "yourdockerhubusername"
-# bitbucket = "yourbitbucketworkspaceid"
+bitbucket = "martijnvandenboom"
 # kaggle = "yourkaggleusername"
 # medium = "yourmediumusername" # Medium username or custom domain(e.g. https://razonyang.com).
-# lastfm = "yourlastfmusername"
+lastfm = "ingvdboom"
 # bilibili = "yourbilibiliuserid"
-# youtube = "youryoutubechannelid"
+youtube = "channel/UCslXipyVBwsTe6UjhVNOz7A"
 # discord = "yourdiscordinvitecode"
 # discourse = "https://yourforum.tld"
 # facebookgroup = "yourfacebookgroupname"
 # tiktok = "yourtiktokusername"
 # artstation = "yourartstationusername"
-# pinterest = "yourpinterestusername"
+pinterest = "macmvandenboom"
 # mastodon = "yourmastodonusername"
 # liberapay = "yourliberapayaccount"
-paypal="razonyang"
-patreon="razonyang"
+paypal="ingmacmvandenboom"
+patreon="martijnvandenboom"
 # tipeee="yourtipeeeaccount-fr"
 # rss = "" # Disable RSS link
 
@@ -352,24 +352,22 @@ patreon="razonyang"
 name = "ing. M.A.C.M. (Martijn) van den Boom"
 avatar = "/images/Martijn_001.jpeg" # Avatar image. Default to "images/profile.webp".
 bio = "</br>Computer Infrastructure Architect</br>ingenieur, docent en mentor</br></br>"
-# company = 'company'
+company = 'Consultancy'
 # company = '<a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>'
-# location = "Earth"
-# alternatives:
 # location = "<a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>"
-# location = "<a href='https://www.google.com/maps/search/Earth'>Earth</a>"
+location = "<a href='https://www.google.com/maps/search/Netherlands'>Netherlands</a>"
 # about = "https://domain.tld" # The external about page. The internal about page will be used if not set.
 
 [author.params]
   #layout = "compact"
 
 [author.social]
-  email = "razonyang@gmail.com"
-  github = "razonyang/hugo-theme-bootstrap"
-  # twitter = "razonyang"
+  email = "ingmacmvandenboom@gmail.com"
+  github = "martijnvandenboom"
+  # twitter = "ingvdboom"
   # twitter_icon = "fa-x"
   x = "ingvdboom"
-  website = "https://www.vandenboom.icu"
-  patreon = "razonyang"
-  paypal = "razonyang"
+  website = "https://ingvdboom-notes.netlify.app"
+  patreon = "martijnvandenboom"
+  paypal = "ingmacmvandenboom"
   # rss = "" # Disable RSS link
