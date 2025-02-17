@@ -1,22 +1,23 @@
 <!doctype html>
 <html class="position-relative" itemscope itemtype="https://schema.org/WebPage" lang="zh-hant"
   data-bs-theme="auto" data-palette="purple">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><script src="/assets/init/bundle.min.27cc3e56076f31616e923d0268ca8b73d1960326e2780b9f16340c530ae6fb4a.js" integrity="sha256-J8w&#43;VgdvMWFukj0CaMqLc9GWAybieAufFjQMUwrm&#43;0o=" crossorigin="anonymous"></script>
+  <head><script src="/v1/assets/init/bundle.min.571c935bc647aada0079193b24d8e26aeafea2943844d11b59615abb73f9b712.js" integrity="sha256-VxyTW8ZHqtoAeRk7JNjiaur&#43;opQ4RNEbWWFau3P5txI=" crossorigin="anonymous"></script>
 <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>部署於 GitHub Pages - Hugo Bootstrap</title>
-    <link rel="icon" href="/favicon_hu_e83888ddb6472856.png" sizes="16x16" type="image/png">
-    <link rel="icon" href="/favicon_hu_276a61518911b273.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="/favicon_hu_1fce3f16494f6ae3.png" sizes="150x150" type="image/png">
-    <link rel="apple-touch-icon" href="/favicon_hu_f105fae78c239d0f.png" sizes="180x180" type="image/png">
-    <link rel="icon" href="/favicon_hu_af357fe99fc0195a.png" sizes="192x192" type="image/png">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#6f42c1">
+    <link rel="icon" href="/v1/favicon_hu_e83888ddb6472856.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="/v1/favicon_hu_276a61518911b273.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/v1/favicon_hu_1fce3f16494f6ae3.png" sizes="150x150" type="image/png">
+    <link rel="apple-touch-icon" href="/v1/favicon_hu_f105fae78c239d0f.png" sizes="180x180" type="image/png">
+    <link rel="icon" href="/v1/favicon_hu_af357fe99fc0195a.png" sizes="192x192" type="image/png">
+<link rel="mask-icon" href="/v1/safari-pinned-tab.svg" color="#6f42c1">
 <meta name="keywords" content="Hugo, Bootstrap, 博客主題" />
   <meta name="description" content="本文將介紹如何使用 GitHub Actions 部署站點到 GitHub Pages。" />
+    <meta name="robots" content="index, follow" />
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="部署於 GitHub Pages">
   <meta name="twitter:description" content="本文將介紹如何使用 GitHub Actions 部署站點到 GitHub Pages。">
-<meta property="og:url" content="http://localhost:1313/zh-hant/docs/deployment/github-pages/">
+<meta property="og:url" content="https://hbs.razonyang.com/v1/zh-hant/docs/deployment/github-pages/">
   <meta property="og:site_name" content="Hugo Bootstrap">
   <meta property="og:title" content="部署於 GitHub Pages">
   <meta property="og:description" content="本文將介紹如何使用 GitHub Actions 部署站點到 GitHub Pages。">
@@ -27,13 +28,13 @@
     <meta property="article:modified_time" content="2022-07-13T10:30:23+08:00">
     <meta property="article:tag" content="GitHub Pages">
     <meta property="article:tag" content="GitHub Actions">
-      <meta property="og:see_also" content="http://localhost:1313/zh-hant/docs/widgets/funding/">
-      <meta property="og:see_also" content="http://localhost:1313/zh-hant/docs/topics/algolia/">
-      <meta property="og:see_also" content="http://localhost:1313/zh-hant/docs/shortcodes/iframe/">
-      <meta property="og:see_also" content="http://localhost:1313/zh-hant/docs/shortcodes/game/">
-      <meta property="og:see_also" content="http://localhost:1313/zh-hant/docs/layouts/landing/">
-      <meta property="og:see_also" content="http://localhost:1313/zh-hant/docs/widgets/repository/">
-      <meta property="og:see_also" content="http://localhost:1313/zh-hant/docs/deployment/overview/">
+      <meta property="og:see_also" content="https://hbs.razonyang.com/v1/zh-hant/docs/widgets/funding/">
+      <meta property="og:see_also" content="https://hbs.razonyang.com/v1/zh-hant/docs/topics/algolia/">
+      <meta property="og:see_also" content="https://hbs.razonyang.com/v1/zh-hant/docs/shortcodes/iframe/">
+      <meta property="og:see_also" content="https://hbs.razonyang.com/v1/zh-hant/docs/shortcodes/game/">
+      <meta property="og:see_also" content="https://hbs.razonyang.com/v1/zh-hant/docs/layouts/landing/">
+      <meta property="og:see_also" content="https://hbs.razonyang.com/v1/zh-hant/docs/widgets/repository/">
+      <meta property="og:see_also" content="https://hbs.razonyang.com/v1/zh-hant/docs/deployment/overview/">
 
   <meta itemprop="name" content="部署於 GitHub Pages">
   <meta itemprop="description" content="本文將介紹如何使用 GitHub Actions 部署站點到 GitHub Pages。">
@@ -41,17 +42,32 @@
   <meta itemprop="dateModified" content="2022-07-13T10:30:23+08:00">
   <meta itemprop="wordCount" content="227">
   <meta itemprop="keywords" content="GitHub Pages,GitHub Actions">
-  <meta property="og:image" content="http://localhost:1313/images/logo.png"/>
-  <meta name="twitter:image" content="http://localhost:1313/images/logo.png"/>
+  <meta property="og:image" content="https://hbs.razonyang.com/v1/images/logo.png"/>
+  <meta name="twitter:image" content="https://hbs.razonyang.com/v1/images/logo.png"/>
   <meta property="og:image:alt" content="部署於 GitHub Pages" />
   <meta name="twitter:image:alt" content="部署於 GitHub Pages" />
-  <link rel="manifest" href="/zh-hant/manifest.json">
-<link rel="alternate" hreflang="en" href="/en/docs/deployment/github-pages/" />
-<link rel="alternate" hreflang="zh-hans" href="/zh-hans/docs/deployment/github-pages/" />
+  <link rel="manifest" href="/v1/zh-hant/manifest.json">
+<link rel="alternate" hreflang="en" href="/v1/en/docs/deployment/github-pages/" />
+<link rel="alternate" hreflang="zh-hans" href="/v1/zh-hans/docs/deployment/github-pages/" />
 
-<link data-precache rel="stylesheet" href="/assets/main/bundle.min.1ac87d1bb100efbc5f2c352a082702cd01f44dc34c888e0eaa5b174ceea7bd80.css" integrity="sha256-Gsh9G7EA77xfLDUqCCcCzQH0TcNMiI4OqlsXTO6nvYA=" crossorigin="anonymous">
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-R7DPHPZ86S"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-R7DPHPZ86S');
+        }
+      </script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7827859788508375"></script>
+<link data-precache rel="stylesheet" href="/v1/main/scss/main.css" integrity="" crossorigin="anonymous">
 
-    <link data-precache rel="stylesheet" href="/assets/viewer/bundle.min.5778ec8e95e9d1e612441ebcf911ccb843e5cc5d9a1fc99ec90a32adbfebb3b4.css" integrity="sha256-V3jsjpXp0eYSRB68&#43;RHMuEPlzF2aH8meyQoyrb/rs7Q=" crossorigin="anonymous">
+    <link data-precache rel="stylesheet" href="/v1/assets/viewer/bundle.min.16d2c85c4cae39a98f8cb7a977e95e554b174f91a5484c32605637156f49ca6b.css" integrity="sha256-FtLIXEyuOamPjLepd&#43;leVUsXT5GlSEwyYFY3FW9Jyms=" crossorigin="anonymous">
+    <link data-precache rel="stylesheet" href="/v1/assets/docsearch/bundle.min.9f624e70cbf352e8f4d20ef8df00a25a2c2cc637ab23f922387c25e261f78959.css" integrity="sha256-n2JOcMvzUuj00g743wCiWiwsxjerI/kiOHwl4mH3iVk=" crossorigin="anonymous">
 
 
 </head>
@@ -64,8 +80,8 @@
       <i class="fas fa-bars"></i>
     </button>
 <a class="navbar-brand d-flex align-items-center flex-grow-1 flex-xxl-grow-0 justify-content-xxl-start justify-content-center ms-2 ms-xxl-0 mx-auto me-xxl-2"
-    href="http://localhost:1313/zh-hant/">
-    <picture><img class="logo " alt="Logo" src="http://localhost:1313/images/logo.webp?v=b67a4a22f7136172a375591e392eefd4" loading="lazy" width="500" height="500" />
+    href="https://hbs.razonyang.com/v1/zh-hant/">
+    <picture><img class="logo " alt="Logo" src="https://hbs.razonyang.com/v1/images/logo.webp?v=b67a4a22f7136172a375591e392eefd4" loading="lazy" width="500" height="500" />
 </picture>
 Notes
 </a>
@@ -91,7 +107,7 @@ Notes
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog" data-bs-popper="none">
               <li>
                 <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
-                  href="http://localhost:1313/zh-hant/archives/">
+                  href="https://hbs.razonyang.com/v1/zh-hant/archives/">
                     <span class="dropdown-item-icon me-2 p-2 rounded">
                       <i class="fas fa-fw fa-archive text-primary"></i>
                     </span>
@@ -101,7 +117,7 @@ Notes
               </li>
               <li>
                 <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
-                  href="http://localhost:1313/zh-hant/series/">
+                  href="https://hbs.razonyang.com/v1/zh-hant/series/">
                     <span class="dropdown-item-icon me-2 p-2 rounded">
                       <i class="fas fa-fw fa-columns text-info"></i>
                     </span>
@@ -111,7 +127,7 @@ Notes
               </li>
               <li>
                 <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
-                  href="http://localhost:1313/zh-hant/categories/">
+                  href="https://hbs.razonyang.com/v1/zh-hant/categories/">
                     <span class="dropdown-item-icon me-2 p-2 rounded">
                       <i class="fas fa-fw fa-folder text-warning"></i>
                     </span>
@@ -122,7 +138,7 @@ Notes
               </li>
               <li>
                 <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
-                  href="http://localhost:1313/zh-hant/tags/">
+                  href="https://hbs.razonyang.com/v1/zh-hant/tags/">
                     <span class="dropdown-item-icon me-2 p-2 rounded">
                       <i class="fas fa-fw fa-tags text-success"></i>
                     </span>
@@ -133,7 +149,7 @@ Notes
               </li>
               <li>
                 <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
-                  href="http://localhost:1313/zh-hant/authors/">
+                  href="https://hbs.razonyang.com/v1/zh-hant/authors/">
                     <span class="dropdown-item-icon me-2 p-2 rounded">
                       <i class="fas fa-fw fa-user text-danger"></i>
                     </span>
@@ -197,7 +213,7 @@ Notes
               <li><hr class="dropdown-divider"></li>
               <li>
                 <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
-                  href="http://localhost:1313/zh-hant/docs/get-involved/">
+                  href="https://hbs.razonyang.com/v1/zh-hant/docs/get-involved/">
                     <span class="dropdown-item-icon me-2 p-2 rounded">
                       <i class="fas fa-handshake fa-fw"></i>
                     </span>
@@ -207,7 +223,7 @@ Notes
               </li>
               <li>
                 <a class="dropdown-item d-flex align-items-center text-wrap text-xxl-nowrap"
-                  href="http://localhost:1313/zh-hant/faq/">
+                  href="https://hbs.razonyang.com/v1/zh-hant/faq/">
                     <span class="dropdown-item-icon me-2 p-2 rounded">
                       <i class="fas fa-question-circle fa-fw text-info"></i>
                     </span>
@@ -220,7 +236,7 @@ Notes
         </ul>
         
     <hr class="d-xxl-none">
-    <form class="search-bar ms-auto my-auto" action="/zh-hant/search/" novalidate>
+    <form class="search-bar ms-auto my-auto" action="/v1/zh-hant/search/" novalidate>
       <div class="input-group align-items-center">
         <span class="btn btn-search disabled position-absolute left-0 border-0 px-1">
           <i class="fas fa-fw fa-search fa-lg"></i>
@@ -267,7 +283,7 @@ Notes
           ></i>
         <span class="ms-1 d-xxl-none">X</span>
       </a>
-  <a class="nav-link social-link col-6 col-xxl-auto p-1" target="_blank" data-rss-feed href="http://localhost:1313/zh-hant/index.xml" title="RSS" rel="me">
+  <a class="nav-link social-link col-6 col-xxl-auto p-1" target="_blank" data-rss-feed href="https://hbs.razonyang.com/v1/zh-hant/index.xml" title="RSS" rel="me">
     <i class="fas fa-fw fa-rss"></i>
     <span class="ms-1 d-xxl-none">RSS</span>
   </a>
@@ -285,37 +301,37 @@ Notes
     </a>
     <ul class="language-dropdown-menu dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
         <li>
-        <a class="dropdown-item" href="/en/">
+        <a class="dropdown-item" href="/v1/en/">
             English
         </a>
         </li>
         <li>
-        <a class="dropdown-item" href="/fr/">
+        <a class="dropdown-item" href="/v1/fr/">
             Français
         </a>
         </li>
         <li>
-        <a class="dropdown-item active" href="/zh-hant/">
+        <a class="dropdown-item active" href="/v1/zh-hant/">
             繁體中文
         </a>
         </li>
         <li>
-        <a class="dropdown-item" href="/zh-hans/">
+        <a class="dropdown-item" href="/v1/zh-hans/">
             简体中文
         </a>
         </li>
         <li>
-        <a class="dropdown-item" href="/ar/">
+        <a class="dropdown-item" href="/v1/ar/">
             العربية
         </a>
         </li>
         <li>
-        <a class="dropdown-item" href="/ja/">
+        <a class="dropdown-item" href="/v1/ja/">
             日本語
         </a>
         </li>
         <li>
-        <a class="dropdown-item" href="/nl/">
+        <a class="dropdown-item" href="/v1/nl/">
             
         </a>
         </li></ul>
@@ -456,13 +472,15 @@ Notes
         aria-controls="navbarMenus" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-ellipsis-h"></i>
       </button>
+  <hr class="vr d-none d-xxl-block ms-xxl-1">
+  <div class="search-button d-flex align-items-center ms-0 ms-xxl-2 p-0" data-search-index=""></div>
     </div>
   </div>
 </nav>
 
 </header>
 
-    <main class="container has-sidebar" data-kind="page"><script data-precache src="/js/main-init.8c7aa25b4ed385a038fb233f0853f27f92dcedd81805a0bb66225171d091f322.js" integrity="sha256-jHqiW07ThaA4&#43;yM/CFPyf5Lc7dgYBaC7ZiJRcdCR8yI=" crossorigin="anonymous"></script>
+    <main class="container has-sidebar" data-kind="page"><script data-precache src="/v1/js/main-init.d3cc4f01175cdc1ecf7fd20a206db4da977508ba10e255d7bb81c6b77ad9d71d.js" integrity="sha256-08xPARdc3B7Pf9IKIG202pd1CLoQ4lXXu4HGt3rZ1x0=" crossorigin="anonymous"></script>
 
       <div class="row content"><noscript>
     <div class="alert alert-danger" role="alert">你的瀏覽器不支持 JavaScript。</div>
@@ -481,7 +499,7 @@ Notes
 </div>
 <ul class="list-unstyled mb-2 w-100"><li class="mb-2" tabindex="-1">
           <div class="py-1 d-flex justify-content-between align-items-center">
-            <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/getting-started/"><span class="docs-nav-title-icon me-1"><i class="fas fa-book fa-fw text-primary"></i></span><span class="docs-nav-title">快速入門</span></a>
+            <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/getting-started/"><span class="docs-nav-title-icon me-1"><i class="fas fa-book fa-fw text-primary"></i></span><span class="docs-nav-title">快速入門</span></a>
             <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
               data-bs-target="#nav-7917b3dec92295d13dad091de1c4469b" aria-expanded="false" aria-controls="nav-7917b3dec92295d13dad091de1c4469b">
               <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
@@ -491,13 +509,13 @@ Notes
             <div class="btn-toggle-nav fw-normal ms-2 small">
               <ul class="list-unstyled mb-2 w-100">
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/getting-started/introduction/"><span class="docs-nav-title">簡介</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/getting-started/introduction/"><span class="docs-nav-title">簡介</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/getting-started/prerequisites/"><span class="docs-nav-title">先決條件</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/getting-started/prerequisites/"><span class="docs-nav-title">先決條件</span></a>
         </li><li class="mb-2" tabindex="-1">
           <div class="py-1 d-flex justify-content-between align-items-center">
-            <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/getting-started/installation/"><span class="docs-nav-title">安裝</span></a>
+            <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/getting-started/installation/"><span class="docs-nav-title">安裝</span></a>
             <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
               data-bs-target="#nav-b9a23e77cfbb9890125706143ef994fa" aria-expanded="false" aria-controls="nav-b9a23e77cfbb9890125706143ef994fa">
               <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
@@ -507,25 +525,25 @@ Notes
             <div class="btn-toggle-nav fw-normal ms-2 small">
               <ul class="list-unstyled mb-2 w-100">
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/getting-started/installation/starter-template/" target="_blank"><span class="docs-nav-title">Starter Template</span><i class="ms-1 fas fa-external-link-square-alt"></i></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/getting-started/installation/starter-template/" target="_blank"><span class="docs-nav-title">Starter Template</span><i class="ms-1 fas fa-external-link-square-alt"></i></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/getting-started/installation/hugo-module/"><span class="docs-nav-title">Hugo Module</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/getting-started/installation/hugo-module/"><span class="docs-nav-title">Hugo Module</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/getting-started/installation/git-submodule/"><span class="docs-nav-title">Git Submodule</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/getting-started/installation/git-submodule/"><span class="docs-nav-title">Git Submodule</span></a>
         </li></ul>
             </div>
           </div>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/getting-started/upgradation/"><span class="docs-nav-title">升級</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/getting-started/upgradation/"><span class="docs-nav-title">升級</span></a>
         </li></ul>
             </div>
           </div>
         </li><li class="mb-2" tabindex="-1">
           <div class="py-1 d-flex justify-content-between align-items-center">
-            <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/configuration/"><span class="docs-nav-title-icon me-1"><i class="fas fa-cog fa-fw"></i></span><span class="docs-nav-title">配置</span></a>
+            <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/configuration/"><span class="docs-nav-title-icon me-1"><i class="fas fa-cog fa-fw"></i></span><span class="docs-nav-title">配置</span></a>
             <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
               data-bs-target="#nav-8cffe7c5577b391f4960484b4be95489" aria-expanded="false" aria-controls="nav-8cffe7c5577b391f4960484b4be95489">
               <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
@@ -535,34 +553,34 @@ Notes
             <div class="btn-toggle-nav fw-normal ms-2 small">
               <ul class="list-unstyled mb-2 w-100">
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/configuration/structure/"><span class="docs-nav-title">結構</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/configuration/structure/"><span class="docs-nav-title">結構</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/configuration/site/"><span class="docs-nav-title">配置</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/configuration/site/"><span class="docs-nav-title">配置</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/configuration/site-params/"><span class="docs-nav-title">站點參數</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/configuration/site-params/"><span class="docs-nav-title">站點參數</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/configuration/page-params/"><span class="docs-nav-title">頁面參數</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/configuration/page-params/"><span class="docs-nav-title">頁面參數</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/configuration/multilangual/"><span class="docs-nav-title">多語言</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/configuration/multilangual/"><span class="docs-nav-title">多語言</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/configuration/menu/"><span class="docs-nav-title">菜單</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/configuration/menu/"><span class="docs-nav-title">菜單</span></a>
         </li></ul>
             </div>
           </div>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/content/"><span class="docs-nav-title-icon me-1"><i class="fas fa-newspaper fa-fw"></i></span><span class="docs-nav-title">內容</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/content/"><span class="docs-nav-title-icon me-1"><i class="fas fa-newspaper fa-fw"></i></span><span class="docs-nav-title">內容</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/look-and-feel/"><span class="docs-nav-title-icon me-1"><i class="fas fa-palette fa-fw text-danger"></i></span><span class="docs-nav-title">觀感</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/look-and-feel/"><span class="docs-nav-title-icon me-1"><i class="fas fa-palette fa-fw text-danger"></i></span><span class="docs-nav-title">觀感</span></a>
         </li><li class="mb-2" tabindex="-1">
           <div class="py-1 d-flex justify-content-between align-items-center text-primary">
-            <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/deployment/"><span class="docs-nav-title-icon me-1"><i class="fas fa-fw fa-cloud-upload-alt text-success"></i></span><span class="docs-nav-title">部署</span></a>
+            <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/deployment/"><span class="docs-nav-title-icon me-1"><i class="fas fa-fw fa-cloud-upload-alt text-success"></i></span><span class="docs-nav-title">部署</span></a>
             <a class="btn-toggle ms-1" role="button" data-bs-toggle="collapse"
               data-bs-target="#nav-97f5b91d769bfae7c0bdf153f9b91983" aria-expanded="true" aria-controls="nav-97f5b91d769bfae7c0bdf153f9b91983">
               <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
@@ -572,31 +590,31 @@ Notes
             <div class="btn-toggle-nav fw-normal ms-2 small">
               <ul class="list-unstyled mb-2 w-100">
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/deployment/overview/"><span class="docs-nav-title">概覽</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/deployment/overview/"><span class="docs-nav-title">概覽</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/deployment/cloudflare-pages/"><span class="docs-nav-title">Cloudflare Pages</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/deployment/cloudflare-pages/"><span class="docs-nav-title">Cloudflare Pages</span></a>
         </li>
         <li class="mb-2 py-1 text-primary border-2 border-start border-primary ps-2 docs-nav-active-item" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/deployment/github-pages/"><span class="docs-nav-title">GitHub Pages</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/deployment/github-pages/"><span class="docs-nav-title">GitHub Pages</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/deployment/netlify/"><span class="docs-nav-title">Netlify</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/deployment/netlify/"><span class="docs-nav-title">Netlify</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/deployment/docker/"><span class="docs-nav-title">Docker</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/deployment/docker/"><span class="docs-nav-title">Docker</span></a>
         </li></ul>
             </div>
           </div>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/image-viewer/"><span class="docs-nav-title-icon me-1"><i class="fas fa-images fa-fw"></i></span><span class="docs-nav-title">圖片查看器</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/image-viewer/"><span class="docs-nav-title-icon me-1"><i class="fas fa-images fa-fw"></i></span><span class="docs-nav-title">圖片查看器</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/image-processing/"><span class="docs-nav-title-icon me-1"><i class="fas fa-image fa-fw"></i></span><span class="docs-nav-title">圖像處理</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/image-processing/"><span class="docs-nav-title-icon me-1"><i class="fas fa-image fa-fw"></i></span><span class="docs-nav-title">圖像處理</span></a>
         </li><li class="mb-2" tabindex="-1">
           <div class="py-1 d-flex justify-content-between align-items-center">
-            <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/widgets/"><span class="docs-nav-title-icon me-1"><i class="fas fa-cubes fa-fw" style="color: blue;"></i></span><span class="docs-nav-title">小部件</span></a>
+            <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/widgets/"><span class="docs-nav-title-icon me-1"><i class="fas fa-cubes fa-fw" style="color: blue;"></i></span><span class="docs-nav-title">小部件</span></a>
             <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
               data-bs-target="#nav-321724c46599463125195c9744ac591a" aria-expanded="false" aria-controls="nav-321724c46599463125195c9744ac591a">
               <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
@@ -606,28 +624,28 @@ Notes
             <div class="btn-toggle-nav fw-normal ms-2 small">
               <ul class="list-unstyled mb-2 w-100">
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/widgets/repository/"><span class="docs-nav-title">Repository Widget</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/widgets/repository/"><span class="docs-nav-title">Repository Widget</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/widgets/funding/"><span class="docs-nav-title">打賞小部件</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/widgets/funding/"><span class="docs-nav-title">打賞小部件</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/widgets/reward/"><span class="docs-nav-title">打賞小部件</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/widgets/reward/"><span class="docs-nav-title">打賞小部件</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/widgets/author/"><span class="docs-nav-title">作者小部件</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/widgets/author/"><span class="docs-nav-title">作者小部件</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/widgets/social-links/"><span class="docs-nav-title">社交連結</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/widgets/social-links/"><span class="docs-nav-title">社交連結</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/widgets/comments/"><span class="docs-nav-title">評論小部件</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/widgets/comments/"><span class="docs-nav-title">評論小部件</span></a>
         </li></ul>
             </div>
           </div>
         </li><li class="mb-2" tabindex="-1">
           <div class="py-1 d-flex justify-content-between align-items-center">
-            <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/shortcodes/"><span class="docs-nav-title-icon me-1"><i class="fas fa-code fa-fw"></i></span><span class="docs-nav-title">Shortcode</span></a>
+            <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/shortcodes/"><span class="docs-nav-title-icon me-1"><i class="fas fa-code fa-fw"></i></span><span class="docs-nav-title">Shortcode</span></a>
             <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
               data-bs-target="#nav-5f3d9dc1a82f155ac04b16d100c1817c" aria-expanded="false" aria-controls="nav-5f3d9dc1a82f155ac04b16d100c1817c">
               <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
@@ -637,25 +655,25 @@ Notes
             <div class="btn-toggle-nav fw-normal ms-2 small">
               <ul class="list-unstyled mb-2 w-100">
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/shortcodes/alert/"><span class="docs-nav-title">Alert</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/shortcodes/alert/"><span class="docs-nav-title">Alert</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/shortcodes/code-toggle/"><span class="docs-nav-title">Code Toggle</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/shortcodes/code-toggle/"><span class="docs-nav-title">Code Toggle</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/shortcodes/iframe/"><span class="docs-nav-title">IFrame</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/shortcodes/iframe/"><span class="docs-nav-title">IFrame</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/shortcodes/text/"><span class="docs-nav-title">文本</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/shortcodes/text/"><span class="docs-nav-title">文本</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/shortcodes/game/"><span class="docs-nav-title">遊戲</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/shortcodes/game/"><span class="docs-nav-title">遊戲</span></a>
         </li></ul>
             </div>
           </div>
         </li><li class="mb-2" tabindex="-1">
           <div class="py-1 d-flex justify-content-between align-items-center">
-            <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/layouts/"><span class="docs-nav-title-icon me-1"><i class="fas fa-columns fa-fw"></i></span><span class="docs-nav-title">頁面佈局</span></a>
+            <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/layouts/"><span class="docs-nav-title-icon me-1"><i class="fas fa-columns fa-fw"></i></span><span class="docs-nav-title">頁面佈局</span></a>
             <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
               data-bs-target="#nav-a8452825e163f4b8fb506c092e6911b1" aria-expanded="false" aria-controls="nav-a8452825e163f4b8fb506c092e6911b1">
               <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
@@ -665,31 +683,31 @@ Notes
             <div class="btn-toggle-nav fw-normal ms-2 small">
               <ul class="list-unstyled mb-2 w-100">
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/layouts/docs/"><span class="docs-nav-title">Docs 佈局</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/layouts/docs/"><span class="docs-nav-title">Docs 佈局</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/layouts/faq/"><span class="docs-nav-title">FAQ 頁面</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/layouts/faq/"><span class="docs-nav-title">FAQ 頁面</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/layouts/search/"><span class="docs-nav-title">搜索頁面</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/layouts/search/"><span class="docs-nav-title">搜索頁面</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/layouts/landing/"><span class="docs-nav-title">落地頁</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/layouts/landing/"><span class="docs-nav-title">落地頁</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/layouts/contact/"><span class="docs-nav-title">聯繫表單</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/layouts/contact/"><span class="docs-nav-title">聯繫表單</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/layouts/archives/"><span class="docs-nav-title">歸檔頁面</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/layouts/archives/"><span class="docs-nav-title">歸檔頁面</span></a>
         </li></ul>
             </div>
           </div>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/pwa/"><span class="docs-nav-title-icon me-1"><i class="fas fa-th-large fa-fw text-warning"></i></span><span class="docs-nav-title">PWA</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/pwa/"><span class="docs-nav-title-icon me-1"><i class="fas fa-th-large fa-fw text-warning"></i></span><span class="docs-nav-title">PWA</span></a>
         </li><li class="mb-2" tabindex="-1">
           <div class="py-1 d-flex justify-content-between align-items-center">
-            <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/advanced/"><span class="docs-nav-title-icon me-1"><i class="fas fa-terminal fa-fw"></i></span><span class="docs-nav-title">進階</span></a>
+            <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/advanced/"><span class="docs-nav-title-icon me-1"><i class="fas fa-terminal fa-fw"></i></span><span class="docs-nav-title">進階</span></a>
             <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
               data-bs-target="#nav-8ec2441398fb7088ee73071a9d360c5a" aria-expanded="false" aria-controls="nav-8ec2441398fb7088ee73071a9d360c5a">
               <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
@@ -699,34 +717,34 @@ Notes
             <div class="btn-toggle-nav fw-normal ms-2 small">
               <ul class="list-unstyled mb-2 w-100">
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/advanced/purgecss/"><span class="docs-nav-title">PurgeCSS</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/advanced/purgecss/"><span class="docs-nav-title">PurgeCSS</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/advanced/scss-variables/"><span class="docs-nav-title">SCSS 變量</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/advanced/scss-variables/"><span class="docs-nav-title">SCSS 變量</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/advanced/snackbar/"><span class="docs-nav-title">Snackbar</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/advanced/snackbar/"><span class="docs-nav-title">Snackbar</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/advanced/layouts-overriding/"><span class="docs-nav-title">布局覆蓋</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/advanced/layouts-overriding/"><span class="docs-nav-title">布局覆蓋</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/advanced/custom-assets/"><span class="docs-nav-title">自定義資源</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/advanced/custom-assets/"><span class="docs-nav-title">自定義資源</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/advanced/events/"><span class="docs-nav-title">事件</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/advanced/events/"><span class="docs-nav-title">事件</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/advanced/performance/"><span class="docs-nav-title">性能</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/advanced/performance/"><span class="docs-nav-title">性能</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/advanced/hooks/"><span class="docs-nav-title">鉤子</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/advanced/hooks/"><span class="docs-nav-title">鉤子</span></a>
         </li></ul>
             </div>
           </div>
         </li><li class="mb-2" tabindex="-1">
           <div class="py-1 d-flex justify-content-between align-items-center">
-            <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/topics/"><span class="docs-nav-title-icon me-1"><i class="fas fa-fw fa-lightbulb text-info"></i></span><span class="docs-nav-title">話題</span></a>
+            <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/topics/"><span class="docs-nav-title-icon me-1"><i class="fas fa-fw fa-lightbulb text-info"></i></span><span class="docs-nav-title">話題</span></a>
             <a class="btn-toggle ms-1 collapsed" role="button" data-bs-toggle="collapse"
               data-bs-target="#nav-fff13f11a9c95fa6d790d8782b5d8823" aria-expanded="false" aria-controls="nav-fff13f11a9c95fa6d790d8782b5d8823">
               <i class="btn-toggle-icon fas fa-chevron-down ms-auto" data-fa-transform="rotate-270"></i>
@@ -736,25 +754,25 @@ Notes
             <div class="btn-toggle-nav fw-normal ms-2 small">
               <ul class="list-unstyled mb-2 w-100">
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/topics/algolia/"><span class="docs-nav-title">Algolia</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/topics/algolia/"><span class="docs-nav-title">Algolia</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/topics/sticky-widgets/"><span class="docs-nav-title">粘性小部件</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/topics/sticky-widgets/"><span class="docs-nav-title">粘性小部件</span></a>
         </li></ul>
             </div>
           </div>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/troubleshooting/"><span class="docs-nav-title-icon me-1"><i class="fas fa-bug fa-fw text-danger"></i></span><span class="docs-nav-title">問題排查</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/troubleshooting/"><span class="docs-nav-title-icon me-1"><i class="fas fa-bug fa-fw text-danger"></i></span><span class="docs-nav-title">問題排查</span></a>
         </li>
         <li class="mb-2 py-1" tabindex="-1">
-          <a class="docs-nav-link d-flex align-items-center" href="/zh-hant/docs/get-involved/"><span class="docs-nav-title-icon me-1"><i class="fas fa-handshake fa-fw"></i></span><span class="docs-nav-title">參與我們</span></a>
+          <a class="docs-nav-link d-flex align-items-center" href="/v1/zh-hant/docs/get-involved/"><span class="docs-nav-title-icon me-1"><i class="fas fa-handshake fa-fw"></i></span><span class="docs-nav-title">參與我們</span></a>
         </li></ul></div>
   </div>
 </aside><div class="col ms-auto content-docs">
   <div class="container-fluid"><nav class="row card component" aria-label="breadcrumb">
   <div class="card-body pb-0">
-    <ol class="hbs-breadcrumb breadcrumb flex-nowrap"><li class="breadcrumb-item text-surface"><a href="/zh-hant/">主頁</a></li><li class="breadcrumb-item text-surface"><a href="/zh-hant/docs/">文檔</a></li><li class="breadcrumb-item text-surface"><a href="/zh-hant/docs/deployment/">部署</a></li><li class="breadcrumb-item active">部署於 GitHub Pages</li></ol>
+    <ol class="hbs-breadcrumb breadcrumb flex-nowrap"><li class="breadcrumb-item text-surface"><a href="/v1/zh-hant/">主頁</a></li><li class="breadcrumb-item text-surface"><a href="/v1/zh-hant/docs/">文檔</a></li><li class="breadcrumb-item text-surface"><a href="/v1/zh-hant/docs/deployment/">部署</a></li><li class="breadcrumb-item active">部署於 GitHub Pages</li></ol>
   </div>
 </nav><div class="post-panel-wrapper position-relative d-flex justify-content-center">
   <div class="d-flex flex-row justify-content-center rounded-5 border post-panel position-fixed px-3 py-1 surface shadow-1">
@@ -765,7 +783,7 @@ Notes
       title="譯文">
       <i class="fas fa-fw fa-language"></i>
     </a>
-    <div class="dropdown-menu"><a class="dropdown-item post-translation" href="/en/docs/deployment/github-pages/">English</a><a class="dropdown-item post-translation" href="/zh-hans/docs/deployment/github-pages/">简体中文</a></div>
+    <div class="dropdown-menu"><a class="dropdown-item post-translation" href="/v1/en/docs/deployment/github-pages/">English</a><a class="dropdown-item post-translation" href="/v1/zh-hans/docs/deployment/github-pages/">简体中文</a></div>
   </div>
 
 
@@ -875,9 +893,9 @@ Notes
     <h1 class="card-title post-title my-2">部署於 GitHub Pages</h1>
 </div>
 <div class="card-body"><div class="post-meta mb-3">
-  <span class="post-date me-1 mb-1" title="創建於 2022-07-13 04:30:23 &#43;0200 CEST。">2022年7月13日</span><span class="post-reading-time me-1 mb-1">1 分鐘閱讀</span><a href="/zh-hant/categories/%E9%83%A8%E7%BD%B2/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-category">
-      <i class="fas fa-fw fa-folder me-1"></i>部署</a><a href="/zh-hant/series/%E6%96%87%E6%AA%94/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-series">
-      <i class="fas fa-fw fa-columns me-1"></i>文檔</a><a href="/zh-hant/tags/github-actions/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-tag">GitHub Actions</a><a href="/zh-hant/tags/github-pages/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-tag">GitHub Pages</a>
+  <span class="post-date me-1 mb-1" title="創建於 2022-07-13 04:30:23 &#43;0200 CEST。">2022年7月13日</span><span class="post-reading-time me-1 mb-1">1 分鐘閱讀</span><a href="/v1/zh-hant/categories/%E9%83%A8%E7%BD%B2/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-category">
+      <i class="fas fa-fw fa-folder me-1"></i>部署</a><a href="/v1/zh-hant/series/%E6%96%87%E6%AA%94/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-series">
+      <i class="fas fa-fw fa-columns me-1"></i>文檔</a><a href="/v1/zh-hant/tags/github-actions/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-tag">GitHub Actions</a><a href="/v1/zh-hant/tags/github-pages/" class="btn btn-sm btn-secondary mb-1 me-2 py-0 pe-1 post-taxonomy post-taxonomy-sm post-tag">GitHub Pages</a>
 </div>
 <div class="alert alert-success" role="alert">
   🎉 Our
@@ -956,9 +974,9 @@ Notes
 </div><div class="card-footer">
   <div class="post-navs d-flex justify-content-evenly"><div class="post-nav post-prev">
       <i class="fas fa-fw fa-chevron-down post-prev-icon me-1" data-fa-transform="rotate-90"></i>
-      <a href="/zh-hant/docs/deployment/cloudflare-pages/">部署於 Cloudflare Pages</a>
+      <a href="/v1/zh-hant/docs/deployment/cloudflare-pages/">部署於 Cloudflare Pages</a>
     </div><div class="post-nav post-next">
-      <a href="/zh-hant/docs/deployment/netlify/">部署於 Netlify</a>
+      <a href="/v1/zh-hant/docs/deployment/netlify/">部署於 Netlify</a>
       <i class="fas fa-fw fa-chevron-down post-next-icon ms-1" data-fa-transform="rotate-270"></i>
     </div></div>
 </div></article><div class="post-copyright mb-3 row card component" id="post-copyright">
@@ -987,7 +1005,7 @@ Notes
     NO IMAGE
   </div>
 
-  <a class="post-title" href="/zh-hant/docs/deployment/cloudflare-pages/">
+  <a class="post-title" href="/v1/zh-hant/docs/deployment/cloudflare-pages/">
     部署於 Cloudflare Pages
   </a>
   <div class="post-meta mb-0">
@@ -1004,7 +1022,7 @@ Notes
     NO IMAGE
   </div>
 
-  <a class="post-title" href="/zh-hant/docs/deployment/netlify/">
+  <a class="post-title" href="/v1/zh-hant/docs/deployment/netlify/">
     部署於 Netlify
   </a>
   <div class="post-meta mb-0">
@@ -1021,7 +1039,7 @@ Notes
     NO IMAGE
   </div>
 
-  <a class="post-title" href="/zh-hant/docs/advanced/snackbar/">
+  <a class="post-title" href="/v1/zh-hant/docs/advanced/snackbar/">
     Snackbar
   </a>
   <div class="post-meta mb-0">
@@ -1038,7 +1056,7 @@ Notes
     NO IMAGE
   </div>
 
-  <a class="post-title" href="/zh-hant/docs/getting-started/upgradation/">
+  <a class="post-title" href="/v1/zh-hant/docs/getting-started/upgradation/">
     升級
   </a>
   <div class="post-meta mb-0">
@@ -1051,11 +1069,11 @@ Notes
             <div class="post-card card card-body p-0 border-0 surface">
   
   <picture>
-      <source srcset="/en/docs/shortcodes/code-toggle/featured_hu_d3567f780b74e6f2.png" media="(max-width: 576px)" height="166" width="500">
-      <img class="img-fluid" height="60" width="180" alt="featured.png" src="/en/docs/shortcodes/code-toggle/featured_hu_8bd4d3d0115e2cee.png" data-src="/en/docs/shortcodes/code-toggle/featured.png" loading="lazy"/>
+      <source srcset="/v1/en/docs/shortcodes/code-toggle/featured_hu_d3567f780b74e6f2.png" media="(max-width: 576px)" height="166" width="500">
+      <img class="img-fluid" height="60" width="180" alt="featured.png" src="/v1/en/docs/shortcodes/code-toggle/featured_hu_8bd4d3d0115e2cee.png" data-src="/v1/en/docs/shortcodes/code-toggle/featured.png" loading="lazy"/>
     </picture>
 
-  <a class="post-title" href="/zh-hant/docs/shortcodes/code-toggle/">
+  <a class="post-title" href="/v1/zh-hant/docs/shortcodes/code-toggle/">
     Code Toggle
   </a>
   <div class="post-meta mb-0">
@@ -1091,7 +1109,7 @@ Notes
     
 <div class="row component card">
     <div class="card-body">
-        <form action="/zh-hant/search/">
+        <form action="/v1/zh-hant/search/">
             <div class="input-group">
                 <input name="q" class="form-control rounded" placeholder="搜尋">
                 <button class="btn btn-sm btn-search position-absolute end-0 border-0 border-start border-secondary p-2" type="submit">
@@ -1161,11 +1179,11 @@ Notes
   </div>
   <div class="offcanvas-body mt-2"><div class="social-share mb-4 d-flex overflow-auto">
       <a class="btn-social-share d-flex flex-column align-items-center me-3" rel="noopener noreferrer" aria-label="X Share Button"
-      target="_blank" href="https://x.com/intent/tweet?title=%e9%83%a8%e7%bd%b2%e6%96%bc%20GitHub%20Pages&url=http%3a%2f%2flocalhost%3a1313%2fzh-hant%2fdocs%2fdeployment%2fgithub-pages%2f">
+      target="_blank" href="https://x.com/intent/tweet?title=%e9%83%a8%e7%bd%b2%e6%96%bc%20GitHub%20Pages&url=https%3a%2f%2fhbs.razonyang.com%2fv1%2fzh-hant%2fdocs%2fdeployment%2fgithub-pages%2f">
         <i class="fab fa-2x fa-fw fa-x-twitter mb-2"></i> X
       </a>
       <a class="btn-social-share d-flex flex-column align-items-center me-3" rel="noopener noreferrer" aria-label="Facebook Share Button"
-        target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fzh-hant%2fdocs%2fdeployment%2fgithub-pages%2f">
+        target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhbs.razonyang.com%2fv1%2fzh-hant%2fdocs%2fdeployment%2fgithub-pages%2f">
         <i class="fab fa-2x fa-fw fa-facebook-f mb-2"></i> Facebook
       </a>
     </div>
@@ -1219,7 +1237,7 @@ Notes
         <i class="fa-fw fab fa-x-twitter"
           ></i>
       </a>
-  <a class="nav-link social-link p-0 me-1 mb-2" target="_blank" data-rss-feed href="http://localhost:1313/zh-hant/index.xml" title="RSS" rel="me">
+  <a class="nav-link social-link p-0 me-1 mb-2" target="_blank" data-rss-feed href="https://hbs.razonyang.com/v1/zh-hant/index.xml" title="RSS" rel="me">
     <i class="fas fa-fw fa-rss"></i>
   </a>
 </nav>
@@ -1238,43 +1256,43 @@ Features Request"
 Bug Report"
   href="https://github.com/razonyang/hugo-theme-bootstrap/issues/new?template=bug_report.md" target="_blank" rel="noopener noreferrer">
 <span class="menu-icon me-1"><i class="fas fa-fw fa-bug text-danger"></i></span>Bug Report</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="參與我們"
-  href="/zh-hant/docs/get-involved/"><i class="fas fa-handshake fa-fw me-1"></i>參與我們</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
+  href="/v1/zh-hant/docs/get-involved/"><i class="fas fa-handshake fa-fw me-1"></i>參與我們</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
 聯繫我"
-  href="/zh-hant/contact/">
+  href="/v1/zh-hant/contact/">
 <span class="menu-icon me-1"><i class="fas fa-fw fa-info-circle"></i></span>聯繫我</a></li></ul></li><li class="nav-item col-12 col-md-6 col-lg-3 px-0"><ul class="nav flex-column align-items-start">
       <li class="nav-item w-100"><a class="nav-link fw-bold fs-lg" href="javascript: void(0);">Docs</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="快速入門"
-  href="/zh-hant/docs/getting-started/">快速入門</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
+  href="/v1/zh-hant/docs/getting-started/">快速入門</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
 配置"
-  href="/zh-hant/docs/configuration/">
+  href="/v1/zh-hant/docs/configuration/">
 <span class="menu-icon me-1"><i class="fas fa-cog fa-fw"></i></span>配置</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
 觀感"
-  href="/zh-hant/docs/look-and-feel/">
+  href="/v1/zh-hant/docs/look-and-feel/">
 <span class="menu-icon me-1"><i class="fas fa-fw fa-palette text-danger"></i></span>觀感</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
 Markdown 語法指南"
-  href="/zh-hant/posts/markdown-syntax/">
+  href="/v1/zh-hant/posts/markdown-syntax/">
 <span class="menu-icon me-1"><i class="fab fa-markdown fa-fw text-success"></i></span>Markdown 語法指南</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
 內容"
-  href="/zh-hant/docs/content/">
+  href="/v1/zh-hant/docs/content/">
 <span class="menu-icon me-1"><i class="fas fa-newspaper fa-fw"></i></span>內容</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="鉤子"
-  href="/zh-hant/docs/advanced/hooks/">鉤子</a></li></ul></li><li class="nav-item col-12 col-md-6 col-lg-3 px-0"><ul class="nav flex-column align-items-start">
+  href="/v1/zh-hant/docs/advanced/hooks/">鉤子</a></li></ul></li><li class="nav-item col-12 col-md-6 col-lg-3 px-0"><ul class="nav flex-column align-items-start">
       <li class="nav-item w-100"><a class="nav-link fw-bold fs-lg" href="javascript: void(0);">Features</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
 搜索頁面"
-  href="/zh-hant/docs/layouts/search/">
+  href="/v1/zh-hant/docs/layouts/search/">
 <span class="menu-icon me-1"><i class="fas fa-fw fa-search text-info"></i></span>搜索頁面</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
 PWA"
-  href="/zh-hant/docs/pwa/">
+  href="/v1/zh-hant/docs/pwa/">
 <span class="menu-icon me-1"><i class="fas fa-fw fa-th-large"></i></span>PWA</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
 圖像處理"
-  href="/zh-hant/docs/image-processing/">
+  href="/v1/zh-hant/docs/image-processing/">
 <span class="menu-icon me-1"><i class="fas fa-fw fa-image"></i></span>圖像處理</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
 圖片查看器"
-  href="/zh-hant/docs/image-viewer/">
+  href="/v1/zh-hant/docs/image-viewer/">
 <span class="menu-icon me-1"><i class="fas fa-fw fa-images"></i></span>圖片查看器</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
 打賞小部件"
-  href="/zh-hant/docs/widgets/funding/">
+  href="/v1/zh-hant/docs/widgets/funding/">
 <span class="menu-icon me-1"><i class="fas fa-fw fa-coffee"></i></span>打賞小部件</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="
 評論小部件"
-  href="/zh-hant/docs/widgets/comments/">
+  href="/v1/zh-hant/docs/widgets/comments/">
 <span class="menu-icon me-1"><i class="fas fa-fw fa-comments text-success"></i></span>評論小部件</a></li></ul></li><li class="nav-item col-12 col-md-6 col-lg-3 px-0"><ul class="nav flex-column align-items-start">
       <li class="nav-item w-100"><a class="nav-link fw-bold fs-lg" href="javascript: void(0);">Sponsor</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="PayPal"
   href="https://paypal.me/razonyang" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-paypal me-1"></i>PayPal</a></li><li class="nav-item w-100"><a class="nav-link text-nowrap overflow-hidden" title="Ko-fi"
@@ -1295,9 +1313,9 @@ PWA"
     </a>
 </div>
 </footer>
-<script data-precache src="/assets/main/bundle.min.557655ecd1004f9f08702400f60982b864fb070bda30cbca793defc91f965108.js" integrity="sha256-VXZV7NEAT58IcCQA9gmCuGT7BwvaMMvKeT3vyR&#43;WUQg=" crossorigin="anonymous" async></script><script data-precache src="/assets/icons/bundle.min.86d28a874b39dbb604b67f909b549e255ddf5077569de4aef087df4b4e9e342f.js" integrity="sha256-htKKh0s527YEtn&#43;Qm1SeJV3fUHdWneSu8IffS06eNC8=" crossorigin="anonymous" defer></script>
-<script data-precache src="/assets/viewer/bundle.min.04207f9ff17c8bdf9a9d1af1fb1a37e666d0fa003e6c3f3ce61736ac0ae5cc6d.js" integrity="sha256-BCB/n/F8i9&#43;anRrx&#43;xo35mbQ&#43;gA&#43;bD885hc2rArlzG0=" crossorigin="anonymous" defer></script>
-<script src="/js/sw-register.js" defer></script>
+<script data-precache src="/v1/assets/main/bundle.min.8eee9dd6a8871080771207e9b3f8c49729bea7a9a68b1b94fd485390fe496390.js" integrity="sha256-ju6d1qiHEIB3Egfps/jElym&#43;p6mmixuU/UhTkP5JY5A=" crossorigin="anonymous" async></script><script data-precache src="/v1/assets/icons/bundle.min.35528ed8e6b22201032d4a61d31a5c4b91b6200a4f95d889dd6ba0880753818e.js" integrity="sha256-NVKO2OayIgEDLUph0xpcS5G2IApPldiJ3WugiAdTgY4=" crossorigin="anonymous" defer></script>
+<script data-precache src="/v1/assets/viewer/bundle.min.945567884be417f2aa4a3f7fb0171fc00a214c3c63dd586d110fc7b77d4d6077.js" integrity="sha256-lFVniEvkF/KqSj9/sBcfwAohTDxj3VhtEQ/Ht31NYHc=" crossorigin="anonymous" defer></script><script data-precache src="/v1/assets/docsearch/bundle.min.3e5375e3a0638286793e191822f5b36581d87c126156960a9843ea77bb87ad25.js" integrity="sha256-PlN146BjgoZ5PhkYIvWzZYHYfBJhVpYKmEPqd7uHrSU=" crossorigin="anonymous" defer></script>
+<script src="/v1/js/sw-register.js" defer></script>
 <script src="https://giscus.app/client.js"
     data-repo="razonyang/hugo-theme-bootstrap"
     data-repo-id="MDEwOlJlcG9zaXRvcnkzMDQzMzI4NTM="

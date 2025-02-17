@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CSS on HBS (Hugo Theme Bootstrap) v1</title>
-    <link>http://localhost:1313/fr/tags/css/</link>
+    <link>https://hbs.razonyang.com/v1/fr/tags/css/</link>
     <description>Recent content in CSS on HBS (Hugo Theme Bootstrap) v1</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
 </copyright>
-    <lastBuildDate>Mon, 09 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/fr/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hbs.razonyang.com/v1/fr/tags/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/fr/posts/markdown-syntax/</link>
+      <link>https://hbs.razonyang.com/v1/fr/posts/markdown-syntax/</link>
       <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/posts/markdown-syntax/</guid>
+      <guid>https://hbs.razonyang.com/v1/fr/posts/markdown-syntax/</guid>
       <description><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>]]></description>
-    <enclosure url="http://localhost:1313/images/markdown.png" length="279937" type="image/.png" />
+    <enclosure url="https://hbs.razonyang.com/v1/images/markdown.png" length="279937" type="image/.png" />
     </item>
     
   </channel>

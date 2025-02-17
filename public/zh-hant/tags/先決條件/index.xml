@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>先決條件 on Hugo Bootstrap</title>
-    <link>http://localhost:1313/zh-hant/tags/%E5%85%88%E6%B1%BA%E6%A2%9D%E4%BB%B6/</link>
+    <link>https://hbs.razonyang.com/v1/zh-hant/tags/%E5%85%88%E6%B1%BA%E6%A2%9D%E4%BB%B6/</link>
     <description>Recent content in 先決條件 on Hugo Bootstrap</description>
     <generator>Hugo</generator>
     <language>zh-hant</language>
     <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
 </copyright>
-    <lastBuildDate>Mon, 13 Jun 2022 16:32:09 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-hant/tags/%E5%85%88%E6%B1%BA%E6%A2%9D%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jun 2022 16:32:09 +0800</lastBuildDate><atom:link href="https://hbs.razonyang.com/v1/zh-hant/tags/%E5%85%88%E6%B1%BA%E6%A2%9D%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>先決條件</title>
-      <link>http://localhost:1313/zh-hant/docs/getting-started/prerequisites/</link>
+      <link>https://hbs.razonyang.com/v1/zh-hant/docs/getting-started/prerequisites/</link>
       <pubDate>Mon, 13 Jun 2022 16:32:09 +0800</pubDate>
-      <guid>http://localhost:1313/zh-hant/docs/getting-started/prerequisites/</guid>
+      <guid>https://hbs.razonyang.com/v1/zh-hant/docs/getting-started/prerequisites/</guid>
       <description><![CDATA[<p>在安裝主題前，請確保你滿足先決條件。</p>]]></description>
     </item>
     

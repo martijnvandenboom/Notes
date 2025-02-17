@@ -14820,6 +14820,24 @@ pre code {
   text-overflow: ellipsis;
 }
 
+.beian {
+  font-size: .8rem;
+}
+
+.beian a {
+  margin-right: .125rem;
+}
+
+.beian a:not(:last-child)::after {
+  content: '·';
+  margin-left: .25rem;
+  opacity: .5;
+}
+
+.beian-psb-icon {
+  height: 16px;
+}
+
 .form-floating.required label::after {
   content: '*';
   color: red;

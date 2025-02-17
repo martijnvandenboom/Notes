@@ -12,6 +12,13 @@
   [main.params]
     icon = '<i class="fas fa-fw fa-blog"></i>'
 [[main]]
+  name = "Animations"
+  identifier = "animations"
+  weight = 39
+  [main.params]
+    description = 'Animation service'
+    icon = '<i class="fas fa-fw fa-info-circle"></i>'
+[[main]]
   name = "Support"
   identifier = "support"
   weight = 40
@@ -56,6 +63,11 @@
 [[main]]
   parent = "support"
   weight = 4
+  [main.params]
+    divider = true
+[[main]]
+  parent = "animations"
+  weight = 5
   [main.params]
     divider = true
 

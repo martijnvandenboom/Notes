@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Alert on HBS (Hugo Theme Bootstrap) v1</title>
-    <link>http://localhost:1313/en/tags/alert/</link>
+    <link>https://hbs.razonyang.com/v1/en/tags/alert/</link>
     <description>Recent content in Alert on HBS (Hugo Theme Bootstrap) v1</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
 </copyright>
-    <lastBuildDate>Thu, 22 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tags/alert/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hbs.razonyang.com/v1/en/tags/alert/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alert Shortcode</title>
-      <link>http://localhost:1313/en/docs/shortcodes/alert/</link>
+      <link>https://hbs.razonyang.com/v1/en/docs/shortcodes/alert/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/shortcodes/alert/</guid>
+      <guid>https://hbs.razonyang.com/v1/en/docs/shortcodes/alert/</guid>
       <description><![CDATA[<p>This article shows how to use the <code>alert</code> shortcode.</p>]]></description>
     </item>
     

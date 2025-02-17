@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>TOML on HBS (Hugo Theme Bootstrap) v1</title>
-    <link>http://localhost:1313/en/tags/toml/</link>
+    <link>https://hbs.razonyang.com/v1/en/tags/toml/</link>
     <description>Recent content in TOML on HBS (Hugo Theme Bootstrap) v1</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
 </copyright>
-    <lastBuildDate>Mon, 13 Jun 2022 16:54:28 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/tags/toml/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jun 2022 16:54:28 +0800</lastBuildDate><atom:link href="https://hbs.razonyang.com/v1/en/tags/toml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Code Toggle</title>
-      <link>http://localhost:1313/en/docs/shortcodes/code-toggle/</link>
+      <link>https://hbs.razonyang.com/v1/en/docs/shortcodes/code-toggle/</link>
       <pubDate>Mon, 13 Jun 2022 16:54:28 +0800</pubDate>
-      <guid>http://localhost:1313/en/docs/shortcodes/code-toggle/</guid>
-      <description><![CDATA[<p>The <code>code-toggle</code> shortcode generates code blocks of various formats according to the configuration code of any supported format.</p>]]></description><enclosure url="http://localhost:1313/en/docs/shortcodes/code-toggle/featured.png" length="157833" type="image/png" />
+      <guid>https://hbs.razonyang.com/v1/en/docs/shortcodes/code-toggle/</guid>
+      <description><![CDATA[<p>The <code>code-toggle</code> shortcode generates code blocks of various formats according to the configuration code of any supported format.</p>]]></description><enclosure url="https://hbs.razonyang.com/v1/en/docs/shortcodes/code-toggle/featured.png" length="157833" type="image/png" />
     </item>
     
   </channel>

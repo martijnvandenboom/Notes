@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hugo Module on HBS (Hugo Theme Bootstrap) v1</title>
-    <link>http://localhost:1313/en/tags/hugo-module/</link>
+    <link>https://hbs.razonyang.com/v1/en/tags/hugo-module/</link>
     <description>Recent content in Hugo Module on HBS (Hugo Theme Bootstrap) v1</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
 </copyright>
-    <lastBuildDate>Sat, 26 Feb 2022 17:10:39 +0200</lastBuildDate><atom:link href="http://localhost:1313/en/tags/hugo-module/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Feb 2022 17:10:39 +0200</lastBuildDate><atom:link href="https://hbs.razonyang.com/v1/en/tags/hugo-module/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Install via Hugo Module</title>
-      <link>http://localhost:1313/en/docs/getting-started/installation/hugo-module/</link>
+      <link>https://hbs.razonyang.com/v1/en/docs/getting-started/installation/hugo-module/</link>
       <pubDate>Sat, 26 Feb 2022 17:10:39 +0200</pubDate>
-      <guid>http://localhost:1313/en/docs/getting-started/installation/hugo-module/</guid>
+      <guid>https://hbs.razonyang.com/v1/en/docs/getting-started/installation/hugo-module/</guid>
       <description><![CDATA[<p>This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module.</p>
 
 <h2 id="proxy-optional" data-numberify>Proxy (Optional)<a class="anchor ms-1" href="#proxy-optional"></a></h2>

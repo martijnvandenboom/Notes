@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>配置 on Hugo Bootstrap</title>
-    <link>http://localhost:1313/zh-hant/categories/%E9%85%8D%E7%BD%AE/</link>
+    <link>https://hbs.razonyang.com/v1/zh-hant/categories/%E9%85%8D%E7%BD%AE/</link>
     <description>Recent content in 配置 on Hugo Bootstrap</description>
     <generator>Hugo</generator>
     <language>zh-hant</language>
     <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
 </copyright>
-    <lastBuildDate>Sat, 27 Nov 2021 19:53:24 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-hant/categories/%E9%85%8D%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Nov 2021 19:53:24 +0800</lastBuildDate><atom:link href="https://hbs.razonyang.com/v1/zh-hant/categories/%E9%85%8D%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>頁面參數</title>
-      <link>http://localhost:1313/zh-hant/docs/configuration/page-params/</link>
+      <link>https://hbs.razonyang.com/v1/zh-hant/docs/configuration/page-params/</link>
       <pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate>
-      <guid>http://localhost:1313/zh-hant/docs/configuration/page-params/</guid>
+      <guid>https://hbs.razonyang.com/v1/zh-hant/docs/configuration/page-params/</guid>
       <description><![CDATA[<p>頁面參數位於 <a href="https://gohugo.io/content-management/front-matter/" target="_blank" rel="noopener noreferrer">Front Matter<i class="fas fa-external-link-square-alt ms-1"></i></a>。</p>]]></description>
     </item>
     
     <item>
       <title>站點參數</title>
-      <link>http://localhost:1313/zh-hant/docs/configuration/site-params/</link>
+      <link>https://hbs.razonyang.com/v1/zh-hant/docs/configuration/site-params/</link>
       <pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate>
-      <guid>http://localhost:1313/zh-hant/docs/configuration/site-params/</guid>
+      <guid>https://hbs.razonyang.com/v1/zh-hant/docs/configuration/site-params/</guid>
       <description><![CDATA[<p>站點參數文件默認為 <code>config/_default/params.toml</code>。</p>]]></description>
     </item>
     
     <item>
       <title>配置</title>
-      <link>http://localhost:1313/zh-hant/docs/configuration/site/</link>
+      <link>https://hbs.razonyang.com/v1/zh-hant/docs/configuration/site/</link>
       <pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate>
-      <guid>http://localhost:1313/zh-hant/docs/configuration/site/</guid>
+      <guid>https://hbs.razonyang.com/v1/zh-hant/docs/configuration/site/</guid>
       <description><![CDATA[<p>站點配置文件默認為 <code>config/_default/config.toml</code>。</p>]]></description>
     </item>
     
     <item>
       <title>配置結構</title>
-      <link>http://localhost:1313/zh-hant/docs/configuration/structure/</link>
+      <link>https://hbs.razonyang.com/v1/zh-hant/docs/configuration/structure/</link>
       <pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate>
-      <guid>http://localhost:1313/zh-hant/docs/configuration/structure/</guid>
+      <guid>https://hbs.razonyang.com/v1/zh-hant/docs/configuration/structure/</guid>
       <description><![CDATA[<p>如示例站點所示，我們使用 <a href="https://gohugo.io/getting-started/configuration/#configuration-%e7%9b%ae%e9%8c%84" target="_blank" rel="noopener noreferrer">Configuration Directory<i class="fas fa-external-link-square-alt ms-1"></i></a> 為了維護更簡單的組織和特定於環境的設置，它在多語言站點上特別有用。</p>]]></description>
     </item>
     

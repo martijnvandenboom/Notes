@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Netlify on Hugo Bootstrap</title>
-    <link>http://localhost:1313/zh-hant/tags/netlify/</link>
+    <link>https://hbs.razonyang.com/v1/zh-hant/tags/netlify/</link>
     <description>Recent content in Netlify on Hugo Bootstrap</description>
     <generator>Hugo</generator>
     <language>zh-hant</language>
     <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
 </copyright>
-    <lastBuildDate>Tue, 12 Jul 2022 14:20:49 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-hant/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Jul 2022 14:20:49 +0800</lastBuildDate><atom:link href="https://hbs.razonyang.com/v1/zh-hant/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>部署於 Netlify</title>
-      <link>http://localhost:1313/zh-hant/docs/deployment/netlify/</link>
+      <link>https://hbs.razonyang.com/v1/zh-hant/docs/deployment/netlify/</link>
       <pubDate>Tue, 12 Jul 2022 14:20:49 +0800</pubDate>
-      <guid>http://localhost:1313/zh-hant/docs/deployment/netlify/</guid>
+      <guid>https://hbs.razonyang.com/v1/zh-hant/docs/deployment/netlify/</guid>
       <description><![CDATA[<p>本文將介紹如何部署站點於 <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify<i class="fas fa-external-link-square-alt ms-1"></i></a>。</p>]]></description>
     </item>
     
     <item>
       <title>聯繫表單</title>
-      <link>http://localhost:1313/zh-hant/docs/layouts/contact/</link>
+      <link>https://hbs.razonyang.com/v1/zh-hant/docs/layouts/contact/</link>
       <pubDate>Tue, 30 Nov 2021 23:56:00 +0800</pubDate>
-      <guid>http://localhost:1313/zh-hant/docs/layouts/contact/</guid>
-      <description><![CDATA[<p>我們可以將郵寄地址放在 <a href="http://localhost:1313/zh-hant/docs/widgets/social-links/">社交連結</a>上，以便讀者聯繫我們。 但不幸的是，郵件或多或少會被當成垃圾郵件，甚至被過濾。 因此我們帶來了一個聯系表單的功能。</p>]]></description>
+      <guid>https://hbs.razonyang.com/v1/zh-hant/docs/layouts/contact/</guid>
+      <description><![CDATA[<p>我們可以將郵寄地址放在 <a href="https://hbs.razonyang.com/v1/zh-hant/docs/widgets/social-links/">社交連結</a>上，以便讀者聯繫我們。 但不幸的是，郵件或多或少會被當成垃圾郵件，甚至被過濾。 因此我們帶來了一個聯系表單的功能。</p>]]></description>
     </item>
     
   </channel>
