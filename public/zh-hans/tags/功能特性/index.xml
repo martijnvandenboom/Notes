@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>功能特性 on Hugo Bootstrap</title>
-    <link>https://hbs.razonyang.com/v1/zh-hans/tags/%E5%8A%9F%E8%83%BD%E7%89%B9%E6%80%A7/</link>
+    <link>http://localhost:1313/zh-hans/tags/%E5%8A%9F%E8%83%BD%E7%89%B9%E6%80%A7/</link>
     <description>Recent content in 功能特性 on Hugo Bootstrap</description>
     <generator>Hugo</generator>
     <language>zh-hans</language>
     <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
 </copyright>
-    <lastBuildDate>Mon, 13 Jun 2022 16:32:09 +0800</lastBuildDate><atom:link href="https://hbs.razonyang.com/v1/zh-hans/tags/%E5%8A%9F%E8%83%BD%E7%89%B9%E6%80%A7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jun 2022 16:32:09 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-hans/tags/%E5%8A%9F%E8%83%BD%E7%89%B9%E6%80%A7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>简介</title>
-      <link>https://hbs.razonyang.com/v1/zh-hans/docs/getting-started/introduction/</link>
+      <link>http://localhost:1313/zh-hans/docs/getting-started/introduction/</link>
       <pubDate>Mon, 13 Jun 2022 16:32:09 +0800</pubDate>
-      <guid>https://hbs.razonyang.com/v1/zh-hans/docs/getting-started/introduction/</guid>
+      <guid>http://localhost:1313/zh-hans/docs/getting-started/introduction/</guid>
       <description><![CDATA[<p>Hugo Bootstrap Theme(HBS) 是一个快速、响应式、多用途和功能丰富的 Hugo 主题。其通常用于博客和文档站点。</p>]]></description>
     </item>
     

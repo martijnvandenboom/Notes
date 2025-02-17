@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>HTML on Hugo Bootstrap</title>
-    <link>https://hbs.razonyang.com/v1/zh-hant/tags/html/</link>
+    <link>http://localhost:1313/zh-hant/tags/html/</link>
     <description>Recent content in HTML on Hugo Bootstrap</description>
     <generator>Hugo</generator>
     <language>zh-hant</language>
     <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
 </copyright>
-    <lastBuildDate>Sat, 02 Jul 2022 21:14:37 +0800</lastBuildDate><atom:link href="https://hbs.razonyang.com/v1/zh-hant/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Jul 2022 21:14:37 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-hant/tags/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Snackbar</title>
-      <link>https://hbs.razonyang.com/v1/zh-hant/docs/advanced/snackbar/</link>
+      <link>http://localhost:1313/zh-hant/docs/advanced/snackbar/</link>
       <pubDate>Sat, 02 Jul 2022 21:14:37 +0800</pubDate>
-      <guid>https://hbs.razonyang.com/v1/zh-hant/docs/advanced/snackbar/</guid>
+      <guid>http://localhost:1313/zh-hant/docs/advanced/snackbar/</guid>
       <description><![CDATA[<p>相信使用過代碼塊復製按鈕的用戶，對 Snackbar 並不陌生，其告知用戶應用程序執行的結果。本文將舉例說明如何使用 Snackbar，以滿足用戶對自定義交互的需要。</p>]]></description>
     </item>
     
     <item>
       <title>Markdown 語法指南</title>
-      <link>https://hbs.razonyang.com/v1/zh-hant/posts/markdown-syntax/</link>
+      <link>http://localhost:1313/zh-hant/posts/markdown-syntax/</link>
       <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://hbs.razonyang.com/v1/zh-hant/posts/markdown-syntax/</guid>
+      <guid>http://localhost:1313/zh-hant/posts/markdown-syntax/</guid>
       <description><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>]]></description>
-    <enclosure url="https://hbs.razonyang.com/v1/images/markdown.png" length="279937" type="image/.png" />
+    <enclosure url="http://localhost:1313/images/markdown.png" length="279937" type="image/.png" />
     </item>
     
   </channel>

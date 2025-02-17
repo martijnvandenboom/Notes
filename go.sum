@@ -6,3 +6,7 @@ github.com/razonyang/hugo-theme-bootstrap v1.10.0 h1:7Y21lGzKi9+6l5aM7+um0vZdgPU
 github.com/razonyang/hugo-theme-bootstrap v1.10.0/go.mod h1:o+IIPL/5wreiTojnN4MsQqKuxbv3fWAQnMhG9geltQo=
 github.com/razonyang/hugo-theme-bootstrap v1.11.0 h1:8V+TlEwIXToIGycqj5Zf6eh8q0d9E17H5p0tQGJ5fh0=
 github.com/razonyang/hugo-theme-bootstrap v1.11.0/go.mod h1:o+IIPL/5wreiTojnN4MsQqKuxbv3fWAQnMhG9geltQo=
+github.com/razonyang/hugo-theme-bootstrap v1.11.1-0.20250216052341-5c2a5530546e h1:KbJsgdnULyz42CJWzTdvgWEgqwHpSwKWEEmTt7FV9+0=
+github.com/razonyang/hugo-theme-bootstrap v1.11.1-0.20250216052341-5c2a5530546e/go.mod h1:o+IIPL/5wreiTojnN4MsQqKuxbv3fWAQnMhG9geltQo=
+github.com/razonyang/hugo-theme-bootstrap v1.12.0 h1:741zOGgRiKOFej8IIRg7x3pYa6jPQA78VFZmmQ72Rag=
+github.com/razonyang/hugo-theme-bootstrap v1.12.0/go.mod h1:o+IIPL/5wreiTojnN4MsQqKuxbv3fWAQnMhG9geltQo=

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>FAQ on HBS (Hugo Theme Bootstrap) v1</title>
-    <link>https://hbs.razonyang.com/v1/en/categories/faq/</link>
+    <link>http://localhost:1313/en/categories/faq/</link>
     <description>Recent content in FAQ on HBS (Hugo Theme Bootstrap) v1</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
 </copyright>
-    <lastBuildDate>Tue, 07 Dec 2021 21:46:43 +0800</lastBuildDate><atom:link href="https://hbs.razonyang.com/v1/en/categories/faq/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Dec 2021 21:46:43 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/categories/faq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FAQ Layout</title>
-      <link>https://hbs.razonyang.com/v1/en/docs/layouts/faq/</link>
+      <link>http://localhost:1313/en/docs/layouts/faq/</link>
       <pubDate>Tue, 07 Dec 2021 21:46:43 +0800</pubDate>
-      <guid>https://hbs.razonyang.com/v1/en/docs/layouts/faq/</guid>
-      <description><![CDATA[<p>The <a href="https://hbs.razonyang.com/v1/en/faq/">FAQ</a> page is a collection of frequently asked questions.</p>]]></description>
+      <guid>http://localhost:1313/en/docs/layouts/faq/</guid>
+      <description><![CDATA[<p>The <a href="http://localhost:1313/en/faq/">FAQ</a> page is a collection of frequently asked questions.</p>]]></description>
     </item>
     
   </channel>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Introduction on HBS (Hugo Theme Bootstrap) v1</title>
-    <link>https://hbs.razonyang.com/v1/en/categories/introduction/</link>
+    <link>http://localhost:1313/en/categories/introduction/</link>
     <description>Recent content in Introduction on HBS (Hugo Theme Bootstrap) v1</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
 </copyright>
-    <lastBuildDate>Mon, 13 Jun 2022 16:32:09 +0800</lastBuildDate><atom:link href="https://hbs.razonyang.com/v1/en/categories/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jun 2022 16:32:09 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/categories/introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction</title>
-      <link>https://hbs.razonyang.com/v1/en/docs/getting-started/introduction/</link>
+      <link>http://localhost:1313/en/docs/getting-started/introduction/</link>
       <pubDate>Mon, 13 Jun 2022 16:32:09 +0800</pubDate>
-      <guid>https://hbs.razonyang.com/v1/en/docs/getting-started/introduction/</guid>
+      <guid>http://localhost:1313/en/docs/getting-started/introduction/</guid>
       <description><![CDATA[<h2 id="goals" data-numberify>Goals<a class="anchor ms-1" href="#goals"></a></h2>
 <ul>
 <li>Performance</li>
@@ -25,40 +25,40 @@
 <ul>
 <li><a href="https://gohugo.io/hugo-pipes/" target="_blank" rel="noopener noreferrer">Hugo Pipes<i class="fas fa-external-link-square-alt ms-1"></i></a>: used to generate CSS and JS assets.</li>
 <li>PurgeCSS: remove unused CSS.</li>
-<li><a href="https://hbs.razonyang.com/v1/en/docs/configuration/">Flexible and Configurable</a>.</li>
+<li><a href="http://localhost:1313/en/docs/configuration/">Flexible and Configurable</a>.</li>
 <li>Fast and Good User Experience: <a href="https://pagespeed.web.dev/report?url=https://hbs.razonyang.com/en/" target="_blank" rel="noopener noreferrer">Google PageSpeed Insights<i class="fas fa-external-link-square-alt ms-1"></i></a>&rsquo;s score is over 95.</li>
-<li>RTL support: <a href="https://hbs.razonyang.com/v1/ar/">Arabic demo site</a>.</li>
+<li>RTL support: <a href="http://localhost:1313/ar/">Arabic demo site</a>.</li>
 <li>Built on top of <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">Bootstrap 5<i class="fas fa-external-link-square-alt ms-1"></i></a>.</li>
 <li>FontAwesome icons.</li>
 <li>Responsive.</li>
-<li><a href="https://hbs.razonyang.com/v1/en/docs/pwa/">PWA</a>, AKA progressive web apps.</li>
+<li><a href="http://localhost:1313/en/docs/pwa/">PWA</a>, AKA progressive web apps.</li>
 <li>Various Palettes: <code>blue</code>, <code>blue-gray</code>, <code>brown</code>, <code>cyan</code>, <code>green</code>, <code>indigo</code>, <code>orange</code>, <code>pink</code>, <code>purple</code>, <code>red</code>, <code>teal</code>, <code>yellow</code>.</li>
-<li>A <a href="https://hbs.razonyang.com/v1/en/docs/layouts/docs/">Docs Layout</a> for publishing project documentation, notes, digital gardens, zettelkastens etc.</li>
+<li>A <a href="http://localhost:1313/en/docs/layouts/docs/">Docs Layout</a> for publishing project documentation, notes, digital gardens, zettelkastens etc.</li>
 <li>Light/Dark Mode.</li>
 <li>Font Size Switcher.</li>
 <li>Multilingual(I18N).</li>
-<li><a href="https://hbs.razonyang.com/v1/en/docs/layouts/search/">Local Search</a>.</li>
+<li><a href="http://localhost:1313/en/docs/layouts/search/">Local Search</a>.</li>
 <li>DocSearch.</li>
 <li>Pinning Posts.</li>
 <li>Footer Menu.</li>
 <li>Code Block Panel: copy code, line number, line wrap and expand.</li>
-<li><a href="https://hbs.razonyang.com/v1/en/docs/shortcodes/code-toggle/">Code Toggle</a></li>
+<li><a href="http://localhost:1313/en/docs/shortcodes/code-toggle/">Code Toggle</a></li>
 <li>Breadcrumb.</li>
-<li><a href="https://hbs.razonyang.com/v1/en/docs/layouts/archives/">Archive</a>.</li>
-<li><a href="https://hbs.razonyang.com/v1/en/docs/image-viewer/">Image Viewer</a>.</li>
-<li><a href="https://hbs.razonyang.com/v1/en/docs/image-processing/">Image Processing</a>: resize and align images.</li>
+<li><a href="http://localhost:1313/en/docs/layouts/archives/">Archive</a>.</li>
+<li><a href="http://localhost:1313/en/docs/image-viewer/">Image Viewer</a>.</li>
+<li><a href="http://localhost:1313/en/docs/image-processing/">Image Processing</a>: resize and align images.</li>
 <li>Resources Lazy Loading: <code>image</code> and <code>iframe</code>.</li>
-<li><a href="https://hbs.razonyang.com/v1/en/docs/look-and-feel/#syntax-highlighting">Syntax Highlighting</a>.</li>
-<li><a href="https://hbs.razonyang.com/v1/en/docs/widgets/reward/">Reward Widget</a>, AKA Buy Me a Coffee: any platform that supports QR code is supported.</li>
+<li><a href="http://localhost:1313/en/docs/look-and-feel/#syntax-highlighting">Syntax Highlighting</a>.</li>
+<li><a href="http://localhost:1313/en/docs/widgets/reward/">Reward Widget</a>, AKA Buy Me a Coffee: any platform that supports QR code is supported.</li>
 <li>Table of Contents.</li>
-<li><a href="https://hbs.razonyang.com/v1/en/docs/widgets/comments/">Comments</a>: Disqus, Utterances, Giscus and Staticman can be used out of box, you can also integrate with other comments services.</li>
-<li><a href="https://hbs.razonyang.com/v1/en/docs/advanced/custom-assets/">Custom Assets</a>: custom CSS and JS.</li>
-<li><a href="https://hbs.razonyang.com/v1/en/docs/advanced/hooks/">Hooks</a>: provides ability to add custom code on page.</li>
-<li><a href="https://hbs.razonyang.com/v1/en/docs/widgets/social-links/">Social Links</a>.</li>
-<li><a href="https://hbs.razonyang.com/v1/en/docs/shortcodes/">Various Shortcodes</a>.</li>
+<li><a href="http://localhost:1313/en/docs/widgets/comments/">Comments</a>: Disqus, Utterances, Giscus and Staticman can be used out of box, you can also integrate with other comments services.</li>
+<li><a href="http://localhost:1313/en/docs/advanced/custom-assets/">Custom Assets</a>: custom CSS and JS.</li>
+<li><a href="http://localhost:1313/en/docs/advanced/hooks/">Hooks</a>: provides ability to add custom code on page.</li>
+<li><a href="http://localhost:1313/en/docs/widgets/social-links/">Social Links</a>.</li>
+<li><a href="http://localhost:1313/en/docs/shortcodes/">Various Shortcodes</a>.</li>
 <li>Twitter Cards and Open Graph.</li>
 <li><a href="https://creativecommons.org/licenses/" target="_blank" rel="noopener noreferrer">Creative Commons License<i class="fas fa-external-link-square-alt ms-1"></i></a>.</li>
-<li><a href="https://hbs.razonyang.com/v1/en/docs/layouts/contact/">Contact Form</a>.</li>
+<li><a href="http://localhost:1313/en/docs/layouts/contact/">Contact Form</a>.</li>
 <li>Numberify Headings Automatically.</li>
 </ul>]]></description>
     </item>

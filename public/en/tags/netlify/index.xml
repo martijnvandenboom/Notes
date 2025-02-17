@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Netlify on HBS (Hugo Theme Bootstrap) v1</title>
-    <link>https://hbs.razonyang.com/v1/en/tags/netlify/</link>
+    <link>http://localhost:1313/en/tags/netlify/</link>
     <description>Recent content in Netlify on HBS (Hugo Theme Bootstrap) v1</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
 </copyright>
-    <lastBuildDate>Tue, 12 Jul 2022 14:20:49 +0800</lastBuildDate><atom:link href="https://hbs.razonyang.com/v1/en/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Jul 2022 14:20:49 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deploy to Netlify</title>
-      <link>https://hbs.razonyang.com/v1/en/docs/deployment/netlify/</link>
+      <link>http://localhost:1313/en/docs/deployment/netlify/</link>
       <pubDate>Tue, 12 Jul 2022 14:20:49 +0800</pubDate>
-      <guid>https://hbs.razonyang.com/v1/en/docs/deployment/netlify/</guid>
+      <guid>http://localhost:1313/en/docs/deployment/netlify/</guid>
       <description><![CDATA[<p>This article shows how to deploy your site to <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify<i class="fas fa-external-link-square-alt ms-1"></i></a>.</p>]]></description>
     </item>
     
     <item>
       <title>Contact Form</title>
-      <link>https://hbs.razonyang.com/v1/en/docs/layouts/contact/</link>
+      <link>http://localhost:1313/en/docs/layouts/contact/</link>
       <pubDate>Tue, 30 Nov 2021 23:56:00 +0800</pubDate>
-      <guid>https://hbs.razonyang.com/v1/en/docs/layouts/contact/</guid>
-      <description><![CDATA[<p>We can put our email address on <a href="https://hbs.razonyang.com/v1/en/docs/widgets/social-links/">social links</a> so that readers can contact us. Unfortunately, emails will be more or less treated as spam and even filtered.
+      <guid>http://localhost:1313/en/docs/layouts/contact/</guid>
+      <description><![CDATA[<p>We can put our email address on <a href="http://localhost:1313/en/docs/widgets/social-links/">social links</a> so that readers can contact us. Unfortunately, emails will be more or less treated as spam and even filtered.
 Therefore, we bring a feature called contact form.</p>]]></description>
     </item>
     
