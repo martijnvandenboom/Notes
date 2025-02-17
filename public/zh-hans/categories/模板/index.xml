@@ -1,23 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>模板 on Hugo Bootstrap</title>
-    <link>http://localhost:1313/zh-hans/categories/%E6%A8%A1%E6%9D%BF/</link>
-    <description>Recent content in 模板 on Hugo Bootstrap</description>
-    <generator>Hugo</generator>
-    <language>zh-hans</language>
-    <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
-</copyright>
-    <lastBuildDate>Wed, 27 Jul 2022 16:05:37 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-hans/categories/%E6%A8%A1%E6%9D%BF/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>布局覆盖</title>
-      <link>http://localhost:1313/zh-hans/docs/advanced/layouts-overriding/</link>
-      <pubDate>Wed, 27 Jul 2022 16:05:37 +0800</pubDate>
-      <guid>http://localhost:1313/zh-hans/docs/advanced/layouts-overriding/</guid>
-      <description><![CDATA[<p>根据 <a href="https://gohugo.io/templates/lookup-order/" target="_blank" rel="noopener noreferrer">Hugo Layouts Lookup Order<i class="fas fa-external-link-square-alt ms-1"></i></a>，可以很容易地覆盖 Hugo 和主题的布局和模板。
-这对那些想自定义某些特定布局或参数的用户来说很有用。</p>]]></description>
-    </item>
-    
-  </channel>
-</rss>
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>模板 on Hugo Bootstrap</title><link>https://hbs.razonyang.com/v1/zh-hans/categories/%E6%A8%A1%E6%9D%BF/</link><description>Recent content in 模板 on Hugo Bootstrap</description><generator>Hugo</generator><language>zh-hans</language><copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.</copyright><lastBuildDate>Wed, 27 Jul 2022 16:05:37 +0800</lastBuildDate><atom:link href="https://hbs.razonyang.com/v1/zh-hans/categories/%E6%A8%A1%E6%9D%BF/index.xml" rel="self" type="application/rss+xml"/><item><title>布局覆盖</title><link>https://hbs.razonyang.com/v1/zh-hans/docs/advanced/layouts-overriding/</link><pubDate>Wed, 27 Jul 2022 16:05:37 +0800</pubDate><guid>https://hbs.razonyang.com/v1/zh-hans/docs/advanced/layouts-overriding/</guid><description><![CDATA[<p>根据 <a href="https://gohugo.io/templates/lookup-order/" target="_blank" rel="noopener noreferrer">Hugo Layouts Lookup Order<i class="fas fa-external-link-square-alt ms-1"></i></a>，可以很容易地覆盖 Hugo 和主题的布局和模板。
+这对那些想自定义某些特定布局或参数的用户来说很有用。</p>]]></description></item></channel></rss>

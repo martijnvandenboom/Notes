@@ -1,23 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Menu on HBS (Hugo Theme Bootstrap) v1</title>
-    <link>http://localhost:1313/en/categories/menu/</link>
-    <description>Recent content in Menu on HBS (Hugo Theme Bootstrap) v1</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
-</copyright>
-    <lastBuildDate>Thu, 16 Dec 2021 17:25:20 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/categories/menu/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Menu</title>
-      <link>http://localhost:1313/en/docs/configuration/menu/</link>
-      <pubDate>Thu, 16 Dec 2021 17:25:20 +0800</pubDate>
-      <guid>http://localhost:1313/en/docs/configuration/menu/</guid>
-      <description><![CDATA[<p>We predefined two types of menus: <code>main</code> and <code>footer</code>, represents the top app bar menus and the footer menus, respectively.
-This article will briefly introduce how to use the menus.</p>]]></description><enclosure url="http://localhost:1313/en/docs/configuration/menu/featured.png" length="157833" type="image/png" />
-    </item>
-    
-  </channel>
-</rss>
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Menu on HBS (Hugo Theme Bootstrap) v1</title><link>https://hbs.razonyang.com/v1/en/categories/menu/</link><description>Recent content in Menu on HBS (Hugo Theme Bootstrap) v1</description><generator>Hugo</generator><language>en</language><copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.</copyright><lastBuildDate>Thu, 16 Dec 2021 17:25:20 +0800</lastBuildDate><atom:link href="https://hbs.razonyang.com/v1/en/categories/menu/index.xml" rel="self" type="application/rss+xml"/><item><title>Menu</title><link>https://hbs.razonyang.com/v1/en/docs/configuration/menu/</link><pubDate>Thu, 16 Dec 2021 17:25:20 +0800</pubDate><guid>https://hbs.razonyang.com/v1/en/docs/configuration/menu/</guid><description><![CDATA[<p>We predefined two types of menus: <code>main</code> and <code>footer</code>, represents the top app bar menus and the footer menus, respectively.
+This article will briefly introduce how to use the menus.</p>]]></description><enclosure url="https://hbs.razonyang.com/v1/en/docs/configuration/menu/featured.png" length="157833" type="image/png"/></item></channel></rss>
