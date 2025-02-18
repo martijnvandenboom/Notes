@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Deployment on Martijn's Notes</title><link>https://ingvdboom-notes.netlify.app/v1/en/categories/deployment/</link><description>Recent content in Deployment on Martijn's Notes</description><generator>Hugo</generator><language>en</language><copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.</copyright><lastBuildDate>Sun, 21 Jan 2024 15:00:19 +0800</lastBuildDate><atom:link href="https://ingvdboom-notes.netlify.app/v1/en/categories/deployment/index.xml" rel="self" type="application/rss+xml"/><item><title>Deploy on DigitalOcean App Platform</title><link>https://ingvdboom-notes.netlify.app/v1/en/docs/deployment/digitalocean-app-platform/</link><pubDate>Sun, 21 Jan 2024 15:00:19 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/v1/en/docs/deployment/digitalocean-app-platform/</guid><description><![CDATA[<h2 id="requirements" data-numberify>Requirements<a class="anchor ms-1" href="#requirements"></a></h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Deployment on Martijn&#39;s Notes</title>
+    <link>http://localhost:1313/en/categories/deployment/</link>
+    <description>Recent content in Deployment on Martijn&#39;s Notes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Sun, 21 Jan 2024 15:00:19 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/categories/deployment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy on DigitalOcean App Platform</title>
+      <link>http://localhost:1313/en/docs/deployment/digitalocean-app-platform/</link>
+      <pubDate>Sun, 21 Jan 2024 15:00:19 +0800</pubDate>
+      <guid>http://localhost:1313/en/docs/deployment/digitalocean-app-platform/</guid>
+      <description><![CDATA[<h2 id="requirements" data-numberify>Requirements<a class="anchor ms-1" href="#requirements"></a></h2>
 <ul>
 <li>DigitalOcean Account</li>
 </ul>
@@ -47,4 +63,57 @@
 </ul>
 
 <h2 id="create-app" data-numberify>Create App<a class="anchor ms-1" href="#create-app"></a></h2>
-<p>Navigate to <em>DigitalOcean Dashboard</em> -&gt; <em>Left Panel</em> -&gt; <em>Apps</em> -&gt; <em>Create App</em>, and then fill up the form as follows.</p>]]></description></item><item><title>Deploy to GitLab Pages</title><link>https://ingvdboom-notes.netlify.app/v1/en/docs/deployment/gitlab-pages/</link><pubDate>Sat, 27 Aug 2022 10:30:23 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/v1/en/docs/deployment/gitlab-pages/</guid><description><![CDATA[<p>This article explains how to deploy sites to <a href="https://docs.gitlab.com/ee/user/project/pages/" target="_blank" rel="noopener noreferrer">GitLab Pages<i class="fas fa-external-link-square-alt ms-1"></i></a> using GitLab CI.</p>]]></description></item><item><title>Deployment Overview</title><link>https://ingvdboom-notes.netlify.app/v1/en/docs/deployment/overview/</link><pubDate>Wed, 27 Jul 2022 18:00:25 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/v1/en/docs/deployment/overview/</guid><description>&lt;p>In this section, we are going to talk about the key points of deployments to avoid most problems during deployment.&lt;/p></description></item><item><title>Building a Docker Image</title><link>https://ingvdboom-notes.netlify.app/v1/en/docs/deployment/docker/</link><pubDate>Wed, 13 Jul 2022 10:30:29 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/v1/en/docs/deployment/docker/</guid><description>&lt;p>This article will detail how to build a Docker image.&lt;/p></description></item><item><title>Deploy to GitHub Pages</title><link>https://ingvdboom-notes.netlify.app/v1/en/docs/deployment/github-pages/</link><pubDate>Wed, 13 Jul 2022 10:30:23 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/v1/en/docs/deployment/github-pages/</guid><description><![CDATA[<p>This article explains how to deploy sites to <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages<i class="fas fa-external-link-square-alt ms-1"></i></a> using GitHub Actions.</p>]]></description></item><item><title>Deploy on Cloudflare Pages</title><link>https://ingvdboom-notes.netlify.app/v1/en/docs/deployment/cloudflare-pages/</link><pubDate>Tue, 12 Jul 2022 20:06:24 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/v1/en/docs/deployment/cloudflare-pages/</guid><description><![CDATA[<p>This article show you how to deploy your site to <a href="https://pages.cloudflare.com/" target="_blank" rel="noopener noreferrer">Cloudflare Pages<i class="fas fa-external-link-square-alt ms-1"></i></a>.</p>]]></description></item><item><title>Deploy to Netlify</title><link>https://ingvdboom-notes.netlify.app/v1/en/docs/deployment/netlify/</link><pubDate>Tue, 12 Jul 2022 14:20:49 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/v1/en/docs/deployment/netlify/</guid><description><![CDATA[<p>This article shows how to deploy your site to <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify<i class="fas fa-external-link-square-alt ms-1"></i></a>.</p>]]></description></item></channel></rss>
+<p>Navigate to <em>DigitalOcean Dashboard</em> -&gt; <em>Left Panel</em> -&gt; <em>Apps</em> -&gt; <em>Create App</em>, and then fill up the form as follows.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Deploy to GitLab Pages</title>
+      <link>http://localhost:1313/en/docs/deployment/gitlab-pages/</link>
+      <pubDate>Sat, 27 Aug 2022 10:30:23 +0800</pubDate>
+      <guid>http://localhost:1313/en/docs/deployment/gitlab-pages/</guid>
+      <description><![CDATA[<p>This article explains how to deploy sites to <a href="https://docs.gitlab.com/ee/user/project/pages/" target="_blank" rel="noopener noreferrer">GitLab Pages<i class="fas fa-external-link-square-alt ms-1"></i></a> using GitLab CI.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Deployment Overview</title>
+      <link>http://localhost:1313/en/docs/deployment/overview/</link>
+      <pubDate>Wed, 27 Jul 2022 18:00:25 +0800</pubDate>
+      <guid>http://localhost:1313/en/docs/deployment/overview/</guid>
+      <description><![CDATA[<p>In this section, we are going to talk about the key points of deployments to avoid most problems during deployment.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Building a Docker Image</title>
+      <link>http://localhost:1313/en/docs/deployment/docker/</link>
+      <pubDate>Wed, 13 Jul 2022 10:30:29 +0800</pubDate>
+      <guid>http://localhost:1313/en/docs/deployment/docker/</guid>
+      <description><![CDATA[<p>This article will detail how to build a Docker image.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Deploy to GitHub Pages</title>
+      <link>http://localhost:1313/en/docs/deployment/github-pages/</link>
+      <pubDate>Wed, 13 Jul 2022 10:30:23 +0800</pubDate>
+      <guid>http://localhost:1313/en/docs/deployment/github-pages/</guid>
+      <description><![CDATA[<p>This article explains how to deploy sites to <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages<i class="fas fa-external-link-square-alt ms-1"></i></a> using GitHub Actions.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Deploy on Cloudflare Pages</title>
+      <link>http://localhost:1313/en/docs/deployment/cloudflare-pages/</link>
+      <pubDate>Tue, 12 Jul 2022 20:06:24 +0800</pubDate>
+      <guid>http://localhost:1313/en/docs/deployment/cloudflare-pages/</guid>
+      <description><![CDATA[<p>This article show you how to deploy your site to <a href="https://pages.cloudflare.com/" target="_blank" rel="noopener noreferrer">Cloudflare Pages<i class="fas fa-external-link-square-alt ms-1"></i></a>.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Deploy to Netlify</title>
+      <link>http://localhost:1313/en/docs/deployment/netlify/</link>
+      <pubDate>Tue, 12 Jul 2022 14:20:49 +0800</pubDate>
+      <guid>http://localhost:1313/en/docs/deployment/netlify/</guid>
+      <description><![CDATA[<p>This article shows how to deploy your site to <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify<i class="fas fa-external-link-square-alt ms-1"></i></a>.</p>]]></description>
+    </item>
+    
+  </channel>
+</rss>
+

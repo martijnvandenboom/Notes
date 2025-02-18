@@ -1,5 +1,3 @@
-baseURL = "https://ingvdboom-notes.netlify.app/v1/"
-
 [services]
   [services.googleAnalytics]
     ID = 'G-R7DPHPZ86S'

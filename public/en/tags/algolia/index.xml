@@ -1,2 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Algolia on Martijn's Notes</title><link>https://ingvdboom-notes.netlify.app/v1/en/tags/algolia/</link><description>Recent content in Algolia on Martijn's Notes</description><generator>Hugo</generator><language>en</language><copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.</copyright><lastBuildDate>Sun, 27 Nov 2022 19:53:12 +0800</lastBuildDate><atom:link href="https://ingvdboom-notes.netlify.app/v1/en/tags/algolia/index.xml" rel="self" type="application/rss+xml"/><item><title>Algolia</title><link>https://ingvdboom-notes.netlify.app/v1/en/docs/topics/algolia/</link><pubDate>Sun, 27 Nov 2022 19:53:12 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/v1/en/docs/topics/algolia/</guid><description><![CDATA[<p>The client search will become slower and slower with the content grows, it&rsquo;s reasonable to have a remote search service to handle search requests from a large site.</p>
-<p>Algolia is a popular search service that provides free plan (10k records, 10k requests per month). After reading this article, you will learn how to configure Algolia and automatically upload index files.</p>]]></description><enclosure url="https://ingvdboom-notes.netlify.app/v1/en/docs/topics/algolia/featured.png" length="53150" type="image/png"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Algolia on Martijn&#39;s Notes</title>
+    <link>http://localhost:1313/en/tags/algolia/</link>
+    <description>Recent content in Algolia on Martijn&#39;s Notes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Sun, 27 Nov 2022 19:53:12 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/tags/algolia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algolia</title>
+      <link>http://localhost:1313/en/docs/topics/algolia/</link>
+      <pubDate>Sun, 27 Nov 2022 19:53:12 +0800</pubDate>
+      <guid>http://localhost:1313/en/docs/topics/algolia/</guid>
+      <description><![CDATA[<p>The client search will become slower and slower with the content grows, it&rsquo;s reasonable to have a remote search service to handle search requests from a large site.</p>
+<p>Algolia is a popular search service that provides free plan (10k records, 10k requests per month). After reading this article, you will learn how to configure Algolia and automatically upload index files.</p>]]></description><enclosure url="http://localhost:1313/en/docs/topics/algolia/featured.png" length="53150" type="image/png" />
+    </item>
+    
+  </channel>
+</rss>
+

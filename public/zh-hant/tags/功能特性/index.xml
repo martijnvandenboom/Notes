@@ -1,1 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>功能特性 on Martijn's Notes</title><link>https://ingvdboom-notes.netlify.app/v1/zh-hant/tags/%E5%8A%9F%E8%83%BD%E7%89%B9%E6%80%A7/</link><description>Recent content in 功能特性 on Martijn's Notes</description><generator>Hugo</generator><language>zh-hant</language><copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.</copyright><lastBuildDate>Mon, 13 Jun 2022 16:32:09 +0800</lastBuildDate><atom:link href="https://ingvdboom-notes.netlify.app/v1/zh-hant/tags/%E5%8A%9F%E8%83%BD%E7%89%B9%E6%80%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>簡介</title><link>https://ingvdboom-notes.netlify.app/v1/zh-hant/docs/getting-started/introduction/</link><pubDate>Mon, 13 Jun 2022 16:32:09 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/v1/zh-hant/docs/getting-started/introduction/</guid><description>&lt;p>Hugo Bootstrap Theme(HBS) 是壹個快速、響應式、多用途和功能豐富的 Hugo 主題。其通常用於博客和文檔站點。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>功能特性 on Martijn&#39;s Notes</title>
+    <link>http://localhost:1313/zh-hant/tags/%E5%8A%9F%E8%83%BD%E7%89%B9%E6%80%A7/</link>
+    <description>Recent content in 功能特性 on Martijn&#39;s Notes</description>
+    <generator>Hugo</generator>
+    <language>zh-hant</language>
+    <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Mon, 13 Jun 2022 16:32:09 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-hant/tags/%E5%8A%9F%E8%83%BD%E7%89%B9%E6%80%A7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>簡介</title>
+      <link>http://localhost:1313/zh-hant/docs/getting-started/introduction/</link>
+      <pubDate>Mon, 13 Jun 2022 16:32:09 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hant/docs/getting-started/introduction/</guid>
+      <description><![CDATA[<p>Hugo Bootstrap Theme(HBS) 是壹個快速、響應式、多用途和功能豐富的 Hugo 主題。其通常用於博客和文檔站點。</p>]]></description>
+    </item>
+    
+  </channel>
+</rss>
+

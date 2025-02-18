@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Markdown on Martijn's Notes</title><link>https://ingvdboom-notes.netlify.app/v1/en/tags/markdown/</link><description>Recent content in Markdown on Martijn's Notes</description><generator>Hugo</generator><language>en</language><copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.</copyright><lastBuildDate>Mon, 09 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ingvdboom-notes.netlify.app/v1/en/tags/markdown/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown Syntax Guide</title><link>https://ingvdboom-notes.netlify.app/v1/en/posts/markdown-syntax/</link><pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate><guid>https://ingvdboom-notes.netlify.app/v1/en/posts/markdown-syntax/</guid><description><![CDATA[<h2 id="headings" data-numberify>Headings<a class="anchor ms-1" href="#headings"></a></h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Markdown on Martijn&#39;s Notes</title>
+    <link>http://localhost:1313/en/tags/markdown/</link>
+    <description>Recent content in Markdown on Martijn&#39;s Notes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Mon, 09 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>http://localhost:1313/en/posts/markdown-syntax/</link>
+      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/markdown-syntax/</guid>
+      <description><![CDATA[<h2 id="headings" data-numberify>Headings<a class="anchor ms-1" href="#headings"></a></h2>
 <p>The following HTML <code>&lt;h1&gt;</code>—<code>&lt;h6&gt;</code> elements represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level while <code>&lt;h6&gt;</code> is the lowest.</p>
 
 <h1 id="h1" data-numberify>H1<a class="anchor ms-1" href="#h1"></a></h1>
@@ -14,4 +30,18 @@
 <h6 id="h6" data-numberify>H6<a class="anchor ms-1" href="#h6"></a></h6>
 
 <h2 id="paragraph" data-numberify>Paragraph<a class="anchor ms-1" href="#paragraph"></a></h2>
-<p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.</p>]]></description><enclosure url="https://ingvdboom-notes.netlify.app/v1/images/markdown.png" length="279937" type="image/.png"/></item><item><title>Placeholder Text</title><link>https://ingvdboom-notes.netlify.app/v1/en/posts/placeholder-text/</link><pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate><guid>https://ingvdboom-notes.netlify.app/v1/en/posts/placeholder-text/</guid><description>&lt;p>Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p></description></item></channel></rss>
+<p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.</p>]]></description>
+    <enclosure url="http://localhost:1313/images/markdown.png" length="279937" type="image/.png" />
+    </item>
+    
+    <item>
+      <title>Placeholder Text</title>
+      <link>http://localhost:1313/en/posts/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/placeholder-text/</guid>
+      <description><![CDATA[<p>Lorem est tota propiore conpellat pectoribus de pectora summo.</p>]]></description>
+    </item>
+    
+  </channel>
+</rss>
+

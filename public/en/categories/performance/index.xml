@@ -1,1 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Performance on Martijn's Notes</title><link>https://ingvdboom-notes.netlify.app/v1/en/categories/performance/</link><description>Recent content in Performance on Martijn's Notes</description><generator>Hugo</generator><language>en</language><copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.</copyright><lastBuildDate>Sat, 23 Jul 2022 18:30:48 +0800</lastBuildDate><atom:link href="https://ingvdboom-notes.netlify.app/v1/en/categories/performance/index.xml" rel="self" type="application/rss+xml"/><item><title>Performance</title><link>https://ingvdboom-notes.netlify.app/v1/en/docs/advanced/performance/</link><pubDate>Sat, 23 Jul 2022 18:30:48 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/v1/en/docs/advanced/performance/</guid><description>&lt;p>In this article we are going to talk about how to improve the performance of your sites.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Performance on Martijn&#39;s Notes</title>
+    <link>http://localhost:1313/en/categories/performance/</link>
+    <description>Recent content in Performance on Martijn&#39;s Notes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Sat, 23 Jul 2022 18:30:48 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/categories/performance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Performance</title>
+      <link>http://localhost:1313/en/docs/advanced/performance/</link>
+      <pubDate>Sat, 23 Jul 2022 18:30:48 +0800</pubDate>
+      <guid>http://localhost:1313/en/docs/advanced/performance/</guid>
+      <description><![CDATA[<p>In this article we are going to talk about how to improve the performance of your sites.</p>]]></description>
+    </item>
+    
+  </channel>
+</rss>
+

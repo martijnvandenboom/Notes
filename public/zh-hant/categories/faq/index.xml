@@ -1,1 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>FAQ on Martijn's Notes</title><link>https://ingvdboom-notes.netlify.app/v1/zh-hant/categories/faq/</link><description>Recent content in FAQ on Martijn's Notes</description><generator>Hugo</generator><language>zh-hant</language><copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.</copyright><lastBuildDate>Tue, 07 Dec 2021 21:46:43 +0800</lastBuildDate><atom:link href="https://ingvdboom-notes.netlify.app/v1/zh-hant/categories/faq/index.xml" rel="self" type="application/rss+xml"/><item><title>FAQ 頁面</title><link>https://ingvdboom-notes.netlify.app/v1/zh-hant/docs/layouts/faq/</link><pubDate>Tue, 07 Dec 2021 21:46:43 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/v1/zh-hant/docs/layouts/faq/</guid><description>&lt;p>&lt;a href="https://ingvdboom-notes.netlify.app/v1/zh-hant/faq/">FAQ&lt;/a> 頁面是一個常見問題的集合。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>FAQ on Martijn&#39;s Notes</title>
+    <link>http://localhost:1313/zh-hant/categories/faq/</link>
+    <description>Recent content in FAQ on Martijn&#39;s Notes</description>
+    <generator>Hugo</generator>
+    <language>zh-hant</language>
+    <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Tue, 07 Dec 2021 21:46:43 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-hant/categories/faq/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FAQ 頁面</title>
+      <link>http://localhost:1313/zh-hant/docs/layouts/faq/</link>
+      <pubDate>Tue, 07 Dec 2021 21:46:43 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hant/docs/layouts/faq/</guid>
+      <description><![CDATA[<p><a href="http://localhost:1313/zh-hant/faq/">FAQ</a> 頁面是一個常見問題的集合。</p>]]></description>
+    </item>
+    
+  </channel>
+</rss>
+

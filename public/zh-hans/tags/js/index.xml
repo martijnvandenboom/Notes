@@ -1,1 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>JS on Martijn's Notes</title><link>https://ingvdboom-notes.netlify.app/v1/zh-hans/tags/js/</link><description>Recent content in JS on Martijn's Notes</description><generator>Hugo</generator><language>zh-hans</language><copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.</copyright><lastBuildDate>Sun, 28 Nov 2021 16:00:53 +0800</lastBuildDate><atom:link href="https://ingvdboom-notes.netlify.app/v1/zh-hans/tags/js/index.xml" rel="self" type="application/rss+xml"/><item><title>自定义资源</title><link>https://ingvdboom-notes.netlify.app/v1/zh-hans/docs/advanced/custom-assets/</link><pubDate>Sun, 28 Nov 2021 16:00:53 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/v1/zh-hans/docs/advanced/custom-assets/</guid><description>&lt;p>作为一个可定制的主题，其提供了定制资源的能力，无论是定制 CSS 和 JS，还是引入第三方 CSS 和 JS。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>JS on Martijn&#39;s Notes</title>
+    <link>http://localhost:1313/zh-hans/tags/js/</link>
+    <description>Recent content in JS on Martijn&#39;s Notes</description>
+    <generator>Hugo</generator>
+    <language>zh-hans</language>
+    <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Sun, 28 Nov 2021 16:00:53 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-hans/tags/js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自定义资源</title>
+      <link>http://localhost:1313/zh-hans/docs/advanced/custom-assets/</link>
+      <pubDate>Sun, 28 Nov 2021 16:00:53 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/docs/advanced/custom-assets/</guid>
+      <description><![CDATA[<p>作为一个可定制的主题，其提供了定制资源的能力，无论是定制 CSS 和 JS，还是引入第三方 CSS 和 JS。</p>]]></description>
+    </item>
+    
+  </channel>
+</rss>
+

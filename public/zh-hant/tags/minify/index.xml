@@ -1,1 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Minify on Martijn's Notes</title><link>https://ingvdboom-notes.netlify.app/v1/zh-hant/tags/minify/</link><description>Recent content in Minify on Martijn's Notes</description><generator>Hugo</generator><language>zh-hant</language><copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.</copyright><lastBuildDate>Sat, 23 Jul 2022 18:30:48 +0800</lastBuildDate><atom:link href="https://ingvdboom-notes.netlify.app/v1/zh-hant/tags/minify/index.xml" rel="self" type="application/rss+xml"/><item><title>性能</title><link>https://ingvdboom-notes.netlify.app/v1/zh-hant/docs/advanced/performance/</link><pubDate>Sat, 23 Jul 2022 18:30:48 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/v1/zh-hant/docs/advanced/performance/</guid><description>&lt;p>本文我們來探討下如何提高站點的性能。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Minify on Martijn&#39;s Notes</title>
+    <link>http://localhost:1313/zh-hant/tags/minify/</link>
+    <description>Recent content in Minify on Martijn&#39;s Notes</description>
+    <generator>Hugo</generator>
+    <language>zh-hant</language>
+    <copyright>Copyright © 2016-2025 Razon Yang. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Sat, 23 Jul 2022 18:30:48 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-hant/tags/minify/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>性能</title>
+      <link>http://localhost:1313/zh-hant/docs/advanced/performance/</link>
+      <pubDate>Sat, 23 Jul 2022 18:30:48 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hant/docs/advanced/performance/</guid>
+      <description><![CDATA[<p>本文我們來探討下如何提高站點的性能。</p>]]></description>
+    </item>
+    
+  </channel>
+</rss>
+

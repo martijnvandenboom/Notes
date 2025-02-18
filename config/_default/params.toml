@@ -309,9 +309,9 @@ reduceFontSize = true
 
 [social]
 email = "ingmacmvandenboom@gmail.com"
-# facebook = "yourfacebookusername"
+facebook = "macmvandenboom"
 github = "martijnvandenboom"
-# gitlab = "yourgitlabusername"
+gitlab = "ingvdboom"
 linkedin = "macmvandenboom"
 xing = "MACMMartijn_vandenBoom"
 stackoverflow = "13417146"
@@ -363,11 +363,22 @@ location = "<a href='https://www.google.com/maps/search/Netherlands'>Netherlands
 
 [author.social]
   email = "ingmacmvandenboom@gmail.com"
-  github = "martijnvandenboom"
+  facebook = "macmvandenboom"
+  instagram = "ingmacmvandenboom"
   # twitter = "ingvdboom"
   # twitter_icon = "fa-x"
   x = "ingvdboom"
-  website = "https://ingvdboom-notes.netlify.app"
+  website = "https://vandenboom.icu"
   patreon = "martijnvandenboom"
   paypal = "ingmacmvandenboom"
+  pinterest = "macmvandenboom"
+  github = "martijnvandenboom"
+  gitlab = "ingvdboom"
+  linkedin = "macmvandenboom"
+  xing = "MACMMartijn_vandenBoom"
+  stackoverflow = "13417146"
   # rss = "" # Disable RSS link
+  telegram = "ingvdboom"
+  bitbucket = "martijnvandenboom"
+  lastfm = "ingvdboom"
+  youtube = "channel/UCslXipyVBwsTe6UjhVNOz7A"

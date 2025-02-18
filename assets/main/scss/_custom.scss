@@ -10,3 +10,9 @@
 .profile-avatar {
     background: var(--#{$prefix}light);
 }
+
+.profile {
+    .social-link {
+        font-size: 0.60rem;
+    }
+}
