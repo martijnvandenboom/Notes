@@ -2,7 +2,7 @@ baseURL = "https://ingvdboom-notes.netlify.app"
 title = "Martijn's Notes"
 # theme = "hugo-theme-bootstrap" # install via git submodule
 theme = "github.com/razonyang/hugo-theme-bootstrap" # install via hugo module
-copyright = "Copyright © 2016-{year} Razon Yang. All Rights Reserved."
+copyright = "Copyright © 2016-{year} van den <span class='bold-rotate'>B</span>oom. All Rights Reserved."
 
 # Multilingual mode
 defaultContentLanguage = "en"

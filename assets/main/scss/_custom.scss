@@ -16,3 +16,19 @@
         font-size: 0.60rem;
     }
 }
+
+.profile {
+    .profile-meta {
+        margin-bottom: 2rem;
+    }
+}
+
+@keyframes rotate {
+    0% { transform: rotateY(0deg); }
+    100% { transform: rotateY(360deg); }
+}
+.bold-rotate {
+    font-weight: bold;
+    display: inline-block;
+    animation: rotate 2s infinite;
+}
