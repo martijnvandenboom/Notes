@@ -1,20 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Articles on Martijn&#39;s Notes</title>
-    <link>http://localhost:1313/en/tags/articles/</link>
-    <description>Recent content in Articles on Martijn&#39;s Notes</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>Copyright © 2016-2025 van den &lt;span class=&#39;bold-rotate&#39;&gt;B&lt;/span&gt;oom. All Rights Reserved.
-</copyright>
-    <lastBuildDate>Sat, 04 Dec 2021 10:43:39 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/tags/articles/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Adding Content</title>
-      <link>http://localhost:1313/en/docs/content/</link>
-      <pubDate>Sat, 04 Dec 2021 10:43:39 +0800</pubDate>
-      <guid>http://localhost:1313/en/docs/content/</guid>
-      <description><![CDATA[<h2 id="main-sections" data-numberify>Main Sections<a class="anchor ms-1" href="#main-sections"></a></h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Articles on Martijn's Notes</title><link>https://ingvdboom-notes.netlify.app/en/tags/articles/</link><description>Recent content in Articles on Martijn's Notes</description><generator>Hugo</generator><language>en</language><copyright>Copyright © 2016-2025 van den &lt;span class='bold-rotate'>B&lt;/span>oom. All Rights Reserved.</copyright><lastBuildDate>Sat, 04 Dec 2021 10:43:39 +0800</lastBuildDate><atom:link href="https://ingvdboom-notes.netlify.app/en/tags/articles/index.xml" rel="self" type="application/rss+xml"/><item><title>Adding Content</title><link>https://ingvdboom-notes.netlify.app/en/docs/content/</link><pubDate>Sat, 04 Dec 2021 10:43:39 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/en/docs/content/</guid><description><![CDATA[<h2 id="main-sections" data-numberify>Main Sections<a class="anchor ms-1" href="#main-sections"></a></h2>
 <p>The <code>mainSections</code> parameter is used to filter pages, default to <code>[&quot;posts&quot;, &quot;docs&quot;]</code>.</p>
 <div class="highlight" title="config/_default/params.toml"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="ln">1</span><span class="cl"><span class="nx">mainSections</span> <span class="p">=</span> <span class="p">[</span><span class="s2">&#34;blog&#34;</span><span class="p">,</span> <span class="s2">&#34;posts&#34;</span><span class="p">,</span> <span class="s2">&#34;docs&#34;</span><span class="p">,</span> <span class="s2">&#34;notes&#34;</span><span class="p">]</span>
 </span></span></code></pre></div>
@@ -28,9 +12,4 @@
 <li><code>YAML</code>: identified by opening and closing <code>---</code>.</li>
 <li><code>JSON</code>: a single JSON object surrounded by <code>{</code> and <code>}</code>, followed by a new line.</li>
 </ul>
-<p>Let&rsquo;s take <code>TOML</code> as an example:</p>]]></description>
-    </item>
-    
-  </channel>
-</rss>
-
+<p>Let&rsquo;s take <code>TOML</code> as an example:</p>]]></description></item></channel></rss>

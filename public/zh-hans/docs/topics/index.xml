@@ -1,32 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>话题 on Martijn&#39;s Notes</title>
-    <link>http://localhost:1313/zh-hans/docs/topics/</link>
-    <description>Recent content in 话题 on Martijn&#39;s Notes</description>
-    <generator>Hugo</generator>
-    <language>zh-hans</language>
-    <copyright>Copyright © 2016-2025 van den &lt;span class=&#39;bold-rotate&#39;&gt;B&lt;/span&gt;oom. All Rights Reserved.
-</copyright>
-    <lastBuildDate>Sun, 27 Nov 2022 19:53:12 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-hans/docs/topics/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Algolia</title>
-      <link>http://localhost:1313/zh-hans/docs/topics/algolia/</link>
-      <pubDate>Sun, 27 Nov 2022 19:53:12 +0800</pubDate>
-      <guid>http://localhost:1313/zh-hans/docs/topics/algolia/</guid>
-      <description><![CDATA[<p>The client search will become slower and slower with the content grows, it&rsquo;s reasonable to have a remote search service to handle search requests from a large site.</p>
-<p>Algolia is a popular search service that provides free plan (10k records, 10k requests per month). After reading this article, you will learn how to configure Algolia and automatically upload index files.</p>]]></description><enclosure url="http://localhost:1313/en/docs/topics/algolia/featured.png" length="53150" type="image/png" />
-    </item>
-    
-    <item>
-      <title>粘性小部件</title>
-      <link>http://localhost:1313/zh-hans/docs/topics/sticky-widgets/</link>
-      <pubDate>Wed, 27 Jul 2022 08:54:43 +0800</pubDate>
-      <guid>http://localhost:1313/zh-hans/docs/topics/sticky-widgets/</guid>
-      <description><![CDATA[<p>当页面太长时，侧边栏会随着滚动而消失，页面看起来就不那么整洁美观了。
-所以本文将介绍如何使用粘性部件来避免这个问题。</p>]]></description>
-    </item>
-    
-  </channel>
-</rss>
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>话题 on Martijn's Notes</title><link>https://ingvdboom-notes.netlify.app/zh-hans/docs/topics/</link><description>Recent content in 话题 on Martijn's Notes</description><generator>Hugo</generator><language>zh-hans</language><copyright>Copyright © 2016-2025 van den &lt;span class='bold-rotate'>B&lt;/span>oom. All Rights Reserved.</copyright><lastBuildDate>Sun, 27 Nov 2022 19:53:12 +0800</lastBuildDate><atom:link href="https://ingvdboom-notes.netlify.app/zh-hans/docs/topics/index.xml" rel="self" type="application/rss+xml"/><item><title>Algolia</title><link>https://ingvdboom-notes.netlify.app/zh-hans/docs/topics/algolia/</link><pubDate>Sun, 27 Nov 2022 19:53:12 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/zh-hans/docs/topics/algolia/</guid><description><![CDATA[<p>The client search will become slower and slower with the content grows, it&rsquo;s reasonable to have a remote search service to handle search requests from a large site.</p>
+<p>Algolia is a popular search service that provides free plan (10k records, 10k requests per month). After reading this article, you will learn how to configure Algolia and automatically upload index files.</p>]]></description><enclosure url="https://ingvdboom-notes.netlify.app/en/docs/topics/algolia/featured.png" length="53150" type="image/png"/></item><item><title>粘性小部件</title><link>https://ingvdboom-notes.netlify.app/zh-hans/docs/topics/sticky-widgets/</link><pubDate>Wed, 27 Jul 2022 08:54:43 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/zh-hans/docs/topics/sticky-widgets/</guid><description>&lt;p>当页面太长时，侧边栏会随着滚动而消失，页面看起来就不那么整洁美观了。
+所以本文将介绍如何使用粘性部件来避免这个问题。&lt;/p></description></item></channel></rss>

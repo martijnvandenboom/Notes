@@ -1,23 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>PurgeCSS on Martijn&#39;s Notes</title>
-    <link>http://localhost:1313/zh-hans/categories/purgecss/</link>
-    <description>Recent content in PurgeCSS on Martijn&#39;s Notes</description>
-    <generator>Hugo</generator>
-    <language>zh-hans</language>
-    <copyright>Copyright © 2016-2025 van den &lt;span class=&#39;bold-rotate&#39;&gt;B&lt;/span&gt;oom. All Rights Reserved.
-</copyright>
-    <lastBuildDate>Mon, 25 Jul 2022 12:06:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-hans/categories/purgecss/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>PurgeCSS</title>
-      <link>http://localhost:1313/zh-hans/docs/advanced/purgecss/</link>
-      <pubDate>Mon, 25 Jul 2022 12:06:00 +0800</pubDate>
-      <guid>http://localhost:1313/zh-hans/docs/advanced/purgecss/</guid>
-      <description><![CDATA[<p>PurgeCSS 是一个很棒的工具，可以从你的网站上删除未使用的 CSS。
-在本节中，我们将深入探讨 PurgeCSS 是如何工作的，以及我们应该注意什么。</p>]]></description>
-    </item>
-    
-  </channel>
-</rss>
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>PurgeCSS on Martijn's Notes</title><link>https://ingvdboom-notes.netlify.app/zh-hans/categories/purgecss/</link><description>Recent content in PurgeCSS on Martijn's Notes</description><generator>Hugo</generator><language>zh-hans</language><copyright>Copyright © 2016-2025 van den &lt;span class='bold-rotate'>B&lt;/span>oom. All Rights Reserved.</copyright><lastBuildDate>Mon, 25 Jul 2022 12:06:00 +0800</lastBuildDate><atom:link href="https://ingvdboom-notes.netlify.app/zh-hans/categories/purgecss/index.xml" rel="self" type="application/rss+xml"/><item><title>PurgeCSS</title><link>https://ingvdboom-notes.netlify.app/zh-hans/docs/advanced/purgecss/</link><pubDate>Mon, 25 Jul 2022 12:06:00 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/zh-hans/docs/advanced/purgecss/</guid><description>&lt;p>PurgeCSS 是一个很棒的工具，可以从你的网站上删除未使用的 CSS。
+在本节中，我们将深入探讨 PurgeCSS 是如何工作的，以及我们应该注意什么。&lt;/p></description></item></channel></rss>
