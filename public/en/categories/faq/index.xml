@@ -1,1 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>FAQ on Martijn's Notes</title><link>https://ingvdboom-notes.netlify.app/en/categories/faq/</link><description>Recent content in FAQ on Martijn's Notes</description><generator>Hugo</generator><language>en</language><copyright>Copyright © 2016-2025 van den &lt;span class='bold-rotate'>B&lt;/span>oom. All Rights Reserved.</copyright><lastBuildDate>Tue, 07 Dec 2021 21:46:43 +0800</lastBuildDate><atom:link href="https://ingvdboom-notes.netlify.app/en/categories/faq/index.xml" rel="self" type="application/rss+xml"/><item><title>FAQ Layout</title><link>https://ingvdboom-notes.netlify.app/en/docs/layouts/faq/</link><pubDate>Tue, 07 Dec 2021 21:46:43 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/en/docs/layouts/faq/</guid><description>&lt;p>The &lt;a href="https://ingvdboom-notes.netlify.app/en/faq/">FAQ&lt;/a> page is a collection of frequently asked questions.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>FAQ on Martijn&#39;s Notes</title>
+    <link>http://localhost:1313/en/categories/faq/</link>
+    <description>Recent content in FAQ on Martijn&#39;s Notes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright © 2016-2025 van den &lt;span class=&#39;bold-rotate&#39;&gt;B&lt;/span&gt;oom. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Tue, 07 Dec 2021 21:46:43 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/categories/faq/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FAQ Layout</title>
+      <link>http://localhost:1313/en/docs/layouts/faq/</link>
+      <pubDate>Tue, 07 Dec 2021 21:46:43 +0800</pubDate>
+      <guid>http://localhost:1313/en/docs/layouts/faq/</guid>
+      <description><![CDATA[<p>The <a href="http://localhost:1313/en/faq/">FAQ</a> page is a collection of frequently asked questions.</p>]]></description>
+    </item>
+    
+  </channel>
+</rss>
+

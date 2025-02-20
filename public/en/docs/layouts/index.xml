@@ -1,2 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Layouts on Martijn's Notes</title><link>https://ingvdboom-notes.netlify.app/en/docs/layouts/</link><description>Recent content in Layouts on Martijn's Notes</description><generator>Hugo</generator><language>en</language><copyright>Copyright © 2016-2025 van den &lt;span class='bold-rotate'>B&lt;/span>oom. All Rights Reserved.</copyright><lastBuildDate>Thu, 15 Sep 2022 10:46:23 +0800</lastBuildDate><atom:link href="https://ingvdboom-notes.netlify.app/en/docs/layouts/index.xml" rel="self" type="application/rss+xml"/><item><title>Landing Page Layout</title><link>https://ingvdboom-notes.netlify.app/en/docs/layouts/landing/</link><pubDate>Thu, 15 Sep 2022 10:46:23 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/en/docs/layouts/landing/</guid><description><![CDATA[<p>In this article, we&rsquo;ll talk about the landing page layout, you may be interested in it if you&rsquo;re going to customizing the pages in Markdown way.</p>]]></description></item><item><title>Docs Layout</title><link>https://ingvdboom-notes.netlify.app/en/docs/layouts/docs/</link><pubDate>Wed, 12 Jan 2022 10:56:34 -0800</pubDate><guid>https://ingvdboom-notes.netlify.app/en/docs/layouts/docs/</guid><description><![CDATA[<p>In this article, we&rsquo;ll explore the <code>docs</code> layout, which can be used to write project documentation, personal notes, and more.</p>]]></description><enclosure url="https://ingvdboom-notes.netlify.app/en/docs/layouts/docs/featured.png" length="157833" type="image/png"/></item><item><title>FAQ Layout</title><link>https://ingvdboom-notes.netlify.app/en/docs/layouts/faq/</link><pubDate>Tue, 07 Dec 2021 21:46:43 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/en/docs/layouts/faq/</guid><description>&lt;p>The &lt;a href="https://ingvdboom-notes.netlify.app/en/faq/">FAQ&lt;/a> page is a collection of frequently asked questions.&lt;/p></description></item><item><title>Archive Layout</title><link>https://ingvdboom-notes.netlify.app/en/docs/layouts/archives/</link><pubDate>Fri, 03 Dec 2021 11:16:51 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/en/docs/layouts/archives/</guid><description>&lt;p>The archive page is a collection of posts grouped by year.&lt;/p></description></item><item><title>Search Layout</title><link>https://ingvdboom-notes.netlify.app/en/docs/layouts/search/</link><pubDate>Fri, 03 Dec 2021 11:16:51 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/en/docs/layouts/search/</guid><description>&lt;p>It may be difficult for readers to retrieve an article in the case if there are many articles in your site, therefore, we added the search feature.&lt;/p></description></item><item><title>Contact Form</title><link>https://ingvdboom-notes.netlify.app/en/docs/layouts/contact/</link><pubDate>Tue, 30 Nov 2021 23:56:00 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/en/docs/layouts/contact/</guid><description>&lt;p>We can put our email address on &lt;a href="https://ingvdboom-notes.netlify.app/en/docs/widgets/social-links/">social links&lt;/a> so that readers can contact us. Unfortunately, emails will be more or less treated as spam and even filtered.
-Therefore, we bring a feature called contact form.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Layouts on Martijn&#39;s Notes</title>
+    <link>http://localhost:1313/en/docs/layouts/</link>
+    <description>Recent content in Layouts on Martijn&#39;s Notes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright © 2016-2025 van den &lt;span class=&#39;bold-rotate&#39;&gt;B&lt;/span&gt;oom. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Thu, 15 Sep 2022 10:46:23 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/docs/layouts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Landing Page Layout</title>
+      <link>http://localhost:1313/en/docs/layouts/landing/</link>
+      <pubDate>Thu, 15 Sep 2022 10:46:23 +0800</pubDate>
+      <guid>http://localhost:1313/en/docs/layouts/landing/</guid>
+      <description><![CDATA[<p>In this article, we&rsquo;ll talk about the landing page layout, you may be interested in it if you&rsquo;re going to customizing the pages in Markdown way.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Docs Layout</title>
+      <link>http://localhost:1313/en/docs/layouts/docs/</link>
+      <pubDate>Wed, 12 Jan 2022 10:56:34 -0800</pubDate>
+      <guid>http://localhost:1313/en/docs/layouts/docs/</guid>
+      <description><![CDATA[<p>In this article, we&rsquo;ll explore the <code>docs</code> layout, which can be used to write project documentation, personal notes, and more.</p>]]></description><enclosure url="http://localhost:1313/en/docs/layouts/docs/featured.png" length="157833" type="image/png" />
+    </item>
+    
+    <item>
+      <title>FAQ Layout</title>
+      <link>http://localhost:1313/en/docs/layouts/faq/</link>
+      <pubDate>Tue, 07 Dec 2021 21:46:43 +0800</pubDate>
+      <guid>http://localhost:1313/en/docs/layouts/faq/</guid>
+      <description><![CDATA[<p>The <a href="http://localhost:1313/en/faq/">FAQ</a> page is a collection of frequently asked questions.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Archive Layout</title>
+      <link>http://localhost:1313/en/docs/layouts/archives/</link>
+      <pubDate>Fri, 03 Dec 2021 11:16:51 +0800</pubDate>
+      <guid>http://localhost:1313/en/docs/layouts/archives/</guid>
+      <description><![CDATA[<p>The archive page is a collection of posts grouped by year.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Search Layout</title>
+      <link>http://localhost:1313/en/docs/layouts/search/</link>
+      <pubDate>Fri, 03 Dec 2021 11:16:51 +0800</pubDate>
+      <guid>http://localhost:1313/en/docs/layouts/search/</guid>
+      <description><![CDATA[<p>It may be difficult for readers to retrieve an article in the case if there are many articles in your site, therefore, we added the search feature.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Contact Form</title>
+      <link>http://localhost:1313/en/docs/layouts/contact/</link>
+      <pubDate>Tue, 30 Nov 2021 23:56:00 +0800</pubDate>
+      <guid>http://localhost:1313/en/docs/layouts/contact/</guid>
+      <description><![CDATA[<p>We can put our email address on <a href="http://localhost:1313/en/docs/widgets/social-links/">social links</a> so that readers can contact us. Unfortunately, emails will be more or less treated as spam and even filtered.
+Therefore, we bring a feature called contact form.</p>]]></description>
+    </item>
+    
+  </channel>
+</rss>
+

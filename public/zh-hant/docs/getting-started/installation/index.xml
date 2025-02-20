@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>安裝 on Martijn's Notes</title><link>https://ingvdboom-notes.netlify.app/zh-hant/docs/getting-started/installation/</link><description>Recent content in 安裝 on Martijn's Notes</description><generator>Hugo</generator><language>zh-hant</language><copyright>Copyright © 2016-2025 van den &lt;span class='bold-rotate'>B&lt;/span>oom. All Rights Reserved.</copyright><lastBuildDate>Sat, 04 Dec 2021 10:43:39 +0800</lastBuildDate><atom:link href="https://ingvdboom-notes.netlify.app/zh-hant/docs/getting-started/installation/index.xml" rel="self" type="application/rss+xml"/><item><title>通過 via Hugo Module 安裝</title><link>https://ingvdboom-notes.netlify.app/zh-hant/docs/getting-started/installation/hugo-module/</link><pubDate>Sat, 26 Feb 2022 17:10:39 +0200</pubDate><guid>https://ingvdboom-notes.netlify.app/zh-hant/docs/getting-started/installation/hugo-module/</guid><description><![CDATA[<p>This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module.</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>安裝 on Martijn&#39;s Notes</title>
+    <link>http://localhost:1313/zh-hant/docs/getting-started/installation/</link>
+    <description>Recent content in 安裝 on Martijn&#39;s Notes</description>
+    <generator>Hugo</generator>
+    <language>zh-hant</language>
+    <copyright>Copyright © 2016-2025 van den &lt;span class=&#39;bold-rotate&#39;&gt;B&lt;/span&gt;oom. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Sat, 04 Dec 2021 10:43:39 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-hant/docs/getting-started/installation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>通過 via Hugo Module 安裝</title>
+      <link>http://localhost:1313/zh-hant/docs/getting-started/installation/hugo-module/</link>
+      <pubDate>Sat, 26 Feb 2022 17:10:39 +0200</pubDate>
+      <guid>http://localhost:1313/zh-hant/docs/getting-started/installation/hugo-module/</guid>
+      <description><![CDATA[<p>This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module.</p>
 
 <h2 id="proxy-optional" data-numberify>Proxy (Optional)<a class="anchor ms-1" href="#proxy-optional"></a></h2>
 <p>If you&rsquo;re located at China mainland without VPN, the Hugo module download may fail.</p>
@@ -6,8 +22,24 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">$ <span class="nb">export</span> <span class="nv">HUGO_MODULE_PROXY</span><span class="o">=</span>https://goproxy.cn
 </span></span></code></pre></div><blockquote>
 <p>Please note that, Hugo doesn&rsquo;t respect the <code>GOPROXY</code> env var, please use <code>HUGO_MODULE_PROXY</code> instead.</p></blockquote>
-<p>You can also set the <code>module.proxy</code> instead of using env var.</p>]]></description></item><item><title>Starter Template</title><link>https://ingvdboom-notes.netlify.app/zh-hant/docs/getting-started/installation/starter-template/</link><pubDate>Thu, 16 Dec 2021 17:25:20 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/zh-hant/docs/getting-started/installation/starter-template/</guid><description>&lt;p>The starter template for newbie.&lt;/p></description></item><item><title>通過 Git Submodule 安裝</title><link>https://ingvdboom-notes.netlify.app/zh-hant/docs/getting-started/installation/git-submodule/</link><pubDate>Sat, 04 Dec 2021 10:43:39 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/zh-hant/docs/getting-started/installation/git-submodule/</guid><description><![CDATA[<p>This article refers to the traditional installation method of cloning the theme locally as Git submodule.
-While this installation method is still widely used, we recommend to install the theme as <a href="https://ingvdboom-notes.netlify.app/zh-hant/docs/getting-started/installation/hugo-module/">Hugo module</a>.</p>
+<p>You can also set the <code>module.proxy</code> instead of using env var.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Starter Template</title>
+      <link>http://localhost:1313/zh-hant/docs/getting-started/installation/starter-template/</link>
+      <pubDate>Thu, 16 Dec 2021 17:25:20 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hant/docs/getting-started/installation/starter-template/</guid>
+      <description><![CDATA[<p>The starter template for newbie.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>通過 Git Submodule 安裝</title>
+      <link>http://localhost:1313/zh-hant/docs/getting-started/installation/git-submodule/</link>
+      <pubDate>Sat, 04 Dec 2021 10:43:39 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hant/docs/getting-started/installation/git-submodule/</guid>
+      <description><![CDATA[<p>This article refers to the traditional installation method of cloning the theme locally as Git submodule.
+While this installation method is still widely used, we recommend to install the theme as <a href="http://localhost:1313/zh-hant/docs/getting-started/installation/hugo-module/">Hugo module</a>.</p>
 
 <h2 id="從頭開始創建站點" data-numberify>從頭開始創建站點<a class="anchor ms-1" href="#從頭開始創建站點"></a></h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">$ git clone https://github.com/razonyang/hugo-theme-bootstrap-skeleton myblog
@@ -19,4 +51,9 @@ While this installation method is still widely used, we recommend to install the
 </span></span><span class="line"><span class="ln">7</span><span class="cl">$ npm install
 </span></span><span class="line"><span class="ln">8</span><span class="cl">$ hugo server
 </span></span></code></pre></div><blockquote>
-<p>如果你使用的是 Windows，請改用 <code>xcopy .\themes\hugo-theme-bootstrap\exampleSite /E</code>。</p>]]></description></item></channel></rss>
+<p>如果你使用的是 Windows，請改用 <code>xcopy .\themes\hugo-theme-bootstrap\exampleSite /E</code>。</p>]]></description>
+    </item>
+    
+  </channel>
+</rss>
+

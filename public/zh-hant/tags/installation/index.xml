@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Installation on Martijn's Notes</title><link>https://ingvdboom-notes.netlify.app/zh-hant/tags/installation/</link><description>Recent content in Installation on Martijn's Notes</description><generator>Hugo</generator><language>zh-hant</language><copyright>Copyright © 2016-2025 van den &lt;span class='bold-rotate'>B&lt;/span>oom. All Rights Reserved.</copyright><lastBuildDate>Sat, 26 Feb 2022 17:10:39 +0200</lastBuildDate><atom:link href="https://ingvdboom-notes.netlify.app/zh-hant/tags/installation/index.xml" rel="self" type="application/rss+xml"/><item><title>通過 via Hugo Module 安裝</title><link>https://ingvdboom-notes.netlify.app/zh-hant/docs/getting-started/installation/hugo-module/</link><pubDate>Sat, 26 Feb 2022 17:10:39 +0200</pubDate><guid>https://ingvdboom-notes.netlify.app/zh-hant/docs/getting-started/installation/hugo-module/</guid><description><![CDATA[<p>This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module.</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Installation on Martijn&#39;s Notes</title>
+    <link>http://localhost:1313/zh-hant/tags/installation/</link>
+    <description>Recent content in Installation on Martijn&#39;s Notes</description>
+    <generator>Hugo</generator>
+    <language>zh-hant</language>
+    <copyright>Copyright © 2016-2025 van den &lt;span class=&#39;bold-rotate&#39;&gt;B&lt;/span&gt;oom. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Sat, 26 Feb 2022 17:10:39 +0200</lastBuildDate><atom:link href="http://localhost:1313/zh-hant/tags/installation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>通過 via Hugo Module 安裝</title>
+      <link>http://localhost:1313/zh-hant/docs/getting-started/installation/hugo-module/</link>
+      <pubDate>Sat, 26 Feb 2022 17:10:39 +0200</pubDate>
+      <guid>http://localhost:1313/zh-hant/docs/getting-started/installation/hugo-module/</guid>
+      <description><![CDATA[<p>This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module.</p>
 
 <h2 id="proxy-optional" data-numberify>Proxy (Optional)<a class="anchor ms-1" href="#proxy-optional"></a></h2>
 <p>If you&rsquo;re located at China mainland without VPN, the Hugo module download may fail.</p>
@@ -6,4 +22,17 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">$ <span class="nb">export</span> <span class="nv">HUGO_MODULE_PROXY</span><span class="o">=</span>https://goproxy.cn
 </span></span></code></pre></div><blockquote>
 <p>Please note that, Hugo doesn&rsquo;t respect the <code>GOPROXY</code> env var, please use <code>HUGO_MODULE_PROXY</code> instead.</p></blockquote>
-<p>You can also set the <code>module.proxy</code> instead of using env var.</p>]]></description></item><item><title>快速入門</title><link>https://ingvdboom-notes.netlify.app/zh-hant/docs/getting-started/</link><pubDate>Sat, 04 Dec 2021 10:43:39 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/zh-hant/docs/getting-started/</guid><description></description></item></channel></rss>
+<p>You can also set the <code>module.proxy</code> instead of using env var.</p>]]></description>
+    </item>
+    
+    <item>
+      <title>快速入門</title>
+      <link>http://localhost:1313/zh-hant/docs/getting-started/</link>
+      <pubDate>Sat, 04 Dec 2021 10:43:39 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hant/docs/getting-started/</guid>
+      <description><![CDATA[]]></description>
+    </item>
+    
+  </channel>
+</rss>
+

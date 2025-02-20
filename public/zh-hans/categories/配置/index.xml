@@ -1,1 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>配置 on Martijn's Notes</title><link>https://ingvdboom-notes.netlify.app/zh-hans/categories/%E9%85%8D%E7%BD%AE/</link><description>Recent content in 配置 on Martijn's Notes</description><generator>Hugo</generator><language>zh-hans</language><copyright>Copyright © 2016-2025 van den &lt;span class='bold-rotate'>B&lt;/span>oom. All Rights Reserved.</copyright><lastBuildDate>Sat, 27 Nov 2021 19:53:24 +0800</lastBuildDate><atom:link href="https://ingvdboom-notes.netlify.app/zh-hans/categories/%E9%85%8D%E7%BD%AE/index.xml" rel="self" type="application/rss+xml"/><item><title>配置结构</title><link>https://ingvdboom-notes.netlify.app/zh-hans/docs/configuration/structure/</link><pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/zh-hans/docs/configuration/structure/</guid><description><![CDATA[<p>如示例站点所示，我们使用 <a href="https://gohugo.io/getting-started/configuration/#configuration-%e7%9b%ae%e5%bd%95" target="_blank" rel="noopener noreferrer">Configuration Directory<i class="fas fa-external-link-square-alt ms-1"></i></a> 为了维护更简单的组织和特定于环境的设置，它在多语言站点上特别有用。</p>]]></description></item><item><title>页面参数</title><link>https://ingvdboom-notes.netlify.app/zh-hans/docs/configuration/page-params/</link><pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/zh-hans/docs/configuration/page-params/</guid><description><![CDATA[<p>页面参数位于 <a href="https://gohugo.io/content-management/front-matter/" target="_blank" rel="noopener noreferrer">Front Matter<i class="fas fa-external-link-square-alt ms-1"></i></a>。</p>]]></description></item><item><title>站点参数</title><link>https://ingvdboom-notes.netlify.app/zh-hans/docs/configuration/site-params/</link><pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/zh-hans/docs/configuration/site-params/</guid><description>&lt;p>站点参数文件默认为 &lt;code>config/_default/params.toml&lt;/code>。&lt;/p></description></item><item><title>站点配置</title><link>https://ingvdboom-notes.netlify.app/zh-hans/docs/configuration/site/</link><pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/zh-hans/docs/configuration/site/</guid><description>&lt;p>站点配置文件默认为 &lt;code>config/_default/config.toml&lt;/code>。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>配置 on Martijn&#39;s Notes</title>
+    <link>http://localhost:1313/zh-hans/categories/%E9%85%8D%E7%BD%AE/</link>
+    <description>Recent content in 配置 on Martijn&#39;s Notes</description>
+    <generator>Hugo</generator>
+    <language>zh-hans</language>
+    <copyright>Copyright © 2016-2025 van den &lt;span class=&#39;bold-rotate&#39;&gt;B&lt;/span&gt;oom. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Sat, 27 Nov 2021 19:53:24 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-hans/categories/%E9%85%8D%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>配置结构</title>
+      <link>http://localhost:1313/zh-hans/docs/configuration/structure/</link>
+      <pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/docs/configuration/structure/</guid>
+      <description><![CDATA[<p>如示例站点所示，我们使用 <a href="https://gohugo.io/getting-started/configuration/#configuration-%e7%9b%ae%e5%bd%95" target="_blank" rel="noopener noreferrer">Configuration Directory<i class="fas fa-external-link-square-alt ms-1"></i></a> 为了维护更简单的组织和特定于环境的设置，它在多语言站点上特别有用。</p>]]></description>
+    </item>
+    
+    <item>
+      <title>页面参数</title>
+      <link>http://localhost:1313/zh-hans/docs/configuration/page-params/</link>
+      <pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/docs/configuration/page-params/</guid>
+      <description><![CDATA[<p>页面参数位于 <a href="https://gohugo.io/content-management/front-matter/" target="_blank" rel="noopener noreferrer">Front Matter<i class="fas fa-external-link-square-alt ms-1"></i></a>。</p>]]></description>
+    </item>
+    
+    <item>
+      <title>站点参数</title>
+      <link>http://localhost:1313/zh-hans/docs/configuration/site-params/</link>
+      <pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/docs/configuration/site-params/</guid>
+      <description><![CDATA[<p>站点参数文件默认为 <code>config/_default/params.toml</code>。</p>]]></description>
+    </item>
+    
+    <item>
+      <title>站点配置</title>
+      <link>http://localhost:1313/zh-hans/docs/configuration/site/</link>
+      <pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/docs/configuration/site/</guid>
+      <description><![CDATA[<p>站点配置文件默认为 <code>config/_default/config.toml</code>。</p>]]></description>
+    </item>
+    
+  </channel>
+</rss>
+

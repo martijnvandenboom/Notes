@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>進階 on Martijn's Notes</title><link>https://ingvdboom-notes.netlify.app/zh-hant/docs/advanced/</link><description>Recent content in 進階 on Martijn's Notes</description><generator>Hugo</generator><language>zh-hant</language><copyright>Copyright © 2016-2025 van den &lt;span class='bold-rotate'>B&lt;/span>oom. All Rights Reserved.</copyright><lastBuildDate>Wed, 27 Jul 2022 16:05:37 +0800</lastBuildDate><atom:link href="https://ingvdboom-notes.netlify.app/zh-hant/docs/advanced/index.xml" rel="self" type="application/rss+xml"/><item><title>布局覆蓋</title><link>https://ingvdboom-notes.netlify.app/zh-hant/docs/advanced/layouts-overriding/</link><pubDate>Wed, 27 Jul 2022 16:05:37 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/zh-hant/docs/advanced/layouts-overriding/</guid><description><![CDATA[<p>根據 <a href="https://gohugo.io/templates/lookup-order/" target="_blank" rel="noopener noreferrer">Hugo Layouts Lookup Order<i class="fas fa-external-link-square-alt ms-1"></i></a>，可以很容易地覆蓋 Hugo 和主題的布局和模板。
-這對那些想自定義某些特定布局或參數的用戶來說很有用。</p>]]></description></item><item><title>PurgeCSS</title><link>https://ingvdboom-notes.netlify.app/zh-hant/docs/advanced/purgecss/</link><pubDate>Mon, 25 Jul 2022 12:06:00 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/zh-hant/docs/advanced/purgecss/</guid><description>&lt;p>PurgeCSS 是一個很棒的工具，可以從你的網站上刪除未使用的 CSS。
-在本節中，我們將深入探討 PurgeCSS 是如何工作的，以及我們應該註意什麽。&lt;/p></description></item><item><title>性能</title><link>https://ingvdboom-notes.netlify.app/zh-hant/docs/advanced/performance/</link><pubDate>Sat, 23 Jul 2022 18:30:48 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/zh-hant/docs/advanced/performance/</guid><description>&lt;p>本文我們來探討下如何提高站點的性能。&lt;/p></description></item><item><title>事件</title><link>https://ingvdboom-notes.netlify.app/zh-hant/docs/advanced/events/</link><pubDate>Sat, 23 Jul 2022 17:33:59 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/zh-hant/docs/advanced/events/</guid><description>&lt;p>本文列出一些主題觸發的一些事件，你可以通過事件監聽器來捕獲這些事件。&lt;/p></description></item><item><title>SCSS 變量</title><link>https://ingvdboom-notes.netlify.app/zh-hant/docs/advanced/scss-variables/</link><pubDate>Sat, 23 Jul 2022 17:23:28 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/zh-hant/docs/advanced/scss-variables/</guid><description>&lt;p>感謝 &lt;code>assets/main/scss/_variables.scss&lt;/code>，我們可以更改主題和 Bootstrap 的默認 SCSS 變量。&lt;/p></description></item><item><title>Snackbar</title><link>https://ingvdboom-notes.netlify.app/zh-hant/docs/advanced/snackbar/</link><pubDate>Sat, 02 Jul 2022 21:14:37 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/zh-hant/docs/advanced/snackbar/</guid><description>&lt;p>相信使用過代碼塊復製按鈕的用戶，對 Snackbar 並不陌生，其告知用戶應用程序執行的結果。本文將舉例說明如何使用 Snackbar，以滿足用戶對自定義交互的需要。&lt;/p></description></item><item><title>自定義資源</title><link>https://ingvdboom-notes.netlify.app/zh-hant/docs/advanced/custom-assets/</link><pubDate>Sun, 28 Nov 2021 16:00:56 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/zh-hant/docs/advanced/custom-assets/</guid><description>&lt;p>作為一個可定制的主題，其提供了定制資源的能力，無論是定制 CSS 和 JS，還是引入第三方 CSS 和 JS。&lt;/p></description></item><item><title>鉤子</title><link>https://ingvdboom-notes.netlify.app/zh-hant/docs/advanced/hooks/</link><pubDate>Sat, 27 Nov 2021 21:04:35 +0800</pubDate><guid>https://ingvdboom-notes.netlify.app/zh-hant/docs/advanced/hooks/</guid><description>&lt;p>作為一個靈活的主題，它應該能够自定義程式碼和集成協力廠商服務。因此，我們帶來了一個叫做鉤子的特性。&lt;/p>
-&lt;p>在本文中，我們將介紹所有鉤子並提供一些用例。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>進階 on Martijn&#39;s Notes</title>
+    <link>http://localhost:1313/zh-hant/docs/advanced/</link>
+    <description>Recent content in 進階 on Martijn&#39;s Notes</description>
+    <generator>Hugo</generator>
+    <language>zh-hant</language>
+    <copyright>Copyright © 2016-2025 van den &lt;span class=&#39;bold-rotate&#39;&gt;B&lt;/span&gt;oom. All Rights Reserved.
+</copyright>
+    <lastBuildDate>Wed, 27 Jul 2022 16:05:37 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh-hant/docs/advanced/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>布局覆蓋</title>
+      <link>http://localhost:1313/zh-hant/docs/advanced/layouts-overriding/</link>
+      <pubDate>Wed, 27 Jul 2022 16:05:37 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hant/docs/advanced/layouts-overriding/</guid>
+      <description><![CDATA[<p>根據 <a href="https://gohugo.io/templates/lookup-order/" target="_blank" rel="noopener noreferrer">Hugo Layouts Lookup Order<i class="fas fa-external-link-square-alt ms-1"></i></a>，可以很容易地覆蓋 Hugo 和主題的布局和模板。
+這對那些想自定義某些特定布局或參數的用戶來說很有用。</p>]]></description>
+    </item>
+    
+    <item>
+      <title>PurgeCSS</title>
+      <link>http://localhost:1313/zh-hant/docs/advanced/purgecss/</link>
+      <pubDate>Mon, 25 Jul 2022 12:06:00 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hant/docs/advanced/purgecss/</guid>
+      <description><![CDATA[<p>PurgeCSS 是一個很棒的工具，可以從你的網站上刪除未使用的 CSS。
+在本節中，我們將深入探討 PurgeCSS 是如何工作的，以及我們應該註意什麽。</p>]]></description>
+    </item>
+    
+    <item>
+      <title>性能</title>
+      <link>http://localhost:1313/zh-hant/docs/advanced/performance/</link>
+      <pubDate>Sat, 23 Jul 2022 18:30:48 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hant/docs/advanced/performance/</guid>
+      <description><![CDATA[<p>本文我們來探討下如何提高站點的性能。</p>]]></description>
+    </item>
+    
+    <item>
+      <title>事件</title>
+      <link>http://localhost:1313/zh-hant/docs/advanced/events/</link>
+      <pubDate>Sat, 23 Jul 2022 17:33:59 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hant/docs/advanced/events/</guid>
+      <description><![CDATA[<p>本文列出一些主題觸發的一些事件，你可以通過事件監聽器來捕獲這些事件。</p>]]></description>
+    </item>
+    
+    <item>
+      <title>SCSS 變量</title>
+      <link>http://localhost:1313/zh-hant/docs/advanced/scss-variables/</link>
+      <pubDate>Sat, 23 Jul 2022 17:23:28 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hant/docs/advanced/scss-variables/</guid>
+      <description><![CDATA[<p>感謝 <code>assets/main/scss/_variables.scss</code>，我們可以更改主題和 Bootstrap 的默認 SCSS 變量。</p>]]></description>
+    </item>
+    
+    <item>
+      <title>Snackbar</title>
+      <link>http://localhost:1313/zh-hant/docs/advanced/snackbar/</link>
+      <pubDate>Sat, 02 Jul 2022 21:14:37 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hant/docs/advanced/snackbar/</guid>
+      <description><![CDATA[<p>相信使用過代碼塊復製按鈕的用戶，對 Snackbar 並不陌生，其告知用戶應用程序執行的結果。本文將舉例說明如何使用 Snackbar，以滿足用戶對自定義交互的需要。</p>]]></description>
+    </item>
+    
+    <item>
+      <title>自定義資源</title>
+      <link>http://localhost:1313/zh-hant/docs/advanced/custom-assets/</link>
+      <pubDate>Sun, 28 Nov 2021 16:00:56 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hant/docs/advanced/custom-assets/</guid>
+      <description><![CDATA[<p>作為一個可定制的主題，其提供了定制資源的能力，無論是定制 CSS 和 JS，還是引入第三方 CSS 和 JS。</p>]]></description>
+    </item>
+    
+    <item>
+      <title>鉤子</title>
+      <link>http://localhost:1313/zh-hant/docs/advanced/hooks/</link>
+      <pubDate>Sat, 27 Nov 2021 21:04:35 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hant/docs/advanced/hooks/</guid>
+      <description><![CDATA[<p>作為一個靈活的主題，它應該能够自定義程式碼和集成協力廠商服務。因此，我們帶來了一個叫做鉤子的特性。</p>
+<p>在本文中，我們將介紹所有鉤子並提供一些用例。</p>]]></description>
+    </item>
+    
+  </channel>
+</rss>
+
