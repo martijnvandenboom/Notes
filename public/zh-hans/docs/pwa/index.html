@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="position-relative" itemscope itemtype="https://schema.org/WebPage" lang="zh-hans"
   data-bs-theme="auto" data-palette="purple">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><script src="/assets/init/bundle.min.ac2ff820ef5c3cb826d74dd3e8d544a643e9bb6db1fc01cf8f346d9fd0137f21.js" integrity="sha256-rC/4IO9cPLgm103T6NVEpkPpu22x/AHPjzRtn9ATfyE=" crossorigin="anonymous"></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><script src="/assets/init/bundle.min.10ac2d6c4549865a99dc34df938160b774551f90f4504f5d4f00609c766fb24f.js" integrity="sha256-EKwtbEVJhlqZ3DTfk4Fgt3RVH5D0UE9dTwBgnHZvsk8=" crossorigin="anonymous"></script>
 <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>渐进式 web 应用程序 - Martijn&#39;s Notes</title>
@@ -1050,29 +1050,29 @@ Notes
 <h2 id="预载" data-numberify>预载<a class="anchor ms-1" href="#预载"></a></h2>
 <div class="code-toggle border border-secondary rounded px-2 pt-2">
     <ul class="nav nav-tabs border-secondary mb-0" role="tablist"><li class="nav-item mb-0" role="presentation">
-            <button class="nav-link p-1 active" id="toml-params764215398-tab" data-bs-toggle="tab" data-bs-target="#toml-params764215398" type="button" role="tab" 
+            <button class="nav-link p-1 active" id="toml-params327859416-tab" data-bs-toggle="tab" data-bs-target="#toml-params327859416" type="button" role="tab" 
                 aria-controls="home" aria-selected="true">
                 TOML
             </button>
         </li><li class="nav-item mb-0" role="presentation">
-            <button class="nav-link p-1" id="yaml-params764215398-tab" data-bs-toggle="tab" data-bs-target="#yaml-params764215398" type="button" role="tab" 
+            <button class="nav-link p-1" id="yaml-params327859416-tab" data-bs-toggle="tab" data-bs-target="#yaml-params327859416" type="button" role="tab" 
                 aria-controls="home" aria-selected="false">
                 YAML
             </button>
         </li><li class="nav-item mb-0" role="presentation">
-            <button class="nav-link p-1" id="json-params764215398-tab" data-bs-toggle="tab" data-bs-target="#json-params764215398" type="button" role="tab" 
+            <button class="nav-link p-1" id="json-params327859416-tab" data-bs-toggle="tab" data-bs-target="#json-params327859416" type="button" role="tab" 
                 aria-controls="home" aria-selected="false">
                 JSON
             </button>
         </li></ul>
-    <div class="tab-content"><div class="tab-pane fade show active" id="toml-params764215398" role="tabpanel" aria-labelledby="toml-params764215398-tab"><p class="user-select-all mt-2 mb-0 text-primary fw-bold">params.toml</p><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="ln">1</span><span class="cl"><span class="p">[</span><span class="nx">pwa</span><span class="p">]</span>
+    <div class="tab-content"><div class="tab-pane fade show active" id="toml-params327859416" role="tabpanel" aria-labelledby="toml-params327859416-tab"><p class="user-select-all mt-2 mb-0 text-primary fw-bold">params.toml</p><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="ln">1</span><span class="cl"><span class="p">[</span><span class="nx">pwa</span><span class="p">]</span>
 </span></span><span class="line"><span class="ln">2</span><span class="cl">  <span class="p">[</span><span class="nx">pwa</span><span class="p">.</span><span class="nx">precache</span><span class="p">]</span>
 </span></span><span class="line"><span class="ln">3</span><span class="cl">    <span class="nx">fonts</span> <span class="p">=</span> <span class="p">[</span><span class="s1">&#39;/assets/katex/fonts/KaTeX_Math-Italic.woff2&#39;</span><span class="p">]</span>
 </span></span><span class="line"><span class="ln">4</span><span class="cl">    <span class="nx">images</span> <span class="p">=</span> <span class="p">[</span><span class="s1">&#39;/images/logo.webp&#39;</span><span class="p">,</span> <span class="s1">&#39;/images/Martijn_001.jpeg&#39;</span><span class="p">]</span>
 </span></span><span class="line"><span class="ln">5</span><span class="cl">    <span class="nx">pages</span> <span class="p">=</span> <span class="p">[</span><span class="s1">&#39;/&#39;</span><span class="p">]</span>
 </span></span><span class="line"><span class="ln">6</span><span class="cl">    <span class="nx">scripts</span> <span class="p">=</span> <span class="p">[</span><span class="s1">&#39;/assets/js/foo.js&#39;</span><span class="p">]</span>
 </span></span><span class="line"><span class="ln">7</span><span class="cl">    <span class="nx">styles</span> <span class="p">=</span> <span class="p">[</span><span class="s1">&#39;https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap&#39;</span><span class="p">]</span>
-</span></span></code></pre></div></div><div class="tab-pane fade" id="yaml-params764215398" role="tabpanel" aria-labelledby="yaml-params764215398-tab"><p class="user-select-all mt-2 mb-0 text-primary fw-bold">params.yaml</p><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="nt">pwa</span><span class="p">:</span><span class="w">
+</span></span></code></pre></div></div><div class="tab-pane fade" id="yaml-params327859416" role="tabpanel" aria-labelledby="yaml-params327859416-tab"><p class="user-select-all mt-2 mb-0 text-primary fw-bold">params.yaml</p><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="nt">pwa</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="w">  </span><span class="nt">precache</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="w">    </span><span class="nt">fonts</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="ln"> 4</span><span class="cl"><span class="w">    </span>- <span class="l">/assets/katex/fonts/KaTeX_Math-Italic.woff2</span><span class="w">
@@ -1085,7 +1085,7 @@ Notes
 </span></span></span><span class="line"><span class="ln">11</span><span class="cl"><span class="w">    </span>- <span class="l">/assets/js/foo.js</span><span class="w">
 </span></span></span><span class="line"><span class="ln">12</span><span class="cl"><span class="w">    </span><span class="nt">styles</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="ln">13</span><span class="cl"><span class="w">    </span>- <span class="l">https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap</span><span class="w">
-</span></span></span></code></pre></div></div><div class="tab-pane fade" id="json-params764215398" role="tabpanel" aria-labelledby="json-params764215398-tab"><p class="user-select-all mt-2 mb-0 text-primary fw-bold">params.json</p><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="p">{</span>
+</span></span></span></code></pre></div></div><div class="tab-pane fade" id="json-params327859416" role="tabpanel" aria-labelledby="json-params327859416-tab"><p class="user-select-all mt-2 mb-0 text-primary fw-bold">params.json</p><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="ln"> 2</span><span class="cl">   <span class="nt">&#34;pwa&#34;</span><span class="p">:</span> <span class="p">{</span>
 </span></span><span class="line"><span class="ln"> 3</span><span class="cl">      <span class="nt">&#34;precache&#34;</span><span class="p">:</span> <span class="p">{</span>
 </span></span><span class="line"><span class="ln"> 4</span><span class="cl">         <span class="nt">&#34;fonts&#34;</span><span class="p">:</span> <span class="p">[</span>
@@ -1504,7 +1504,7 @@ PWA"
     </a>
 </div>
 </footer>
-<script data-precache src="/assets/main/bundle.min.73162860c4e099f82df58d600a77090b858d5623d29743d8f0cf43bda7fec7db.js" integrity="sha256-cxYoYMTgmfgt9Y1gCncJC4WNViPSl0PY8M9Dvaf&#43;x9s=" crossorigin="anonymous" async></script><script data-precache src="/assets/icons/bundle.min.58ce55401cc3fbc3d246007cfe728a9af3ad554fa1c8784ab4c28b886c050d96.js" integrity="sha256-WM5VQBzD&#43;8PSRgB8/nKKmvOtVU&#43;hyHhKtMKLiGwFDZY=" crossorigin="anonymous" defer></script>
+<script data-precache src="/assets/main/bundle.min.88cd92500fecd254e3d535a56df8e92f273ec6085a2daf6c17bd5ef9342eb770.js" integrity="sha256-iM2SUA/s0lTj1TWlbfjpLyc&#43;xghaLa9sF71e&#43;TQut3A=" crossorigin="anonymous" async></script><script data-precache src="/assets/icons/bundle.min.58ce55401cc3fbc3d246007cfe728a9af3ad554fa1c8784ab4c28b886c050d96.js" integrity="sha256-WM5VQBzD&#43;8PSRgB8/nKKmvOtVU&#43;hyHhKtMKLiGwFDZY=" crossorigin="anonymous" defer></script>
 <script data-precache src="/assets/viewer/bundle.min.4aed529ed413358b0c7c8a465688a26a747c2ba9e85e47d2a3e59c0fcae91412.js" integrity="sha256-Su1SntQTNYsMfIpGVoiianR8K6noXkfSo&#43;WcD8rpFBI=" crossorigin="anonymous" defer></script>
 <script src="/js/sw-register.js" defer></script>
 <script src="https://giscus.app/client.js"
