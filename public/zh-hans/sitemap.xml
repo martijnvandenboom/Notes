@@ -2961,6 +2961,28 @@
                 href="http://localhost:1313/zh-hans/archives/2023/"
                 />
   </url><url>
+    <loc>http://localhost:1313/zh-hans/authors/martijnvandenboom/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/authors/martijnvandenboom/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="http://localhost:1313/zh-hant/authors/martijnvandenboom/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/ja/authors/martijnvandenboom/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hans"
+                href="http://localhost:1313/zh-hans/authors/martijnvandenboom/"
+                />
+  </url><url>
     <loc>http://localhost:1313/zh-hans/offline/</loc>
     <xhtml:link
                 rel="alternate"

@@ -355,7 +355,7 @@ bio = "</br>Computer Infrastructure Architect</br>ingenieur, docent en mentor</b
 company = 'Consultancy'
 # company = '<a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>'
 # location = "<a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>"
-location = "<a href='https://www.google.com/maps/search/Netherlands'>Netherlands</a>"
+location = "<a href='https://www.google.com/maps/search/Netherlands'>The Netherlands</a>"
 # about = "https://domain.tld" # The external about page. The internal about page will be used if not set.
 
 [author.params]
