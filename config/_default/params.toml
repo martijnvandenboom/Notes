@@ -273,7 +273,7 @@ short_name = "MvdB"
 # file = true # Enable file upload
 # fileField = "image" # The name of file field.
 [contact.reCaptcha]
-siteKey = "6Lc_qN0qAAAAAAjytR0T8NhwC8J24XjOylpP9hwL"
+siteKey = "6Lc_qN0qAAAAAIbpHWZBW-5LQMIzZJ6_USShZ4Ax"
 
 [repo]
 url = "https://github.com/razonyang/hugo-theme-bootstrap"
