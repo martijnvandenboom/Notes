@@ -192,7 +192,7 @@ comments:
   moderation: false
 
   # Name of the site. Used in notification emails.
-  name: "ingvdboom-notes.netlify.app"
+  name: "vandenboom.online"
 
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account

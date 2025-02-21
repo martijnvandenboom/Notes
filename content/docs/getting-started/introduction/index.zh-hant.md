@@ -34,7 +34,7 @@ Hugo Bootstrap Theme(HBS) 是壹個快速、響應式、多用途和功能豐富
 - [Hugo Pipes](https://gohugo.io/hugo-pipes/): used to generate CSS and JS assets.
 - PurgeCSS: remove unused CSS.
 - [Flexible and Configurable]({{< ref "/docs/configuration" >}}).
-- Fast and Good User Experience: [Google PageSpeed Insights](https://pagespeed.web.dev/report?url=https://ingvdboom-notes.netlify.app/en/)'s score is over 95.
+- Fast and Good User Experience: [Google PageSpeed Insights](https://pagespeed.web.dev/report?url=https://vandenboom.online/en/)'s score is over 95.
 - RTL support: [Arabic demo site]({{< ref path="/" lang="ar" >}}).
 - Built on top of [Bootstrap 5](https://getbootstrap.com/).
 - FontAwesome icons.
