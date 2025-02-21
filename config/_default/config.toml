@@ -1,4 +1,4 @@
-baseURL = "https://ingvdboom-notes.netlify.app"
+baseURL = "https://vandenboom.online"
 title = "Martijn's Notes"
 # theme = "hugo-theme-bootstrap" # install via git submodule
 theme = "github.com/razonyang/hugo-theme-bootstrap" # install via hugo module

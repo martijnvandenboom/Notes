@@ -280,7 +280,7 @@ In this section, we will dive into how the PurgeCSS work, and what should we pay
 <li><a href="https://gohugo.io/hugo-pipes/" target="_blank" rel="noopener noreferrer">Hugo Pipes<i class="fas fa-external-link-square-alt ms-1"></i></a>: used to generate CSS and JS assets.</li>
 <li>PurgeCSS: remove unused CSS.</li>
 <li><a href="http://localhost:1313/en/docs/configuration/">Flexible and Configurable</a>.</li>
-<li>Fast and Good User Experience: <a href="https://pagespeed.web.dev/report?url=https://ingvdboom-notes.netlify.app/en/" target="_blank" rel="noopener noreferrer">Google PageSpeed Insights<i class="fas fa-external-link-square-alt ms-1"></i></a>&rsquo;s score is over 95.</li>
+<li>Fast and Good User Experience: <a href="https://pagespeed.web.dev/report?url=https://vandenboom.online/en/" target="_blank" rel="noopener noreferrer">Google PageSpeed Insights<i class="fas fa-external-link-square-alt ms-1"></i></a>&rsquo;s score is over 95.</li>
 <li>RTL support: <a href="http://localhost:1313/ar/">Arabic demo site</a>.</li>
 <li>Built on top of <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">Bootstrap 5<i class="fas fa-external-link-square-alt ms-1"></i></a>.</li>
 <li>FontAwesome icons.</li>

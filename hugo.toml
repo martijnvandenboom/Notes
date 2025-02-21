@@ -1,4 +1,4 @@
-baseURL = 'https://ingvdboom-notes.netlify.app/'
+baseURL = 'https://vandenboom.online/'
 languageCode = 'en-us'
 title = "Martijn's Notities"
 theme = 'hugo-theme-bootstrap'

@@ -118,7 +118,7 @@ imageTitleAsCaption = true
 
 [analytics]
 # baidu = "" # Baidu Analytics
-# plausible = "razonyang.com,ingvdboom-notes.netlify.app" # Multiple domains separated by comma.
+# plausible = "razonyang.com,vandenboom.online" # Multiple domains separated by comma.
 # plausibleScript = "" # Specify the self-hosted script or extended script. Default to https://plausible.io/js/script.js.
 
 # Site verification
