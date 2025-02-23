@@ -48,7 +48,7 @@ Examples:</br>
 </br>
 
 <div class="flame-container">
-    <div class="left-div">2. The burning flame:
+    <div class="left-div">2. The burning flame:</br>
         Our flame animation symbolizes the burning creativity that we put into every project. Just like a flame that constantly dances and changes, we give your ideas energy and movement. Whether you're looking for a dynamic element for your website or a visual effect that captures attention, our flames elevate your project to the next level. Watch how the flame lights up and moves, just like our creative processes!
     </div>
     <div class="right-div">

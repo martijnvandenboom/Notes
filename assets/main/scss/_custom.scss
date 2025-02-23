@@ -32,3 +32,46 @@
     display: inline-block;
     animation: rotate 2s infinite;
 }
+
+.flame-container {
+    position: relative;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: space-between;
+  }
+    
+  .flame {
+    width: 100px; /* Adjust the size of the flame */
+    padding: 20px;
+    transform-origin: bottom center; /* Pivot the transformations at the bottom center */
+    animation: flameAnimation 1.7s ease-in-out infinite;
+  }
+  
+  .left-div {
+    float: left;
+    width: 750px;
+  }
+  
+  .right-div {
+    float: right;
+    width: 150px;
+    padding-left: 25px;
+  }
+    
+  @keyframes flameAnimation {
+    0% {
+      transform: rotate(0deg) scaleY(1); /* No rotation, normal size */
+    }
+    25% {
+      transform: rotate(-5deg) scaleY(1.1); /* Rotate slightly left and grow vertically */
+    }
+    50% {
+      transform: rotate(0deg) scaleY(1); /* Return to center and normal size */
+    }
+    75% {
+      transform: rotate(5deg) scaleY(0.9); /* Rotate slightly right and shrink vertically */
+    }
+    100% {
+      transform: rotate(0deg) scaleY(1); /* Return to center and normal size */
+    }
+  }

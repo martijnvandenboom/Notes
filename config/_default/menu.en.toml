@@ -15,8 +15,8 @@
   name = "Animations"
   identifier = "animations"
   weight = 39
+  url = "/en/animations/"
   [main.params]
-    description = 'Animation service'
     icon = '<i class="fas fa-fw fa-info-circle"></i>'
 [[main]]
   name = "Support"
@@ -63,11 +63,6 @@
 [[main]]
   parent = "support"
   weight = 4
-  [main.params]
-    divider = true
-[[main]]
-  parent = "animations"
-  weight = 5
   [main.params]
     divider = true
 

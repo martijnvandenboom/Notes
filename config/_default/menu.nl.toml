@@ -15,6 +15,7 @@
   identifier = "animations"
   name = "Animaties"
   weight = 2
+  url = "https://vandenboom.online/"
   [main.params]
     icon = '<i class="fas fa-fw fa-film"></i>'
 [[main]]
